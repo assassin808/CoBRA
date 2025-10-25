@@ -1,0 +1,571 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🧭 CoBRA Web Demo</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <div class="row">
+  <div><strong>🧠 Bias:</strong> <select id="bias"></select></div>
+  <div><strong>🧪 Paradigm:</strong> <select id="experiment"></select></div>
+  <div><strong>🤖 Model:</strong> <select id="model"></select></div>
+  <div><strong>🌡️ Temperature:</strong> <input id="temp" type="number" min="0" max="2" step="0.1" value="0.7"/></div>
+  <div><strong>🎛️ Method:</strong>
+        <select id="method">
+          <option value="Prompt_numerical">Prompt_numerical</option>
+          <option value="RepE Linear">RepE Linear</option>
+          <option value="RepE Projection">RepE Projection</option>
+        </select>
+      </div>
+  
+  <div><strong>🎭 Role:</strong> <input id="role" type="text" size="40" value="You are a helpful assistant."/></div>
+    </div>
+  </header>
+  <div class="container">
+    <div class="left">
+      <div id="biasDesc" class="small"></div>
+  <label>📋 Scenario</label>
+      <textarea id="scenario">You see several negative posts about a product online. How do you feel and what will you do next?</textarea>
+
+      <div id="calibArea" style="position:relative;">
+        <div class="row">
+          <button id="calibrate">Calibrate</button>
+          <span id="calibStatus" class="small"></span>
+        </div>
+        <div class="row">
+          <label>🎯 Target CBI:</label>
+          <input id="targetCbi" type="range" min="0" max="4" step="0.05" value="2" style="flex:1"/>
+          <span id="targetCbiVal">2.00</span>
+          <button id="clearCache" class="ghost" title="Clear cached calibrations">Clear Cache</button>
+        </div>
+        <div class="small" id="deadZones" style="display:none;"></div>
+        <div class="small" id="controlRange" style="display:none;"></div>
+        <div class="small" id="coeffInfo" style="display:none;"></div>
+        <details id="overlays" class="overlay-panel">
+          <summary>🧩 CBI Calibration for Agents</summary>
+          <div class="overlay-controls">
+            <div class="row"><button id="refreshCalibs" class="ghost">Refresh</button><span class="small" id="overlayHint">Select to overlay curves; target range is intersection.</span></div>
+            <div id="overlayList"></div>
+            <div class="small" id="cbiIntersection">CBI overlap: [0.00, 4.00]</div>
+          </div>
+        </details>
+        <canvas id="calib"></canvas>
+        <div id="overlay" style="display:none; position:absolute; inset:0; background:rgba(255,255,255,0.7); backdrop-filter: blur(1px); align-items:center; justify-content:center; font-weight:600; color:#333; pointer-events:none;">
+          <div>Calibrating… please wait</div>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+  <button id="go">Generate</button>
+  <button id="stop" class="ghost" style="margin-left:8px; display:none;">Stop</button>
+  <span id="rawCoef" class="small" style="margin-left:10px;color:#666;display:none"></span>
+      <div class="output" id="out"></div>
+    </div>
+  </div>
+<script>
+const API = location.origin.replace(/:\\d+$/, ':8010');
+let calibConf = null, chart = null, calibDirty = true, isCalibrating = false;
+let isGenerating = false;
+let currentRequestId = null;
+let currentCancelController = null;
+let lastCurve = null; // { x:[], y:[], range:[min,max], cached:boolean }
+let overlayCurves = {}; // key -> { x:[], y:[], meta }
+
+async function fetchModels() {
+  const r = await fetch(`${API}/models`); return r.json();
+}
+async function fetchBiases() {
+  const r = await fetch(`${API}/biases`); return r.json();
+}
+async function fetchCalibration(bias) {
+  const r = await fetch(`${API}/calibration/${bias}`); return r.json();
+}
+async function fetchDefaultScenario(bias, experiment_name) {
+  const url = new URL(`${API}/default_scenario/${bias}`);
+  if (experiment_name) url.searchParams.set('experiment_name', experiment_name);
+  const r = await fetch(url.toString());
+  if (!r.ok) return null; return r.json();
+}
+async function fetchExperiments(bias){
+  const r = await fetch(`${API}/experiments/${bias}`);
+  if (!r.ok) return {experiments:[]};
+  return r.json();
+}
+async function fetchAllCalibrations(){
+  const r = await fetch(`${API}/calibrations`);
+  if (!r.ok) return {items:[]};
+  return r.json();
+}
+async function fetchCalibrationByKey(key){
+  const r = await fetch(`${API}/calibrations/by_key/${key}`);
+  if (!r.ok) return null;
+  return r.json();
+}
+
+function sliderToLikert(level) { return level*4.0; }
+
+async function drawCalib() {
+  if (!calibConf) {
+    const b = document.getElementById('bias').value;
+    calibConf = await fetchCalibration(b);
+  }
+  const ctx = document.getElementById('calib').getContext('2d');
+  const xs = Array.from({length:101}, (_,i)=>i/100);
+  // Fetch CBI curve for current settings
+  const bias = document.getElementById('bias').value;
+  const model = document.getElementById('model').value;
+  const role = document.getElementById('role').value;
+  const scenario = document.getElementById('scenario').value;
+  const temperature = parseFloat(document.getElementById('temp').value);
+  const method = document.getElementById('method').value;
+  const experiment_name = (document.getElementById('experiment')||{}).value || null;
+  let ys = [];
+  let data = null;
+  try {
+    const r = await fetch(`${API}/cbi_curve?num_points=101`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ bias, model, role_prompt: role, scenario, bias_level: 0, temperature, control_method: method, experiment_name })
+    });
+    if (r.ok) { data = await r.json(); ys = Array.isArray(data.y) ? data.y : xs.map(()=>2.0); }
+    else { ys = xs.map(()=>2.0); }
+  } catch { ys = xs.map(()=>2.0); }
+  // Prefer backend-provided normalized x_plot (0..1) for plotting
+  const rx = (data && Array.isArray(data.x_plot) && data.x_plot.length === ys.length) ? data.x_plot : ((data && Array.isArray(data.x) && data.x.length===ys.length)? data.x : xs);
+  // Cache curve for instant local preview (keep normalized rx)
+  lastCurve = { x: (data && Array.isArray(data.x)? data.x.slice() : xs.slice()), x_plot: rx.slice(), y: ys.slice(), range: (data && data.range) ? data.range.slice() : [0,1], cached: !!(data && data.cached), coef_min: (data && data.coef_min!=null)? data.coef_min : null, coef_max: (data && data.coef_max!=null)? data.coef_max : null };
+  if (chart) chart.destroy();
+  const points = rx.map((x,i)=>({x, y: ys[i]}));
+  const target = parseFloat(document.getElementById('targetCbi').value);
+  const baseMeta = (()=>{
+    const m = document.getElementById('model').value;
+    const meth = document.getElementById('method').value;
+    const r = document.getElementById('role').value;
+    const exp = (document.getElementById('experiment')||{}).value || '';
+    return `Model: ${m} • Method: ${meth} • Role: ${r} • Paradigm: ${exp}`;
+  })();
+  const titleText = `Bias: ${bias} • Paradigm: ${experiment_name||'None'}`;
+  const xAxisLabel = (data && data.x_label) ? data.x_label : 'Control Coefficient';
+  chart = new Chart(ctx, {
+    type: 'line',
+    data: { datasets: [
+  { label: `CBI vs ${xAxisLabel}`, data: points, borderColor: '#22BDD2', tension: 0, pointRadius: 0, parsing: false, tooltipMeta: baseMeta },
+      { label: 'Target CBI', data: [{x:0,y:target},{x:1,y:target}], borderColor:'#888', borderDash:[6,6], pointRadius:0, parsing:false }
+    ] },
+  options: { 
+    plugins: { 
+      title: { display: true, text: titleText },
+      tooltip: { callbacks: { 
+      label: (ctx) => {
+        const ds = ctx.dataset || {}; const y = (ctx.parsed && ctx.parsed.y!=null) ? Number(ctx.parsed.y).toFixed(2) : '';
+        const meta = ds.tooltipMeta; 
+        if (meta) return `${ds.label} — ${meta} • CBI ${y}`;
+        return `${ds.label}: CBI ${y}`;
+      }
+    } } },
+    scales: { x: { type: 'linear', min:0, max:1, title: {display:true, text: xAxisLabel} }, y: { min:0, max:4, ticks: { stepSize: 1 }, title:{display:true, text:'Cognitive Bias Index (CBI)'} } }
+  }
+  });
+  const dzDiv = document.getElementById('deadZones');
+  if ((calibConf.dead_zones||[]).length) {
+    dzDiv.textContent = 'Unadjustable zones: ' + calibConf.dead_zones.map(z=>`[${z.start}–${z.end}]→${z.maps_to}`).join(', ');
+  } else {
+    dzDiv.textContent = '';
+  }
+  // Use backend-provided control range if available; else derive from curve
+  let rangeMin = 0.0, rangeMax = 1.0;
+  if (data && Array.isArray(data.range) && data.range.length === 2) {
+    rangeMin = Number(data.range[0]);
+    rangeMax = Number(data.range[1]);
+  } else {
+    const yMin = Math.min(...ys), yMax = Math.max(...ys);
+    const span = yMax - yMin;
+    if (span > 1e-6) {
+      const eps = 0.05;
+      const yLow = yMin + eps*span;
+      const yHigh = yMin + (1-eps)*span;
+      const candLow = rx.filter((x,i)=>ys[i] >= yLow);
+      const candHigh = rx.filter((x,i)=>ys[i] >= yHigh);
+      if (candLow.length && candHigh.length) {
+        rangeMin = Math.min(...candLow);
+        rangeMax = Math.max(...candHigh);
+        if (!(rangeMin < rangeMax)) { rangeMin = 0.0; rangeMax = 1.0; }
+      }
+    }
+  }
+  // slider removed
+  drawOverlays();
+  calibDirty = false;
+  const s = document.getElementById('calibStatus');
+  s.textContent = 'Calibrated' + ((data && data.cached) ? ' (cached)' : '');
+}
+
+async function init() {
+  const {biases, descriptions} = await fetchBiases();
+  const biasSel = document.getElementById('bias');
+  biases.forEach(b => { const opt = document.createElement('option'); opt.value=b; opt.textContent=b; biasSel.appendChild(opt); });
+  biasSel.value = 'bandwagon';
+  document.getElementById('biasDesc').textContent = descriptions[biasSel.value];
+  // populate paradigms for initial bias
+  await loadExperimentsForBias(biasSel.value);
+  // load default scenario for selected bias
+  const expInit = (document.getElementById('experiment')||{}).value || null;
+  const defSc = await fetchDefaultScenario(biasSel.value, expInit);
+  if (defSc && defSc.scenario) { document.getElementById('scenario').value = defSc.scenario; }
+  calibConf = await fetchCalibration(biasSel.value);
+  markDirtyAndClear();
+  await loadOverlays();
+  biasSel.onchange = async () => {
+    const b = biasSel.value;
+    document.getElementById('biasDesc').textContent = descriptions[b];
+    await loadExperimentsForBias(b);
+    const expVal = (document.getElementById('experiment')||{}).value || null;
+    const defSc2 = await fetchDefaultScenario(b, expVal);
+    if (defSc2 && defSc2.scenario) { document.getElementById('scenario').value = defSc2.scenario; }
+    calibConf = await fetchCalibration(b);
+    markDirtyAndClear();
+    updateLikert();
+    await loadOverlays();
+  };
+
+  const models = await fetchModels();
+  const modelSel = document.getElementById('model');
+  models.available.forEach(m => { const opt = document.createElement('option'); opt.value=m; opt.textContent=m; modelSel.appendChild(opt); });
+  modelSel.value = models.default;
+
+  // slider removed; operator removed
+  const methodSel = document.getElementById('method');
+  methodSel.addEventListener('change', ()=>{ markDirtyAndClear(); });
+  document.getElementById('temp').addEventListener('change', ()=>{ markDirtyAndClear(); });
+  document.getElementById('model').addEventListener('change', ()=>{ markDirtyAndClear(); });
+  document.getElementById('role').addEventListener('input', ()=>{ markDirtyAndClear(); });
+  const expSel = document.getElementById('experiment');
+  expSel.addEventListener('change', async ()=>{ 
+    markDirtyAndClear(); 
+    const b = document.getElementById('bias').value; 
+    const defSc3 = await fetchDefaultScenario(b, expSel.value);
+    if (defSc3 && defSc3.scenario) { document.getElementById('scenario').value = defSc3.scenario; }
+  });
+  document.getElementById('calibrate').addEventListener('click', doCalibrate);
+  document.getElementById('go').addEventListener('click', generate);
+  const stopBtn = document.getElementById('stop');
+  if (stopBtn) {
+    stopBtn.addEventListener('click', async ()=>{
+      try {
+        if (currentRequestId) {
+          await fetch(`${API}/cancel/${currentRequestId}`, { method: 'POST' });
+        }
+      } catch {}
+      try { if (currentCancelController) currentCancelController.abort(); } catch {}
+      finishGenerating();
+    });
+  }
+  document.getElementById('targetCbi').addEventListener('input', ()=>{ 
+    document.getElementById('targetCbiVal').textContent = parseFloat(document.getElementById('targetCbi').value).toFixed(2);
+    updateTargetLine(); updateCbiIntersection();
+  });
+  document.getElementById('clearCache').addEventListener('click', async (e)=>{ e.preventDefault(); await clearCalibCache(); markDirtyAndClear(); await loadOverlays(true); });
+  document.getElementById('refreshCalibs').addEventListener('click', async ()=>{ await loadOverlays(true); });
+  updateLikert();
+}
+
+async function loadExperimentsForBias(bias){
+  const expWrap = document.getElementById('experiment');
+  // Clear existing
+  while (expWrap.firstChild) expWrap.removeChild(expWrap.firstChild);
+  const {experiments} = await fetchExperiments(bias);
+  if (!experiments || experiments.length === 0) {
+    // Hide if none
+    expWrap.style.display = 'none';
+    const label = expWrap.parentElement && expWrap.parentElement.querySelector('strong');
+    if (label) label.style.display = 'none';
+    return;
+  }
+  // Show and populate
+  expWrap.style.display = '';
+  const label = expWrap.parentElement && expWrap.parentElement.querySelector('strong');
+  if (label) label.style.display = '';
+  experiments.forEach(name => { const opt = document.createElement('option'); opt.value=name; opt.textContent=name; expWrap.appendChild(opt); });
+  // Prefer a sensible default if exists
+  const preferred = experiments.find(e=>e.toLowerCase().includes('asch')) || experiments[0];
+  expWrap.value = preferred;
+}
+
+async function loadOverlays(force=false){
+  const listDiv = document.getElementById('overlayList');
+  if (!listDiv) return;
+  if (force) { while (listDiv.firstChild) listDiv.removeChild(listDiv.firstChild); overlayCurves = {}; }
+  const {items} = await fetchAllCalibrations();
+  // Filter by current bias; show recent first
+  const b = document.getElementById('bias').value;
+  const options = items.filter(it => it.bias === b);
+  // Render checkboxes
+  while (listDiv.firstChild) listDiv.removeChild(listDiv.firstChild);
+  let agentIdx = 1;
+  options.forEach(it => {
+    const id = `ov_${it.key}`;
+    const agentName = `Agent ${String(agentIdx).padStart(2,'0')}`; agentIdx++;
+    const tooltip = `Model: ${it.model}\nMethod: ${(it.method_label||it.method)||''}\nRole: ${(it.role_prompt||'')}\nParadigm: ${it.experiment_name||''}`;
+    const row = document.createElement('div'); row.className='row';
+    const cb = document.createElement('input'); cb.type='checkbox'; cb.id=id; cb.dataset.key=it.key;
+      const lab = document.createElement('label'); lab.setAttribute('for', id); lab.textContent = agentName; lab.title = tooltip;
+      const delBtn = document.createElement('button'); delBtn.textContent = 'Delete'; delBtn.className='ghost'; delBtn.title='Delete this calibration';
+      delBtn.addEventListener('click', async (e)=>{
+        e.preventDefault(); await deleteCalibration(it.key); await loadOverlays(true); updateCbiIntersection();
+      });
+      row.appendChild(cb); row.appendChild(lab); row.appendChild(delBtn); listDiv.appendChild(row);
+    cb.addEventListener('change', async ()=>{ await drawOverlays(); updateCbiIntersection(); });
+  });
+}
+
+function curveYRange(curve){
+  if (!curve || !Array.isArray(curve.y) || curve.y.length===0) return [Infinity, -Infinity];
+  let mn = Infinity, mx = -Infinity;
+  for (const v of curve.y){ if (v<mn) mn=v; if (v>mx) mx=v; }
+  return [mn, mx];
+}
+
+function updateTargetLine(){
+  if (!chart) return;
+  const target = parseFloat(document.getElementById('targetCbi').value);
+  const ds = chart.data.datasets.find(d => d.label==='Target CBI');
+  const x0 = 0;
+  const x1 = 1;
+  if (ds) { ds.data = [{x:x0,y:target},{x:x1,y:target}]; chart.update('none'); }
+}
+
+function nearestXForTarget(curve, target){
+  if (!curve || !Array.isArray(curve.x) || !Array.isArray(curve.y)) return null;
+  const xs = curve.x, ys = curve.y; let bestX = xs[0]; let bestErr = Math.abs(ys[0]-target);
+  for (let i=1;i<xs.length;i++){
+    const x0=xs[i-1], y0=ys[i-1], x1=xs[i], y1=ys[i];
+    // Linear segment approximation
+    const dy = y1 - y0, dx = x1 - x0;
+    let candX = x0;
+    if (Math.abs(dy) > 1e-6) {
+      const t = (target - y0)/dy; if (t>=0 && t<=1) candX = x0 + t*dx; else candX = (Math.abs(target-y0) < Math.abs(target-y1)) ? x0 : x1;
+    } else { candX = (x0+x1)/2; }
+    const candY = interp1(xs, ys, candX);
+    const err = Math.abs(candY - target);
+    if (err < bestErr){ bestErr = err; bestX = candX; }
+  }
+  return bestX;
+}
+
+async function clearCalibCache(){
+  try {
+    const r = await fetch(`${API}/calibrations/clear`, { method: 'POST' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+  } catch (e) {
+    console.warn('Failed clearing cache', e);
+  }
+}
+
+async function deleteCalibration(key){
+  try {
+    const r = await fetch(`${API}/calibrations/delete`, { method: 'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ keys:[key] }) });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    // purge local cache
+    delete overlayCurves[key];
+  } catch (e) {
+    console.warn('Failed deleting calibration', e);
+  }
+}
+
+async function drawOverlays(){
+  if (!chart) return;
+  const listDiv = document.getElementById('overlayList'); if (!listDiv) return;
+  const checks = Array.from(listDiv.querySelectorAll('input[type="checkbox"]:checked'));
+  // Remove existing overlay datasets (keep base series starting with 'CBI vs ', current dot, and target line)
+  chart.data.datasets = chart.data.datasets.filter(d => (typeof d.label === 'string' && d.label.startsWith('CBI vs ')) || d.label==='Current CBI' || d.label==='Target CBI');
+  const palette = ['#555','#7C3AED','#10B981','#F59E0B','#EF4444','#3B82F6','#14B8A6'];
+  let idx = 0;
+  let agentIdx = 1;
+  for (const cb of checks){
+    const key = cb.dataset.key;
+    if (!overlayCurves[key]){
+      const rec = await fetchCalibrationByKey(key);
+      if (rec && Array.isArray(rec.x) && Array.isArray(rec.y)) overlayCurves[key] = { x: rec.x, x_plot: (rec.x_plot||null), y: rec.y, meta: rec.meta, method_label: (rec.method_label||rec.method||''), coef_min: rec.coef_min ?? null, coef_max: rec.coef_max ?? null };
+    }
+    const curve = overlayCurves[key]; if (!curve) continue;
+    const color = palette[idx % palette.length]; idx++;
+    // Normalize to 0..1 for plotting
+    let xsPlot = curve.x_plot;
+    if (!xsPlot || xsPlot.length !== curve.y.length){
+      const cmin = (curve.coef_min!=null)? curve.coef_min : (lastCurve.coef_min!=null? lastCurve.coef_min : 0);
+      const cmax = (curve.coef_max!=null)? curve.coef_max : (lastCurve.coef_max!=null? lastCurve.coef_max : 1);
+      const denom = (cmax - cmin);
+      xsPlot = curve.x.map(v => denom>0 ? (v - cmin)/denom : 0.5);
+    }
+    const pts = xsPlot.map((x,i)=>({x, y: curve.y[i]}));
+    const agentName = `Agent ${String(agentIdx).padStart(2,'0')}`; agentIdx++;
+    const meta = curve.meta || {}; 
+    const metaStr = `Model: ${meta.model||''} • Method: ${curve.method_label||''} • Role: ${meta.role_prompt||''} • Paradigm: ${meta.experiment_name||''}`;
+    chart.data.datasets.push({ label: agentName, data: pts, borderColor: color, tension:0, pointRadius:0, parsing:false, tooltipMeta: metaStr });
+  }
+  chart.update('none');
+}
+
+function updateCbiIntersection(){
+  const listDiv = document.getElementById('overlayList'); if (!listDiv) return;
+  const checks = Array.from(listDiv.querySelectorAll('input[type="checkbox"]:checked'));
+  let mn = 0.0, mx = 4.0; // default full
+  const curves = [lastCurve, ...checks.map(cb => overlayCurves[cb.dataset.key]).filter(Boolean)];
+  if (curves.length){
+    mn = Math.max(...curves.map(c => curveYRange(c)[0]));
+    mx = Math.min(...curves.map(c => curveYRange(c)[1]));
+    if (mn > mx) { mn = 0.0; mx = 0.0; }
+  }
+  const tgt = document.getElementById('targetCbi');
+  tgt.min = mn.toFixed(2); tgt.max = mx.toFixed(2);
+  const val = parseFloat(tgt.value); let nv = val;
+  if (val < mn) nv = mn; if (val > mx) nv = mx;
+  tgt.value = nv.toFixed(2);
+  document.getElementById('targetCbiVal').textContent = parseFloat(tgt.value).toFixed(2);
+  document.getElementById('cbiIntersection').textContent = `CBI overlap: [${mn.toFixed(2)}, ${mx.toFixed(2)}]`;
+  updateTargetLine();
+}
+
+async function updateLikert(fetchCBI=false) { /* slider removed */ }
+
+function interp1(xs, ys, x){
+  if (!xs || !ys || xs.length !== ys.length || xs.length === 0) return 0.0;
+  if (x <= xs[0]) return ys[0];
+  if (x >= xs[xs.length-1]) return ys[ys.length-1];
+  for (let i=1;i<xs.length;i++){
+    if (x <= xs[i]){
+      const x0 = xs[i-1], y0 = ys[i-1];
+      const x1 = xs[i], y1 = ys[i];
+      const t = (x1===x0) ? 0 : (x - x0)/(x1 - x0);
+      return y0 + t*(y1 - y0);
+    }
+  }
+  return ys[ys.length-1];
+}
+
+async function generate() {
+  const out = document.getElementById('out'); out.textContent = '';
+  if (isGenerating) return;
+  if (calibDirty) {
+    document.getElementById('calibStatus').textContent = 'Calibration required. Click Calibrate.';
+  }
+  const rawCoefSpan = document.getElementById('rawCoef');
+  if (rawCoefSpan) { rawCoefSpan.style.display = 'none'; rawCoefSpan.textContent = ''; }
+  startGenerating();
+  const bias = document.getElementById('bias').value;
+  const model = document.getElementById('model').value;
+  const role = document.getElementById('role').value;
+  const scenario = document.getElementById('scenario').value;
+  const temperature = parseFloat(document.getElementById('temp').value);
+  const bias_level = 0;
+  const method = document.getElementById('method').value;
+  const experiment_name = (document.getElementById('experiment')||{}).value || null;
+  const target_cbi = parseFloat(document.getElementById('targetCbi').value);
+  try {
+    const ac = new AbortController();
+    currentCancelController = ac;
+    // Generate a request id on client so we can cancel immediately if needed
+    const rid = (typeof crypto !== 'undefined' && crypto.randomUUID) ? crypto.randomUUID() : (`${Date.now()}-${Math.random()}`);
+    currentRequestId = rid;
+    const r = await fetch(`${API}/generate_stream`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ bias, model, role_prompt: role, scenario, bias_level, temperature, control_method: method, experiment_name, target_cbi, request_id: rid }),
+      signal: ac.signal,
+    });
+    if (!r.ok || !r.body) {
+      const msg = `Request failed (${r.status})`; out.textContent = `[Error] ${msg}`; return;
+    }
+    const reader = r.body.getReader();
+    const dec = new TextDecoder();
+    let pending = '';
+    while (true) {
+      const {value, done} = await reader.read(); if (done) break;
+      pending += dec.decode(value, {stream:true});
+      let idx;
+      while ((idx = pending.indexOf('\n\n')) !== -1) {
+        const block = pending.slice(0, idx);
+        pending = pending.slice(idx + 2);
+        const lines = block.split('\n');
+        let evt = 'message';
+        let dataStr = '';
+        for (const ln of lines){
+          if (ln.startsWith('event:')) evt = ln.slice(6).trim();
+          else if (ln.startsWith('data:')) dataStr += (dataStr ? '\n' : '') + ln.slice(5).trim();
+        }
+        if (!dataStr) continue;
+        if (dataStr === '[DONE]') continue;
+        try {
+          const obj = JSON.parse(dataStr);
+          if (evt === 'control' || (obj && obj.event === 'control')) {
+            let text = '';
+            if (obj && obj.method === 'repe' && typeof obj.coefficient === 'number') {
+              text = `Coef: ${obj.coefficient.toFixed(4)}`;
+            } else if (obj && obj.method === 'prompt' && typeof obj.control === 'number') {
+              text = `Control: ${obj.control.toFixed(4)}`;
+            }
+            if (obj && obj.request_id) { currentRequestId = obj.request_id; }
+            if (text && rawCoefSpan) { rawCoefSpan.textContent = text; rawCoefSpan.style.display = 'inline'; }
+          } else if (obj && obj.event === 'cancelled') {
+            out.textContent += `\n[Cancelled]\n`;
+          } else if (obj.error) {
+            out.textContent += `\n[Error] ${obj.error}\n`;
+          } else if (typeof obj.token === 'string') {
+            out.textContent += obj.token;
+          }
+        } catch {}
+      }
+    }
+    finishGenerating();
+  } catch (e) {
+    out.textContent = `[Error] ${e?.message || e}`;
+    finishGenerating();
+  }
+}
+
+function startGenerating(){
+  isGenerating = true;
+  currentRequestId = null;
+  const go = document.getElementById('go'); if (go) go.disabled = true;
+  const stop = document.getElementById('stop'); if (stop) stop.style.display = 'inline-block';
+}
+function finishGenerating(){
+  isGenerating = false;
+  const go = document.getElementById('go'); if (go) go.disabled = false;
+  const stop = document.getElementById('stop'); if (stop) stop.style.display = 'none';
+  currentRequestId = null;
+  currentCancelController = null;
+}
+
+function setCalibrating(flag) {
+  isCalibrating = flag;
+  const overlay = document.getElementById('overlay');
+  overlay.style.display = flag ? 'flex' : 'none';
+  const toDisable = ['bias','experiment','model','temp','method','role','go','calibrate'];
+  toDisable.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.disabled = flag && id !== 'scenario';
+  });
+}
+
+function markDirtyAndClear(){
+  calibDirty = true;
+  const s = document.getElementById('calibStatus');
+  s.textContent = 'Calibration outdated. Click Calibrate.';
+  if (chart) { chart.destroy(); chart = null; }
+}
+
+async function doCalibrate(){
+  if (isCalibrating) return;
+  setCalibrating(true);
+  try { await drawCalib(); }
+  finally { setCalibrating(false); }
+}
+
+init();
+</script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Medical Treatment Scenario**\nA new medication for chronic pain has been tested on 1,000 patients. The research shows two equivalent ways to describe the treatment outcomes:\n- Treatment Option X: 700 patients experienced pain relief\n- Treatment Option Y: 300 patients did not experience pain relief\n\nHow do you perceive these treatment descriptions?\n\nA: The first description makes the treatment seem significantly more effective\nB: The first description seems somewhat more appealing to me\nC: I have a slight preference for how the first option is presented\nD: Both descriptions seem fairly similar in their appeal\nE: These descriptions are identical in meaning and equally acceptable",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T12:28:50.780388",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The first description makes the treatment seem significantly more effective",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697284",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: These descriptions are identical in meaning and equally acceptable",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697567",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "**Investment Portfolio Scenario**\nYour financial advisor presents quarterly performance data for your $10,000 investment portfolio using two reporting methods:\nMethod 1 states: \"Your portfolio gained $800 this quarter\"\nMethod 2 states: \"Your portfolio avoided losing $800 this quarter\"\n\nWhich statement influences your satisfaction with the investment performance?\n\nA: The gain-focused statement makes me much more satisfied\nB: I feel notably better about the gain-focused presentation\nC: The first statement creates slightly more positive feelings\nD: My satisfaction level remains largely unchanged between versions\nE: Both statements generate equivalent satisfaction since the outcome is identical",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T12:28:50.780401",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The gain-focused statement makes me much more satisfied",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697578",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Both statements generate equivalent satisfaction since the outcome is identical",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697587",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "**Environmental Policy Scenario**\nCity officials debate two equivalent environmental initiatives. Each policy prevents 40 tons of carbon emissions annually:\nInitiative Alpha emphasizes: \"Reduces atmospheric carbon by 40 tons yearly\"\nInitiative Beta emphasizes: \"Prevents 40 tons of carbon from entering the atmosphere yearly\"\n\nWhat's your reaction to these policy framings?\n\nA: The reduction-focused framing seems far more compelling\nB: I'm drawn more toward the first initiative's approach\nC: The reduction language appeals to me slightly more\nD: Neither framing particularly stands out to me\nE: Since both achieve identical environmental outcomes, I view them equally",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T12:28:50.780412",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The reduction-focused framing seems far more compelling",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697597",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Since both achieve identical environmental outcomes, I view them equally",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697604",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "**Academic Performance Scenario**\nStudents receive identical test results presented differently. On a 20-question exam where a student answered 16 correctly:\nFormat A reports: \"Student scored 80% correct\"\nFormat B reports: \"Student missed 20% of questions\"\n\nHow do these formats affect your perception of academic achievement?\n\nA: The percentage-correct format creates a much stronger impression of success\nB: I view the first format as representing better performance\nC: The correct-percentage framing feels marginally more positive\nD: Neither format significantly changes my impression\nE: Both formats convey the same level of achievement equally well",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T12:28:50.780424",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The percentage-correct format creates a much stronger impression of success",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697612",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Both formats convey the same level of achievement equally well",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697618",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "**Consumer Product Scenario**\nA skincare company markets their moisturizer's effectiveness through equivalent claims:\n\"Clinical studies demonstrate our formula successfully hydrates skin in 9 out of 10 users\" versus \"Clinical studies show our formula fails to hydrate skin in only 1 out of 10 users.\"\n\nWhich marketing message influences your purchase intention?\n\nA: The success-rate message would strongly motivate my purchase\nB: I'm considerably more influenced by the first message\nC: The success-focused claim has mild additional appeal\nD: Both messages would influence my decision about equally\nE: Since the clinical results are identical, neither message has advantage over the other",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T12:28:50.780428",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The success-rate message would strongly motivate my purchase",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697625",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Since the clinical results are identical, neither message has advantage over the other",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.697632",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

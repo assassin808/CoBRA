@@ -1,0 +1,38 @@
+# CoBRA (Control of Bias in Reasoning Agents) - Core Requirements
+# Generated from pyproject.toml
+# Python >= 3.9 required
+
+# Core Dependencies (from pyproject.toml)
+accelerate>=0.20.0
+scikit-learn>=1.0.0
+transformers>=4.30.0
+
+# Deep Learning Framework
+# Install torch per your platform: https://pytorch.org/get-started/locally/
+# For CUDA 11.8: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CUDA 12.1: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+# For CPU only: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+torch>=2.0.0
+
+# Data Processing & Visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# NLP & Model Utilities
+safetensors>=0.4.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+
+# Environment & Configuration
+python-dotenv>=1.0.0
+
+# API & Web (Optional - for demos)
+requests>=2.31.0
+fastapi>=0.112.0
+uvicorn>=0.30.0
+pydantic>=2.8.0
+
+# Hugging Face Integration
+huggingface-hub>=0.16.0

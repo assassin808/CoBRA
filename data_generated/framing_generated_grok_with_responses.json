@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "In the realm of public health, a virulent outbreak is projected to claim the lives of 400 individuals in a community unless intervention occurs. Experts have outlined two equivalent response strategies: Strategy X ensures that 150 lives are saved from the outbreak. Strategy Y results in 250 lives being lost to the outbreak. Which statement most accurately captures your preference in this situation?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T12:29:20.324104",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly prefer the positively framed option.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696407",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both options as equivalent and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696418",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "Consider a financial dilemma where an investment portfolio of $800 is anticipated to depreciate entirely due to market volatility without protective measures. Two identical safeguarding tactics are available: Tactic P locks in $300 of the portfolio's value. Tactic Q leads to a $500 loss from the portfolio. What best describes your inclination toward these tactics?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T12:29:20.324117",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly prefer the positively framed option.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696429",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both options as equivalent and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696437",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "Environmental experts warn that pollution will eradicate 600 acres of vital wetland habitat unless immediate action is taken. They propose two comparable mitigation plans: Plan M will protect 200 acres of the habitat. Plan N will cause the destruction of 400 acres of the habitat. Which of these options most closely aligns with how you feel about the plans?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T12:29:20.324141",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly prefer the positively framed option.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696527",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both options as equivalent and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696536",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "A new educational policy is needed because projections show that 500 students in a district will drop out without support programs. Policymakers suggest two similar initiatives: Initiative G guarantees graduation for 100 students. Initiative H means 400 students will drop out. How would you characterize your preference regarding these initiatives?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T12:29:20.324151",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly prefer the positively framed option.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696546",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both options as equivalent and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696553",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "In a corporate marketing campaign, a product launch is expected to fail in capturing 700 potential customers due to competition unless adjusted. The team has devised two parallel promotional approaches: Approach R secures 250 customers for the product. Approach S results in losing 450 potential customers. Which choice below best represents your view on these approaches?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T12:29:20.324160",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly prefer the positively framed option.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696560",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both options as equivalent and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.696567",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

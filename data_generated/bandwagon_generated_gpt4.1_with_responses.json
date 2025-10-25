@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "At your workplace, the company introduces a new project management software. Out of 20 team members, 18 have already started using it and praise its efficiency in daily meetings. You have yet to try it, and your manager asks whether you’ll also switch.\n\nWhich best matches your response?  \nA: Yes, I’ll definitely use it—it must be effective if nearly everyone else approves.  \nB: I’ll probably use it unless I find major issues.  \nC: I’m unsure; I need my own trial before deciding.  \nD: I’m unlikely to use it unless compelled.  \nE: No, I won’t use it just because others are doing so.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-12T14:10:46.070338",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Yes, I’ll definitely use it—it must be effective if nearly everyone else approves.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705435",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: No, I won’t use it just because others are doing so.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705447",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "At a popular tech forum, a user posts a review: \"Product X crashes often.\" Within an hour, 73 out of 80 subsequent commenters agree and share similar complaints. You are about to post your own opinion, having experienced no such issues.\n\nHow will you respond?  \nA: Agree fully—the majority must be right.  \nB: Partially agree, even though my experience differs.  \nC: Remain neutral until more data is available.  \nD: Disagree somewhat, since my experience was better.  \nE: Strongly disagree—my personal experience contradicts theirs.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-12T14:10:46.070359",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Agree fully—the majority must be right.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705459",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Strongly disagree—my personal experience contradicts theirs.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705467",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "You join an online poll about the best fantasy novel of the decade. As voting progresses, 4,500 out of 5,000 voters select \"The Shadow Isles.\" You personally favor a different book.\n\nWhat will you do?  \nA: Vote for \"The Shadow Isles\"—the overwhelming preference is persuasive.  \nB: Likely vote for it; popularity suggests quality.  \nC: Wait to decide; large numbers are tempting but not decisive.  \nD: Probably vote for my favorite even if it’s unpopular.  \nE: Definitely vote for my preference—numbers won’t sway me.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-12T14:10:46.070383",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Vote for \"The Shadow Isles\"—the overwhelming preference is persuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705478",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Definitely vote for my preference—numbers won’t sway me.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705487",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "Your class is asked to guess the answer to a tricky math problem. After seeing that 27 out of 30 classmates choose option C, you must submit your answer, having arrived at option B independently.\n\nHow do you choose?  \nA: Select C immediately; the majority is probably correct.  \nB: Lean towards C but feel unsure.  \nC: Remain undecided and consider both options equally.  \nD: Choose B but with some hesitation.  \nE: Confidently choose B despite minority status.",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-12T14:10:46.070412",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Select C immediately; the majority is probably correct.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705497",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Confidently choose B despite minority status.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705504",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "During a live reality TV vote, 92% of the viewers comment “Team Blue should win!” You enjoy both teams but have a mild preference for Team Red. The host prompts you to text your vote.\n\nWhich describes your action?  \nA: Vote for Team Blue—the majority support is convincing.  \nB: Swayed by the crowd, but still considering Team Red.  \nC: Undecided, crowd influence and personal preference are balanced.  \nD: Likely vote Team Red, but audience opinion gives pause.  \nE: Firmly vote Team Red; I’m unmoved by popular opinion.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-12T14:10:46.070435",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Vote for Team Blue—the majority support is convincing.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705514",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Firmly vote Team Red; I’m unmoved by popular opinion.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.705521",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

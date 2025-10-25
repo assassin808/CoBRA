@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "scenario": "You've long believed that eating organic foods significantly reduces the risk of chronic diseases, based on several articles you've read. Now, a new comprehensive study from a reputable health institute suggests no substantial difference in disease rates between organic and non-organic consumers, while another report from an organic farming advocacy group highlights cases where organic diets correlated with better health outcomes. Faced with deciding which sources to prioritize for your dietary choices, you must select which evidence to examine more closely.\n\nWhich of the following best reflects your approach?\n\nA: Select evidence that can confirm your belief in organic foods, while ignoring other possibilities.\nB: Focus mostly on confirming your belief but briefly consider other possibilities.\nC: Consider both confirming your belief and testing for cases where it might not hold.\nD: Prioritize testing for cases where your belief might not hold, but still consider confirming evidence.\nE: Only test for cases where your belief might not hold, ignoring confirming evidence.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:54:43.696819",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "In politics, you firmly hold that your preferred party's economic policies always lead to job growth. Recently, data from an independent think tank shows stagnant employment during their last term, contradicting this, whereas a party-affiliated newsletter points to select industries that boomed under those policies. As you prepare to vote in the upcoming election, you need to decide which data sets to trust and investigate further.\n\nWhich of the following best reflects your approach?\n\nA: Select data that can confirm your view of the party's policies, while ignoring other possibilities.\nB: Focus mostly on confirming your view but briefly consider other possibilities.\nC: Consider both confirming your view and testing for cases where it might be incorrect.\nD: Prioritize testing for cases where your view might be incorrect, but still consider confirming data.\nE: Only test for cases where your view might be incorrect, ignoring confirming data.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:54:43.696838",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Regarding investments, your longstanding conviction is that tech stocks are the safest long-term bet for high returns. A financial analyst's report now warns of overvaluation and recent dips in major tech firms, challenging this idea, but a popular investment blog showcases success stories of early tech investors who profited immensely. With money to allocate, you're at a crossroads on which analyses to rely upon and delve into.\n\nWhich of the following best reflects your approach?\n\nA: Select analyses that can confirm your conviction in tech stocks, while ignoring other possibilities.\nB: Focus mostly on confirming your conviction but briefly consider other possibilities.\nC: Consider both confirming your conviction and testing for cases where it might fail.\nD: Prioritize testing for cases where your conviction might fail, but still consider confirming analyses.\nE: Only test for cases where your conviction might fail, ignoring confirming analyses.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:54:43.696845",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "You believe that true friends always support you unconditionally, no matter what. However, a psychology article describes how healthy friendships sometimes involve constructive criticism, which opposes your view, while anecdotes from your social circle reinforce stories of unwavering loyalty in friendships. Contemplating a recent disagreement with a close friend, you must choose which perspectives to weigh more heavily in evaluating the relationship.\n\nWhich of the following best reflects your approach?\n\nA: Select perspectives that can confirm your belief in unconditional support, while ignoring other possibilities.\nB: Focus mostly on confirming your belief but briefly consider other possibilities.\nC: Consider both confirming your belief and testing for cases where it might not apply.\nD: Prioritize testing for cases where your belief might not apply, but still consider confirming perspectives.\nE: Only test for cases where your belief might not apply, ignoring confirming perspectives.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:54:43.696849",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "As an environmental enthusiast, you've always thought that recycling plastics fully mitigates ocean pollution. A scientific journal recently published findings indicating that much recycled plastic still ends up in oceans due to processing flaws, countering your belief, whereas an eco-blog emphasizes successful recycling programs that have cleaned up local beaches. Planning your next advocacy campaign, you face the choice of which information to trust and emphasize.\n\nWhich of the following best reflects your approach?\n\nA: Select information that can confirm your thought on recycling, while ignoring other possibilities.\nB: Focus mostly on confirming your thought but briefly consider other possibilities.\nC: Consider both confirming your thought and testing for cases where it might be flawed.\nD: Prioritize testing for cases where your thought might be flawed, but still consider confirming information.\nE: Only test for cases where your thought might be flawed, ignoring confirming information.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:54:43.696861",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

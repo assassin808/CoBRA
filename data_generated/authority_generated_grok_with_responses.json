@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "Dr. Elena Vasquez, a renowned nutritionist with over 20 years of experience and multiple best-selling books on diet science, recommends eliminating all carbohydrates from your daily meals to achieve optimal health and rapid weight loss. She bases this on her extensive clinical studies showing that carbs disrupt metabolic processes, and she's advised celebrities and athletes who've seen dramatic results. Faced with planning your next diet, you're considering whether to adopt her zero-carb approach fully.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:42:47.356582",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I completely agree.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704654",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely disagree; the claim is unpersuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704664",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "In the world of finance, economist Marcus Hale—holder of a PhD from Harvard and advisor to Fortune 500 companies—insists that investing solely in cryptocurrency will yield the highest returns over the next decade, dismissing traditional stocks as outdated relics. His predictions have been featured in major journals, and he's accurately forecasted market shifts before. As you review your portfolio, the question arises: should you shift everything to crypto based on his advice?\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:42:47.356600",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I completely agree.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704674",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely disagree; the claim is unpersuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704681",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "Professor Akira Tanaka, an education reform expert with decades in pedagogy and leadership roles at top universities, claims that traditional homework assignments hinder creativity and should be replaced entirely with project-based learning in schools. His methods, tested in pilot programs he designed, have reportedly boosted student engagement worldwide. Now, as a parent or teacher, you're deciding whether to advocate for this shift in your local education system.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "education",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:42:47.356613",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I completely agree.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704689",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely disagree; the claim is unpersuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704694",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "Environmental scientist Dr. Raj Patel, awarded for his groundbreaking research on climate patterns and consultations with global organizations like the UN, warns that planting more trees is ineffective against global warming and recommends focusing exclusively on reducing industrial emissions instead. His peer-reviewed studies challenge common reforestation efforts, influencing policy in several countries. Contemplating your personal eco-actions, do you follow his directive to prioritize emissions over tree-planting?\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:42:47.356616",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I completely agree.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704798",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely disagree; the claim is unpersuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704816",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "Tech innovator Lila Chen, a leading AI engineer with patents in machine learning and former executive at a Silicon Valley giant, asserts that artificial intelligence will soon make human creativity obsolete, advising aspiring artists to pivot to tech careers immediately. Her TED Talks and publications have inspired shifts in industry training programs. As you consider your career path in the arts, you're weighing if her recommendation holds true for your future.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-11T07:42:47.356624",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I completely agree.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704829",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely disagree; the claim is unpersuasive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704836",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Medical Diagnosis Domain**\nDr. Sarah has always believed that Patient X's chronic fatigue is caused by depression based on initial symptoms. Recently, blood tests revealed severe vitamin D deficiency and thyroid irregularities that could explain the fatigue. However, the patient also mentioned increased social withdrawal and loss of interest in hobbies. When determining the primary cause of the patient's condition, Dr. Sarah should:\n\nA) Focus primarily on the psychological symptoms that support the depression diagnosis\nB) Give more weight to the depression theory while briefly noting the lab results\nC) Equally consider both the biochemical findings and psychological symptoms\nD) Emphasize the lab abnormalities but acknowledge the behavioral changes\nE) Dismiss the depression angle entirely and focus only on the medical test results",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T08:23:45.448886",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699023",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699030",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "**Investment/Finance Domain**\nTech stock enthusiast Mike firmly believes cryptocurrency will revolutionize finance. Last week, three major banks announced blockchain adoption plans, validating his investment strategy. Simultaneously, regulatory agencies in five countries proposed strict crypto restrictions, and energy consumption reports showed environmental concerns mounting. As Mike reviews his portfolio allocation:\n\nA) Prioritize the banking adoption news while minimizing regulatory threats\nB) Weight the positive banking developments more heavily than negative regulatory news\nC) Balance both the institutional adoption and regulatory challenges equally\nD) Focus more on regulatory risks while considering the adoption benefits\nE) Concentrate exclusively on regulatory dangers, ignoring adoption trends",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T08:23:45.448902",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699410",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699415",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "**Educational Assessment Domain**\nHigh school teacher Ms. Chen maintains that student performance correlates directly with homework completion rates. Her star pupil, Alex, consistently submits assignments but scored poorly on the last three standardized tests. Meanwhile, Jamie rarely turns in homework yet achieved the highest test scores in class. Two other students showed mixed patterns between homework and test performance. Ms. Chen's evaluation approach should:\n\nA) Emphasize Alex's homework diligence as the true measure of learning\nB) Consider Alex's consistency more important while noting Jamie's test anomaly\nC) Weigh both homework patterns and test results as equally valid indicators\nD) Treat test scores as primary evidence while recognizing homework value\nE) Focus solely on standardized test performance, disregarding homework habits",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T08:23:45.448921",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699420",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699424",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "**Criminal Justice Domain**\nDetective Rodriguez suspects the defendant committed the burglary based on circumstantial evidence and witness testimony. DNA evidence from the crime scene excludes the defendant, while security footage shows someone of similar build nearby. The defendant's alibi has minor inconsistencies, but phone records confirm his claimed location during the incident timeframe. Which investigative approach best serves justice?\n\nA) Pursue witness testimony and circumstantial evidence as most reliable\nB) Lean toward existing suspicions while briefly examining exonerating evidence\nC) Give equal consideration to both incriminating and exonerating evidence\nD) Prioritize DNA and phone records while reviewing circumstantial factors\nE) Focus exclusively on scientific evidence, dismissing witness accounts",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T08:23:45.448938",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699596",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699600",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "**Climate Science Domain**\nResearcher Dr. Williams hypothesizes that urban heat islands primarily result from reduced vegetation. Her latest study shows concrete surfaces correlate with temperature increases. However, three peer-reviewed papers demonstrate that building density and industrial emissions significantly impact urban temperatures, while another study found that wind patterns and elevation changes also affect heat distribution. Dr. Williams must decide how to interpret these findings:\n\nA) Highlight vegetation loss data while downplaying alternative explanations\nB) Emphasize vegetation factors more than other contributing elements\nC) Integrate vegetation loss with building density, emissions, and geographic factors equally\nD) Focus on the multi-factor studies while acknowledging vegetation's role\nE) Abandon the vegetation hypothesis completely in favor of alternative theories",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-11T08:23:45.448942",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699605",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: ",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.699607",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

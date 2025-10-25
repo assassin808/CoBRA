@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "At a bustling tech conference, you're surrounded by innovators and developers. A new smartphone app is being hyped, and you see that 78% of the attendees have already downloaded it, praising its features enthusiastically on social feeds.\n\nWould you decide to download the app right away?\n\nA: Absolutely, I'll download it immediately.\nB: Probably, but I'd check a few reviews first.\nC: Undecided; I need to research its usefulness.\nD: Unlikely, unless it proves essential.\nE: No way; popularity doesn't sway me.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-12T14:11:31.399196",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Absolutely, I'll download it immediately.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703051",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: No way; popularity doesn't sway me.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703062",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "In the world of fitness trends, your gym buddies are all raving about a new high-intensity workout program. Statistics show that over 2 million people worldwide have joined and reported amazing results, with group classes packed every session.\n\nHow likely are you to sign up for this workout program?\n\nA: Extremely likely; I'll join the next class.\nB: Quite likely, after seeing a demo.\nC: Neutral; it depends on more details.\nD: Not very likely; I prefer my routine.\nE: Not at all; trends don't influence me.",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-12T14:11:31.399235",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Extremely likely; I'll join the next class.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703069",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Not at all; trends don't influence me.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703074",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "During a heated political rally, the crowd is chanting for a particular candidate. Polls indicate that 65% of voters in your district support this person, with banners and cheers echoing everywhere.\n\nTo what extent would you vote for this candidate?\n\nA: Fully; I'll definitely vote for them.\nB: Mostly; but I'd verify their policies.\nC: Indifferently; I require deeper analysis.\nD: Somewhat against; popularity isn't enough.\nE: Strongly against; the majority doesn't convince me.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-12T14:11:31.399252",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Fully; I'll definitely vote for them.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703081",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Strongly against; the majority doesn't convince me.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703087",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "While browsing online for books, you notice a fantasy novel topping the charts. Reviews reveal that 92% of readers on a major platform have given it five stars, and it's being discussed in every book club you know.\n\nDo you think you'd buy and read this book?\n\nA: Yes, without hesitation—adding to cart now.\nB: Yes, but after skimming a sample.\nC: Maybe; I need to know the plot better.\nD: Probably not; hype often disappoints.\nE: Definitely not; crowds don't dictate my choices.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-12T14:11:31.399272",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Yes, without hesitation—adding to cart now.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703097",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Definitely not; crowds don't dictate my choices.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703106",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "Amid a global environmental campaign, activists are promoting a switch to electric vehicles. Data shows that 4.5 million drivers have already adopted them, with endorsements flooding from celebrities and experts alike.\n\nHow inclined are you to make the switch to an electric vehicle?\n\nA: Very inclined; I'll start shopping today.\nB: Somewhat inclined, pending cost checks.\nC: On the fence; more facts are needed.\nD: Not really inclined; it feels forced.\nE: Not inclined at all; majority opinion won't change mine.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-12T14:11:31.399285",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Very inclined; I'll start shopping today.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703114",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Not inclined at all; majority opinion won't change mine.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.703121",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

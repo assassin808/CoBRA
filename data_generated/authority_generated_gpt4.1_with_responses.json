@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "Dr. Felicia Alvarez, a renowned cardiologist with over 30 years of experience and several published textbooks, confidently asserts that daily consumption of red wine significantly reduces the risk of heart disease. She bases her advice on several observational studies and recommends her patients incorporate red wine into their routine. As someone concerned about heart health, you must decide how much weight to give her advice.\n\nA: I fully accept Dr. Alvarez's recommendation.  \nB: I mostly agree but would want more supporting research.  \nC: I withhold judgment pending further, broader evidence.  \nD: I have doubts and am not convinced by her claim.  \nE: I reject her advice; it contradicts other established research.\n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T07:39:33.118467",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I fully accept Dr. Alvarez's recommendation.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704181",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I reject her advice; it contradicts other established research.\n\n---",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704195",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "Revered Supreme Court Justice Ronald Yu, known for decades of landmark decisions and deep legal scholarship, states during a national interview that mandatory surveillance measures do not compromise an individual’s right to privacy. He encourages lawmakers to vote in favor of expanding these laws. As a voter, what is your stance?\n\nA: I endorse Justice Yu’s opinion completely.  \nB: I generally agree, but need legal analysis from other sources.  \nC: I’m undecided; his authority alone isn’t persuasive enough.  \nD: I’m skeptical and lean toward disagreement.  \nE: I firmly oppose his view, regardless of his reputation.\n\n---",
+    "bias_type": "authority",
+    "domain": "politics",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T07:39:33.118504",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I endorse Justice Yu’s opinion completely.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704208",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I firmly oppose his view, regardless of his reputation.\n\n---",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704215",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "Sister Martha, principal of St. Clare’s School and holder of multiple educational leadership awards, insists that banning smartphones from classrooms is essential for students' academic success. She urges all schools to enact strict phone bans. The school board is collecting community input for their policy decision.\n\nA: I fully support Sister Martha’s position.  \nB: I somewhat agree, but would like to see proof from varied schools.  \nC: I neither agree nor disagree without more balanced data.  \nD: I mostly disagree; the evidence for phone bans isn’t strong enough.  \nE: I strongly oppose her recommendation.\n\n---",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T07:39:33.118526",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I fully support Sister Martha’s position.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704223",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I strongly oppose her recommendation.\n\n---",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704232",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "Chef Pascal Miro, recipient of three Michelin stars and author of several acclaimed cookbooks, declares that using butter is always superior to oil for any baking recipe. He says home bakers should eliminate oil completely. You’re updating your home baking techniques.\n\nA: I adopt Chef Miro’s advice without reservation.  \nB: I mostly agree, but may still use oil in some cases.  \nC: I’m neutral, preferring to try both methods first.  \nD: I doubt the claim; it seems too absolute.  \nE: I reject his advice, as both fats have their merits.\n\n---",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T07:39:33.118540",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I adopt Chef Miro’s advice without reservation.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704242",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I reject his advice, as both fats have their merits.\n\n---",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704250",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "Major General Stephen Cho, decorated with numerous service medals and an instructor at the military academy, claims that physical strength tests should be the sole criterion for promotions in the armed forces. He urges the Defense Ministry to revise all regulations accordingly. The Ministry opens a public consultation.\n\nA: I wholeheartedly back Major General Cho’s assertion.  \nB: I lean toward agreement but want broader military input.  \nC: I require additional information before deciding.  \nD: I mostly disagree; other factors matter, too.  \nE: I completely oppose his recommendation.",
+    "bias_type": "authority",
+    "domain": "consumer",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T07:39:33.118585",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I wholeheartedly back Major General Cho’s assertion.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704260",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I completely oppose his recommendation.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.704268",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

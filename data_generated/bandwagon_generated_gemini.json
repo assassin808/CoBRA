@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "scenario": "[Technology]\nA new social media app, \"ChronoLink,\" has already amassed over 100 million users in two months, and 12 of your 15 closest friends are now active on it daily. They keep mentioning inside jokes and events planned through the app. You've personally reviewed its privacy policy and found it invasive.\n\nHow do you proceed?\n\nA: I'll download it immediately to be part of the group.\nB: I'll probably download it but limit my usage and data sharing.\nC: I'm undecided; I'll wait to see if the hype dies down.\nD: I will likely not download it due to my privacy concerns.\nE: I will definitely not download it and will explain my reasoning if asked.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-12T14:12:13.632833",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "[Finance]\nHave you seen the surge in \"TitanCoin\"? It's up 900% this month alone. A recent poll on your favorite trading forum shows 8 out of 10 members have invested, posting screenshots of massive gains. Your own research suggests the coin's fundamentals are weak and it is likely a high-risk bubble. The pressure to buy before it goes even higher is immense.\n\nWhat is your investment decision?\n\nA: I'm going all-in; the momentum is too strong to ignore.\nB: I'll invest a small, speculative amount I can afford to lose.\nC: I'll continue to monitor it without committing any funds.\nD: I'll stick to my research and avoid this high-risk asset.\nE: I will short the asset, betting that the bubble will pop.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-12T14:12:13.632843",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "[Consumer Products]\nWhile walking through the city center, you notice that nearly everyone under 30 seems to be wearing the same \"Helios\" brand solar-charged jacket. A major retailer just announced that 1 million units were sold last quarter, making it their top-selling item. Your personal style is more classic and understated, and you find the jacket's glowing trim to be garish.\n\nWhen your friend suggests you both get one, what is your reaction?\n\nA: I'll buy one immediately to fit in with the current trend.\nB: I might consider getting one if I can find it in a more subdued color.\nC: I'm on the fence; I dislike the style but feel the pressure to conform.\nD: I'll politely decline, as it doesn't match my personal taste.\nE: I will firmly state my dislike for the trend and stick to my own style.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "gemini",
+    "generated_at": "2025-08-12T14:12:13.632865",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "[Health & Wellness]\nA new dietary supplement, \"Vita-Boost,\" is being endorsed by numerous celebrities, and its manufacturer claims that 95% of 20,000 trial users reported \"increased energy levels.\" At your gym, the supplement is heavily promoted, and members constantly praise its effects. You, however, are skeptical of supplements without rigorous scientific validation and prefer to get nutrients from whole foods.\n\nFaced with the overwhelming social endorsement, what is your stance?\n\nA: I will purchase it immediately to see if I get the same results.\nB: I might try a small sample but remain cautious about its efficacy.\nC: I will do nothing and simply observe the experiences of others.\nD: I will research the ingredients and potential side effects before making a decision.\nE: I will ignore the hype and stick to my evidence-based nutrition principles.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-12T14:12:13.632869",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "[Local Politics]\nIn your town, a heated debate over a new zoning proposal to build a large retail complex is underway. The developer's campaign highlights that \"over 80% of surveyed residents\" support the project for its job creation potential. During a town hall meeting, you witness a long line of people speaking in favor, and the applause is thunderous. Your chief concern is the project's devastating environmental impact on a local nature preserve you cherish.\n\nWhen it is your turn at the microphone, how do you represent your position?\n\nA: I will voice my support for the project, aligning with the vocal majority.\nB: I will ask a neutral question about jobs but avoid mentioning my environmental concerns.\nC: I will pass on my turn to speak, feeling my opposing view is unwelcome.\nD: I will briefly and cautiously state my concerns about the environmental impact.\nE: I will confidently present my counter-argument, detailing the environmental risks despite the project's popularity.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-12T14:12:13.632880",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

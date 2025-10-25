@@ -1,0 +1,8 @@
+fastapi>=0.112
+uvicorn>=0.30
+transformers>=4.43
+pydantic>=2.8
+safetensors>=0.4
+accelerate>=0.33
+# Install torch per your platform: https://pytorch.org/get-started/locally/
+# Example (CPU-only): pip install torch --index-url https://download.pytorch.org/whl/cpu

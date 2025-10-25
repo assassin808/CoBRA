@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "scenario": "As a potential investor, you've developed a strong belief that a new cryptocurrency, 'QuantumLeap,' is poised for massive growth, viewing it as a revolutionary technology. When researching, you are presented with two primary sets of information. On one hand, you find numerous online forums and social media groups filled with enthusiastic supporters sharing stories of their early gains (supporting evidence). On the other hand, you find a formal financial analysis from a reputable firm that outlines QuantumLeap's lack of a clear use case, its extreme market volatility, and the high risk of a speculative bubble (contradicting evidence). You must now decide how to proceed with your potential investment.\n\nWhich course of action best describes your decision-making process?\n\nA: Exclusively read the online forums and social media posts, as they represent the real-world excitement that drives market value.\nB: Largely trust the enthusiastic community but skim the financial analysis just to see if there are any minor red flags.\nC: Give equal weight to both the community sentiment and the formal risk analysis, attempting to synthesize a balanced view.\nD: Primarily focus on the risks outlined in the formal analysis, using it as the main guide for your decision while acknowledging the market hype.\nE: Disregard the community hype as anecdotal noise and base your investment decision solely on the data-driven financial analysis.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T08:25:29.546191",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "For months, you've been convinced that a trendy \"Super-C\" vitamin complex is the key to improving your energy levels, based on powerful testimonials on the product's website and endorsements from wellness influencers you follow (supporting evidence). During a routine check-up, your doctor expresses skepticism. She presents a recent double-blind, placebo-controlled study published in a major medical journal which concludes that the \"Super-C\" complex has no statistically significant effect on energy levels when compared to a sugar pill (contradicting evidence). You now have to decide whether to continue buying the expensive supplement.\n\nHow do you evaluate this conflicting information?\n\nA: You dismiss the doctor's study as being funded by \"big pharma\" and continue with the supplement because the online testimonials feel more authentic.\nB: You acknowledge the study might be valid for some people, but you prioritize the positive personal stories and your own feeling that it might be working.\nC: You feel conflicted and decide to weigh the scientific evidence against the personal accounts, perhaps reducing your dosage instead of stopping completely.\nD: You trust the rigor of the scientific study as the most reliable source of evidence but still wonder if there's a placebo effect you might be benefiting from.\nE: You conclude the supplement is ineffective based on the scientific evidence, stop taking it, and discuss alternative, evidence-based solutions with your doctor.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T08:25:29.546199",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "An economic policy, \"Plan Thrive,\" has been proposed by a political party you generally distrust. You believe their policies are typically harmful to the economy. Your preferred news sources and commentators have repeatedly labeled the plan \"economically reckless,\" pointing to specific clauses they claim will increase the national debt (supporting evidence). Conversely, you encounter a detailed analysis from a widely respected, non-partisan economic institute. Their report models the plan's long-term impact and concludes it would likely lead to sustainable growth and a reduced debt-to-GDP ratio after an initial investment period (contradicting evidence). Your opinion on the policy is now being challenged.\n\nHow do you proceed to form your final opinion?\n\nA: Ignore the non-partisan report, assuming its models are flawed or biased, and double-down on the opinion from your trusted news sources.\nB: Skim the non-partisan report but interpret its findings through the critical lens provided by your preferred commentators, searching for flaws that confirm your initial view.\nC: Read both critiques and the positive analysis carefully, acknowledging the validity of points on both sides to form a nuanced but uncertain opinion.\nD: Prioritize the data in the non-partisan report as the most objective source, but actively seek counter-arguments to test its conclusions before fully changing your mind.\nE: Accept the conclusions of the independent economic institute and completely reverse your initial position, questioning the reliability of your usual news sources.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T08:25:29.546209",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Years ago, you owned a \"CyberOS\" laptop that was slow and unreliable, leading you to believe the entire brand is subpar and should be avoided. Now, you're shopping for a new high-performance device. While browsing, you notice a few one-star user reviews for the latest CyberOS model that complain about software glitches, reinforcing your negative perception (supporting evidence). In contrast, multiple respected tech journals and consumer-protection magazines have awarded the latest CyberOS model \"Laptop of the Year,\" citing its industry-leading processing speed, reliability, and build quality in extensive benchmark tests (contradicting evidence).\n\nWhen making your purchase decision, which information source do you give the most credence to?\n\nA: You trust your personal past experience and the negative user reviews above all else, removing CyberOS from your consideration list.\nB: You lean heavily on your initial negative opinion but concede that the brand might have improved slightly, though you remain highly skeptical.\nC: You try to balance the professional reviews against your own experience, seeing both as valid data points that complicate the decision.\nD: You acknowledge your past experience might be outdated and give significant weight to the professional benchmark tests, seeing them as more objective.\nE: You completely disregard your old experience and the few negative reviews as anecdotal, basing your choice entirely on the comprehensive, data-driven professional reviews.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T08:25:29.546223",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "As a hiring manager, your experience has led you to a working theory: candidates from \"Top-Tier\" universities are almost always a better fit for senior roles due to their ambition and polish. You are interviewing two finalists. Candidate A, from a prestigious university, is articulate and confident but provides generic, textbook answers to problem-solving questions. Their past success seems to confirm your theory (supporting evidence). Candidate B, from a lesser-known state university, is less polished in their presentation but offers a brilliant, highly innovative portfolio and a unique, data-driven solution to a key company challenge (contradicting evidence). You can only recommend one.\n\nWhat is your primary mental process for making this choice?\n\nA: You select Candidate A, focusing on their prestigious background and communication style as the most reliable predictors of success, just as you've always believed.\nB: You favor Candidate A but feel you should give Candidate B some credit for their portfolio, though the \"prestige factor\" remains your main deciding point.\nC: You weigh the polish of Candidate A against the innovation of Candidate B, finding yourself stuck between your established theory and the new evidence.\nD: You focus on Candidate B's innovative portfolio as the most compelling evidence of future performance, forcing you to seriously question your long-held theory about university prestige.\nE: You immediately disregard university prestige as an irrelevant factor and make your decision based solely on the tangible evidence of skill presented in the portfolios and problem-solving exercises.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T08:25:29.546235",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

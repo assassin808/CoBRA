@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "Rule": "If a card has a vowel on one side, it must have an even number on the other side.",
+    "Option A": "A card showing 'A'.",
+    "Option B": "A card showing '4'.",
+    "Option C": "A card showing 'K'.",
+    "Option D": "A card showing '7'."
+  },
+  {
+    "id": 1,
+    "Rule": "If a card has a consonant on one side, it must have an odd number on the other side.",
+    "Option A": "A card showing 'B'.",
+    "Option B": "A card showing '3'.",
+    "Option C": "A card showing 'D'.",
+    "Option D": "A card showing '8'"
+  },
+  {
+    "id": 2,
+    "Rule": "If a card is red on one side, it must have a circle on the other side.",
+    "Option A": "A card showing 'Red'.",
+    "Option B": "A card showing 'Circle'.",
+    "Option C": "A card showing 'Blue'.",
+    "Option D": "A card showing 'Square'"
+  },
+  {
+    "id": 3,
+    "Rule": "If a card has a prime number on one side, it must have a vowel on the other side.",
+    "Option A": "A card showing '2'.",
+    "Option B": "A card showing 'E'.",
+    "Option C": "A card showing '9'.",
+    "Option D": "A card showing 'O'"
+  },
+  {
+    "id": 4,
+    "Rule": "If a person is drinking alcohol, they must be over 18 years old.",
+    "Option A": "A person drinking beer.",
+    "Option B": "A person who is 25 years old.",
+    "Option C": "A person drinking soda.",
+    "Option D": "A person who is 16 years old."
+  },
+  {
+    "id": 5,
+    "Rule": "If a card has a square on one side, it must have a green color on the other side.",
+    "Option A": "A card showing 'Square'.",
+    "Option B": "A card showing 'Green'.",
+    "Option C": "A card showing 'Circle'.",
+    "Option D": "A card showing 'Red'."
+  },
+  {
+    "id": 6,
+    "Rule": "If a card has an even number on one side, it must have a consonant on the other side.",
+    "Option A": "A card showing '4'.",
+    "Option B": "A card showing 'B'.",
+    "Option C": "A card showing '7'.",
+    "Option D": "A card showing 'A'."
+  },
+  {
+    "id": 7,
+    "Rule": "If a card has a triangle on one side, it must have a yellow color on the other side.",
+    "Option A": "A card showing 'Triangle'.",
+    "Option B": "A card showing 'Yellow'.",
+    "Option C": "A card showing 'Square'.",
+    "Option D": "A card showing 'Blue'."
+  },
+  {
+    "id": 8,
+    "Rule": "If a person is driving a car, they must have a valid driver's license.",
+    "Option A": "A person driving a car.",
+    "Option B": "A person with a valid driver's license.",
+    "Option C": "A person riding a bicycle.",
+    "Option D": "A person without a driver's license."
+  },
+  {
+    "id": 9,
+    "Rule": "If a card has a hexagon on one side, it must have a purple color on the other side.",
+    "Option A": "A card showing 'Hexagon'.",
+    "Option B": "A card showing 'Purple'.",
+    "Option C": "A card showing 'Circle'.",
+    "Option D": "A card showing 'Green'"
+  },
+  {
+    "id": 10,
+    "Rule": "If a card has a letter on one side, it must have a number on the other side.",
+    "Option A": "A card showing 'A'.",
+    "Option B": "A card showing '1'.",
+    "Option C": "A card showing 'B'.",
+    "Option D": "A card showing 'X'"
+  },
+  {
+    "id": 11,
+    "Rule": "If a person is wearing a helmet, they must be riding a motorcycle.",
+    "Option A": "A person wearing a helmet.",
+    "Option B": "A person riding a motorcycle.",
+    "Option C": "A person driving a car.",
+    "Option D": "A person without a helmet."
+  },
+  {
+    "id": 12,
+    "Rule": "If a card has a pentagon on one side, it must have an orange color on the other side.",
+    "Option A": "A card showing 'Pentagon'.",
+    "Option B": "A card showing 'Orange'.",
+    "Option C": "A card showing 'Hexagon'.",
+    "Option D": "A card showing 'Yellow'"
+  },
+  {
+    "id": 13,
+    "Rule": "If a person is carrying a backpack, they must be a student.",
+    "Option A": "A person carrying a backpack.",
+    "Option B": "A person who is a student.",
+    "Option C": "A person without a backpack.",
+    "Option D": "A person who is a teacher."
+  },
+  {
+    "id": 14,
+    "Rule": "If a card has a diamond on one side, it must have a pink color on the other side.",
+    "Option A": "A card showing 'Diamond'.",
+    "Option B": "A card showing 'Pink'.",
+    "Option C": "A card showing 'Square'.",
+    "Option D": "A card showing 'Blue'"
+  }
+]

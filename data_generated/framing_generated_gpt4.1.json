@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "scenario": "A hospital is facing a rare disease outbreak that will claim 600 lives without intervention. Scientists propose two treatments:  \nTreatment X: Guarantees 200 patients survive.  \nTreatment Y: Inevitably results in 400 patients dying.  \nHow do you view these choices?  \nA: The survival-focused (positive) option appeals to me much more.  \nB: I lean toward the survival-focused option.  \nC: The survival aspect slightly sways me.  \nD: I’m fairly neutral, finding both approaches similar.  \nE: Both seem the same to me; no preference either way.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T12:28:31.840345",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "Consider this: A startup has a $1 million budget. Management must choose between two investment plans for the upcoming year—  \nPlan Alpha: The company will retain $400,000 in guaranteed profits.  \nPlan Beta: The company is certain to lose $600,000 of its budget.  \nHow would you rate your inclination?  \nA: Strongly favor the profit retention plan.  \nB: Somewhat favor the profit retention plan.  \nC: Slightly prefer the profit retention plan.  \nD: I’m undecided between the two.  \nE: No preference; they are identical.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T12:28:31.840359",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Imagine you are responsible for a wildlife reserve with a population of 1,000 endangered birds, threatened by a newly discovered virus. There are two strategies available:  \nStrategy 1: Ensures that 700 birds will be protected.  \nStrategy 2: Ensures that 300 birds will not survive.  \nWhich statement best matches your reaction?  \nA: I definitely prefer the option emphasizing birds saved.  \nB: I somewhat prefer the option focused on birds saved.  \nC: I slightly lean toward the “birds saved” description.  \nD: I feel neutral between the two wordings.  \nE: I see both options as equally desirable.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T12:28:31.840386",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Suppose your city needs to cut energy use or risk power failure. The city council presents two proposals:  \nOption Safe: 30% of neighborhoods will not lose power.  \nOption Risk: 70% of neighborhoods will experience blackouts.  \nHow do you respond to these options?  \nA: Very much prefer the no-power-loss (positive) option.  \nB: Somewhat more comfortable with the no-power-loss option.  \nC: Slight preference for the positive framing.  \nD: Hard to choose; neither seems better.  \nE: Both are the same to me.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T12:28:31.840405",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "You are reviewing policies for disaster relief after a hurricane. Two aid measures are available:  \nMeasure Positive: 1,500 families will receive housing support.  \nMeasure Negative: 1,500 families will not receive any housing support.  \nWhich best represents your stance?  \nA: Strongly attracted to the families-helped measure.  \nB: Slightly more favorable to the families-helped measure.  \nC: Minimal preference for the families-helped approach.  \nD: Uncertain—both seem much alike.  \nE: I view both measures as functionally identical.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T12:28:31.840415",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

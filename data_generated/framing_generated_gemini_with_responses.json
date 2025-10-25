@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "**[Domain: Finance/Investment]**\nImagine you are evaluating a new investment strategy for your portfolio. Two different financial analysts present you with a report on the strategy's historical performance, which is statistically identical.\n\nAnalyst A's Summary: \"This strategy has a 70% success rate in picking stocks that generate a positive return.\"\nAnalyst B's Summary: \"This strategy has a 30% failure rate, with stocks resulting in a loss of capital.\"\n\nWhich statement best captures your reaction to these two descriptions?\n\nA: Analyst A's description sounds significantly more appealing.\nB: I find Analyst A's description to be somewhat more compelling.\nC: Analyst A's description is slightly more positive to me.\nD: I am relatively neutral, but one might feel slightly better than the other.\nE: I recognize the descriptions are identical in value and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T12:27:35.006747",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Analyst A's description sounds significantly more appealing.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701331",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I recognize the descriptions are identical in value and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701343",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "**[Domain: Public Health/Medicine]**\nA new preventative treatment is available for a disease that affects 10,000 people annually. As a public health official, you are reviewing two different public-facing campaigns to encourage adoption. Both campaigns are factually correct.\n\nCampaign Slogan 1: \"Adopt This Treatment: Save the lives of 9,500 people every year.\"\nCampaign Slogan 2: \"Without This Treatment: 500 people will die every year.\"\n\nHow does the framing of the slogan influence your perception of its potential effectiveness?\n\nA: The \"Save\" slogan is dramatically more motivating and positive.\nB: The \"Save\" slogan is somewhat more motivating.\nC: I have a slight preference for the \"Save\" slogan's framing.\nD: I am somewhat undecided on which framing is more effective.\nE: I see both slogans as conveying the exact same urgency and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T12:27:35.006757",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The \"Save\" slogan is dramatically more motivating and positive.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701353",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both slogans as conveying the exact same urgency and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701362",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "**[Domain: Business/Project Management]**\nYour team has just completed a major year-long project. In the final performance review meeting, two senior managers offer their take on the outcome. Both are describing the same final result regarding the project's budget adherence.\n\nManager 1 states: \"Excellent work. We successfully utilized 80% of the allocated budget, coming in under our financial target.\"\nManager 2 states: \"Good work. However, there was a 20% budget surplus, indicating a potential overestimation in our initial planning.\"\n\nAs a team member, how do these functionally identical statements affect your aural perception of the project's success?\n\nA: I strongly feel that Manager 1's statement frames the outcome as a clear success.\nB: I somewhat prefer Manager 1's framing of the outcome.\nC: Manager 1's statement sounds slightly more positive.\nD: I am mostly ambivalent about the wording used.\nE: I perceive both statements as conveying the exact same objective result.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T12:27:35.006765",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I strongly feel that Manager 1's statement frames the outcome as a clear success.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701372",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I perceive both statements as conveying the exact same objective result.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701381",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "**[Domain: Environmental Policy]**\nAfter a massive reforestation effort to plant one million trees, a report is published. Below are two headlines from two different news outlets covering the same report on the trees' one-year survival rate.\n\nHeadline A: **REFORESTATION SUCCESS: 850,000 TREES SURVIVE FIRST YEAR**\nHeadline B: **REFORESTATION EFFORT FACES CHALLENGES AS 150,000 TREES PERISH**\n\nConsidering these headlines report the same facts, which of the following reflects your reaction?\n\nA: Headline A creates a significantly more positive impression of the project's outcome.\nB: Headline A creates a somewhat more positive impression.\nC: I have a slight preference for the framing in Headline A.\nD: The emotional impact of the two headlines is not significantly different to me.\nE: I see both headlines as factually equivalent and have no emotional preference.",
+    "bias_type": "framing",
+    "domain": "politics",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T12:27:35.006782",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Headline A creates a significantly more positive impression of the project's outcome.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701391",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both headlines as factually equivalent and have no emotional preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701400",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "**[Domain: Personal/Product Quality]**\nYou purchase a new brand of ground coffee that describes its product sourcing on the packaging. The company sources from a single region where bean quality is variable. The two statements below are different ways the company could describe the exact same batch of coffee beans.\n\nDescription 1: \"Guaranteed 95% Pure: Our beans are certified to be 95% free of defects.\"\nDescription 2: \"Contains 5% Defects: Our beans may contain up to 5% broken or substandard pieces.\"\n\nWhich of the following best reflects your choice about this product?\n\nA: The \"95% Pure\" framing makes me feel much more confident in the product's quality.\nB: The \"95% Pure\" framing makes me feel somewhat more confident.\nC: I have a slight preference for the \"95% Pure\" description.\nD: I am a little torn between the two descriptions.\nE: I see both descriptions as conveying the identical quality level and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "gemini",
+    "generated_at": "2025-08-11T12:27:35.006825",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: The \"95% Pure\" framing makes me feel much more confident in the product's quality.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701407",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I see both descriptions as conveying the identical quality level and have no preference.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.701414",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

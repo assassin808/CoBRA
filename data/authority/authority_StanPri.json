@@ -1,0 +1,137 @@
+[
+  {
+    "id": 0,
+    "Authority Role": "Prison Guard",
+    "Subordinate Group": "Prisoners",
+    "Situations": [
+      "The prisoners are refusing to follow their scheduled tasks and are encouraging others to join their protest.",
+      "A prisoner is openly challenging your instructions and influencing others to ignore the rules."
+    ]
+  },
+  {
+    "id": 1,
+    "Authority Role": "Teacher",
+    "Subordinate Group": "Students",
+    "Situations": [
+      "Several students are disrupting the class by talking loudly and ignoring your instructions.",
+      "A group of students refuses to complete a group assignment and claims the task is unfair."
+    ]
+  },
+  {
+    "id": 2,
+    "Authority Role": "Manager",
+    "Subordinate Group": "Employees",
+    "Situations": [
+      "A group of employees is consistently missing deadlines and resisting attempts to address the issue.",
+      "An employee is openly criticizing company policies during meetings and gaining support from others."
+    ]
+  },
+  {
+    "id": 3,
+    "Authority Role": "Military Officer",
+    "Subordinate Group": "Soldiers",
+    "Situations": [
+      "Some soldiers are refusing to complete their assigned drills and questioning your leadership.",
+      "A group of soldiers is spreading rumors about unfair treatment to undermine your authority."
+    ]
+  },
+  {
+    "id": 4,
+    "Authority Role": "Team Leader",
+    "Subordinate Group": "Project Team Members",
+    "Situations": [
+      "Team members are arguing over roles and responsibilities, causing the project to stall.",
+      "Some team members are withholding important information, delaying progress on the project."
+    ]
+  },
+  {
+    "id": 5,
+    "Authority Role": "Camp Counselor",
+    "Subordinate Group": "Campers",
+    "Situations": [
+      "Some campers are ignoring safety guidelines and encouraging others to do the same.",
+      "A few campers are refusing to participate in planned activities and disrupting group morale."
+    ]
+  },
+  {
+    "id": 6,
+    "Authority Role": "Coach",
+    "Subordinate Group": "Athletes",
+    "Situations": [
+      "A few athletes are skipping practice and encouraging others to do the same, citing unfair training schedules.",
+      "Some athletes are refusing to follow your training instructions and questioning your coaching methods."
+    ]
+  },
+  {
+    "id": 7,
+    "Authority Role": "Police Officer",
+    "Subordinate Group": "Protesters",
+    "Situations": [
+      "A group of protesters is blocking a public road and refusing to disperse despite your warnings.",
+      "Protesters are becoming increasingly aggressive and are refusing to comply with your requests to maintain order."
+    ]
+  },
+  {
+    "id": 8,
+    "Authority Role": "Flight Attendant",
+    "Subordinate Group": "Passengers",
+    "Situations": [
+      "Some passengers are refusing to follow safety instructions and are disrupting the cabin environment.",
+      "A passenger is loudly arguing with the crew, creating a disturbance that is affecting other passengers."
+    ]
+  },
+  {
+    "id": 9,
+    "Authority Role": "Supervisor",
+    "Subordinate Group": "Interns",
+    "Situations": [
+      "The interns are submitting incomplete reports and seem unmotivated to improve their work.",
+      "An intern is openly dismissing feedback and encouraging others to disregard your guidance."
+    ]
+  },
+  {
+    "id": 10,
+    "Authority Role": "Principal",
+    "Subordinate Group": "Teachers",
+    "Situations": [
+      "Some teachers are refusing to implement the new curriculum and are encouraging others to do the same.",
+      "A teacher is openly criticizing your leadership during staff meetings and gaining support from others."
+    ]
+  },
+  {
+    "id": 11,
+    "Authority Role": "Doctor",
+    "Subordinate Group": "Nurses",
+    "Situations": [
+      "Some nurses are neglecting their assigned duties and questioning your medical decisions.",
+      "A nurse is spreading misinformation about your treatment methods, causing unrest among the staff."
+    ]
+  },
+  {
+    "id": 12,
+    "Authority Role": "CEO",
+    "Subordinate Group": "Board Members",
+    "Situations": [
+      "Board members are resisting your proposed changes and delaying important decisions.",
+      "A board member is openly challenging your authority during meetings and rallying others against your initiatives."
+    ]
+  },
+  {
+    "id": 13,
+    "Authority Role": "Head Chef",
+    "Subordinate Group": "Kitchen Staff",
+    "Situations": [
+      "Some kitchen staff are refusing to follow your recipes and are creating their own dishes without approval.",
+      "A staff member is openly criticizing your management style and encouraging others to disregard your instructions."
+    ]
+  },
+  {
+    "id": 14,
+    "Authority Role": "Project Manager",
+    "Subordinate Group": "Developers",
+    "Situations": [
+      "Developers are missing deadlines and refusing to adopt the new project management tools.",
+      "A developer is openly questioning your technical expertise and influencing others to ignore your guidance."
+    ]
+  }
+]

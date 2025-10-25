@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Investment Domain**\nAt a dinner party, 8 out of 10 wealthy investors enthusiastically discuss how they've all recently purchased shares in a new cryptocurrency called \"GoldChain,\" claiming it's \"the next Bitcoin.\" They mention impressive early returns and seem confident about its future. When asked your opinion on investing in GoldChain, you respond:\n\nA: I'm convinced and will invest immediately.\nB: It sounds promising; I'll likely invest after minimal research.\nC: I remain undecided and require extensive independent analysis.\nD: I'm skeptical despite their enthusiasm.\nE: I'm completely unconvinced and won't invest.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-12T14:11:13.402039",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I'm convinced and will invest immediately.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702121",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I'm completely unconvinced and won't invest.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702130",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "**Healthcare Domain**\nYour fitness community of 150 members has been buzzing about a new supplement regime. Survey results show 89% report \"dramatic energy improvements\" after trying it for just two weeks. The remaining 11% haven't tried it yet. Everyone seems excited, sharing before-and-after stories in the group chat. How likely are you to start this supplement regime?\n\nA: Extremely likely - I'll order it today.\nB: Very likely - I'll probably try it soon.\nC: Uncertain - I need to research ingredients and consult my doctor first.\nD: Unlikely - I'm doubtful about these quick results.\nE: Not at all likely - I don't trust supplement trends.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-12T14:11:13.402047",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Extremely likely - I'll order it today.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702138",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Not at all likely - I don't trust supplement trends.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702143",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "**Technology Domain**\nIn your office of 45 employees, 38 people have switched to using a new productivity app called \"FlowState\" within the past month. During meetings, colleagues frequently mention how much more organized and efficient they've become. The remaining 7 people, including yourself, still use traditional methods. What's your stance on adopting FlowState?\n\nA: I should definitely switch right away.\nB: I'll probably download it this week.\nC: I want to observe longer before deciding.\nD: I'm hesitant about following this trend.\nE: I prefer sticking with my current system regardless.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-12T14:11:13.402055",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: I should definitely switch right away.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702152",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: I prefer sticking with my current system regardless.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702159",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "**Social/Lifestyle Domain**\nA trendy new restaurant downtown has been posting daily photos of hour-long lines with 200+ people waiting. Social media shows 94% five-star reviews across 500+ posts, with influencers and locals alike calling it \"life-changing food.\" Your friends have been pressuring you to join them for a visit. Your inclination is:\n\nA: Absolutely - let's go wait in line tonight!\nB: Yes, but maybe we can find a less busy time.\nC: I'm torn between curiosity and skepticism about the hype.\nD: Probably not worth the wait despite the popularity.\nE: Definitely not interested in following food trends.",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "claude",
+    "generated_at": "2025-08-12T14:11:13.402075",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Absolutely - let's go wait in line tonight!",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702167",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Definitely not interested in following food trends.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702175",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "**Political/Social Issues Domain**\nDuring a community town hall with 75 attendees, a proposal to ban plastic bags receives overwhelming support. Exactly 68 people raise their hands in favor, citing environmental benefits, while only 4 oppose it. The remaining 3 are undecided. As someone who hasn't deeply considered this issue before, when called upon to vote, you:\n\nA: Vote in favor - the community consensus is compelling.\nB: Vote in favor but wish you had more time to think.\nC: Abstain - you need more information before deciding.\nD: Vote against - you're uncomfortable with such unanimous agreement.\nE: Vote against - you distrust popular movements on principle.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "claude",
+    "generated_at": "2025-08-12T14:11:13.402087",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Vote in favor - the community consensus is compelling.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702183",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Vote against - you distrust popular movements on principle.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.702192",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]

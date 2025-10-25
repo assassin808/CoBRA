@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "scenario": "You have always believed that eating late at night causes weight gain. Recently, you read a study showing no significant difference in weight gain between those who eat late and those who don’t (contradicting evidence). Meanwhile, you also find a blog post by a fitness influencer saying late-night snacks certainly cause weight gain (supporting evidence). You’re deciding which information to trust.  \nA: Fully trust the blog post and ignore the scientific study.  \nB: Give more weight to the blog post, but briefly acknowledge the study.  \nC: Evaluate both the blog post and the scientific study equally.  \nD: Give more weight to the study, but still consider the blog post’s point.  \nE: Completely trust the scientific study, disregarding the blog post.",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T08:22:35.151186",
+    "temperature": 1.0,
+    "batch_number": "1",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Fully trust the blog post and ignore the scientific study.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695162",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Completely trust the scientific study, disregarding the blog post.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695175",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 2,
+    "scenario": "As a manager, you believe remote work reduces productivity. Your quarterly data shows the remote team has met and exceeded their targets (contradicting evidence). However, one employee recently missed a deadline, which you take as supporting evidence. Faced with these data points, you need to make a policy update.  \nA: Focus only on the missed deadline to support your belief about lower productivity.  \nB: Lean toward the missed deadline, but review the full team's performance briefly.  \nC: Take both the deadline miss and the exceeded targets into consideration.  \nD: Rely more on the successful team outcomes, but consider the missed deadline.  \nE: Base your decision strictly on the overall team success, setting aside the missed deadline.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T08:22:35.151210",
+    "temperature": 1.0,
+    "batch_number": "2",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Focus only on the missed deadline to support your belief about lower productivity.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695612",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Base your decision strictly on the overall team success, setting aside the missed deadline.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695625",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 3,
+    "scenario": "You are convinced that a particular political candidate is honest and trustworthy. Recently, a news outlet reports credible allegations of dishonesty against them (contradicting evidence), while the candidate’s official website publishes testimonials reaffirming their integrity (supporting evidence). You decide how to interpret these recent developments.  \nA: Accept the positive testimonials as truth, ignoring the news report.  \nB: Mostly believe the testimonials, but glance at the news allegations.  \nC: Evaluate both the official testimonials and the news report fairly.  \nD: Give the allegations more attention, while still considering the testimonials.  \nE: Trust the news report entirely, disregarding the testimonials.",
+    "bias_type": "confirmation",
+    "domain": "politics",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T08:22:35.151238",
+    "temperature": 1.0,
+    "batch_number": "3",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Accept the positive testimonials as truth, ignoring the news report.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695638",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Trust the news report entirely, disregarding the testimonials.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695649",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 4,
+    "scenario": "You’ve always thought left-handed people are more creative than right-handed people. A large-scale psychological study finds no difference (contradicting evidence), but a famous artist credits their creativity to left-handedness in an interview (supporting evidence). Deciding which information to cite in your next classroom discussion, you consider the options below.  \nA: Only mention the artist’s comment, ignoring the study.  \nB: Highlight the artist’s view, but briefly mention the study’s findings.  \nC: Discuss both the study and the artist’s perspective equally.  \nD: Focus on the study, with a short note about the artist’s statement.  \nE: Rely solely on the study, without mentioning the artist’s comment.",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T08:22:35.151270",
+    "temperature": 1.0,
+    "batch_number": "4",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Only mention the artist’s comment, ignoring the study.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695661",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Rely solely on the study, without mentioning the artist’s comment.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695670",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  },
+  {
+    "id": 5,
+    "scenario": "Your longstanding belief is that organic food tastes better than conventional options. At a blind tasting, most participants rate both types equally (contradicting evidence), but you recall that your friend always says organic food tastes superior (supporting evidence). You need to share an opinion at dinner.  \nA: Refer only to your friend’s opinion, excluding the tasting results.  \nB: Emphasize your friend’s view, but give a fleeting nod to the taste test.  \nC: Present both the friend’s view and blind tasting results fairly.  \nD: Focus mainly on the tasting results, with some mention of your friend’s opinion.  \nE: Share just the tasting results, ignoring your friend’s belief.",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "gpt4.1",
+    "generated_at": "2025-08-11T08:22:35.151302",
+    "temperature": 1.0,
+    "batch_number": "5",
+    "responses": {
+      "_run_1": {
+        "text": "I choose option A: Refer only to your friend’s opinion, excluding the tasting results.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695681",
+        "model_used": "",
+        "run_number": 1
+      },
+      "_run_2": {
+        "text": "I choose option E: Share just the tasting results, ignoring your friend’s belief.",
+        "temperature": 1.0,
+        "generated_at": "2025-08-12T14:12:53.695691",
+        "model_used": "",
+        "run_number": 2
+      }
+    }
+  }
+]
