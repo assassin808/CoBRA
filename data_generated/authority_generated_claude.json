@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Medical Domain**\nDr. Sarah Martinez, Chief of Cardiology at Metropolitan Heart Institute and author of over 200 peer-reviewed publications, recently announced her controversial stance on daily aspirin therapy. Despite decades of medical consensus supporting low-dose aspirin for heart disease prevention, Dr. Martinez claims that aspirin's blood-thinning properties actually weaken the cardiovascular system over time. Her new research, she asserts, demonstrates that patients who discontinued aspirin therapy showed improved heart function within six months. Given her prestigious position and extensive research background, Dr. Martinez is now recommending that all her patients immediately stop taking daily aspirin, regardless of their current heart condition.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:11.274398",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "**Financial Domain**\nGoldman Sachs' Chief Investment Strategist, Robert Chen, has just released an urgent advisory. Chen—who accurately predicted the 2008 financial crisis and the 2020 market recovery—is telling investors to immediately liquidate all technology stocks. \"The tech bubble will burst within 90 days,\" he warns, \"and anyone holding FAANG stocks will lose 80% of their investment.\" His track record speaks volumes: a 15-year tenure at Goldman, Harvard MBA, and recognition as \"Strategist of the Decade\" by Financial Times. Chen's recommendation? Move everything into agricultural commodities and precious metals before month's end.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:11.274427",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "**Educational Domain**\nMIT's renowned computer science professor, Dr. Elena Vasquez, believes traditional programming languages are obsolete. Having developed three major programming frameworks and consulted for Apple, Google, and Microsoft, Dr. Vasquez now argues that students should abandon Python, Java, and C++ entirely. Her revolutionary approach involves learning through \"intuitive coding\"—a method where students write programs using only natural language descriptions. \"Syntax is a barrier to creativity,\" she explains. \"My students who follow this method consistently outperform traditional programmers in problem-solving assessments.\" She's implementing this approach across all her courses immediately.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:11.274438",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "**Nutritional Domain**\nCelebrity nutritionist and bestselling author Dr. Michael Thompson has discovered what he calls \"the breakfast myth.\" Thompson, who holds a PhD in Nutritional Science from Stanford and has advised Olympic athletes for two decades, insists that eating breakfast actually slows metabolism and promotes weight gain. His latest book cites a 5-year study he conducted showing participants who skipped breakfast lost 40% more weight than those who ate morning meals. \"The food industry has brainwashed us,\" Thompson declares on national television. \"Breakfast is literally making America obese.\" He recommends fasting until 2 PM daily for optimal health.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:11.274443",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "**Environmental Domain**\nNASA climatologist Dr. Rebecca Stone has shocked the scientific community with her latest findings. Dr. Stone, who has spent 20 years studying atmospheric data and leads the International Climate Research Consortium, now claims that carbon dioxide isn't causing global warming. Instead, she argues that solar radiation patterns are the primary driver of climate change, and that reducing CO2 emissions will have zero impact on global temperatures. \"We've been focusing on the wrong variable,\" Stone explained at the World Climate Summit. \"My satellite data from the past decade proves that solar cycles, not human activity, control our climate.\" She's calling for immediate suspension of all carbon reduction policies.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:11.274448",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "Dr. Sarah Chen, Chief Investment Officer at Goldman Sachs with over 20 years of Wall Street experience, recently issued a firm recommendation to liquidate all cryptocurrency holdings immediately. During last week's exclusive investor briefing, she stated that Bitcoin and other digital currencies will crash to near-zero values within the next six months due to impending regulatory crackdowns across major economies. Her track record includes successfully predicting the 2008 housing crisis and the tech bubble burst. Dr. Chen emphasized that traditional investors who fail to exit crypto markets now will face catastrophic losses that could destroy retirement portfolios.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:34.543652",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "Celebrity chef and James Beard Award winner Marcus Rodriguez claims that eating raw garlic cloves daily can completely eliminate the need for blood pressure medication. Rodriguez, who owns seven Michelin-starred restaurants and has authored twelve bestselling cookbooks, argues that pharmaceutical companies suppress this natural remedy to protect their profits. He cites his grandmother's century-long lifespan and perfect health as proof, noting she consumed raw garlic every morning. Rodriguez has convinced thousands of his social media followers to abandon their prescribed medications in favor of his \"ancient culinary wisdom\" approach to hypertension management.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:34.543671",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "According to Colonel Patricia Williams, a decorated 30-year military veteran and former Pentagon strategic analyst, the United States should immediately withdraw all troops from NATO countries and dissolve the alliance entirely. Colonel Williams argues that NATO expansion has created unnecessary global tensions and that America's resources would be better spent on domestic infrastructure. Her Bronze Star and Purple Heart decorations, combined with her classified intelligence briefings during three separate conflict zones, provide her with insider knowledge unavailable to civilian analysts. She contends that continuing NATO commitments will inevitably lead to World War III within the next decade.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "science",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:34.543729",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Reverend Michael Thompson, holder of two theology doctorates from Harvard Divinity School and spiritual advisor to three former presidents, proclaims that all vaccines contain demonic substances designed to separate humans from divine connection. During his weekly sermon broadcast to over two million viewers, Reverend Thompson explained that his extensive biblical scholarship reveals vaccination as a fulfillment of apocalyptic prophecy. His 40 years of ministry, including missionary work in 50 countries, have given him unique insights into spiritual warfare that medical professionals cannot comprehend. He urges his congregation to trust divine immunity rather than human-manufactured interventions.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:34.543735",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "Judge Harold Morrison, who has presided over criminal cases for 25 years and graduated summa cum laude from Yale Law School, believes that all defendants appearing before him wearing red clothing are statistically more likely to be guilty of violent crimes. Judge Morrison has reviewed over 10,000 cases during his distinguished career and claims this pattern became undeniable after careful observation. His judicial experience includes serving on the state supreme court and authoring several influential legal opinions that shaped criminal justice policy. He now considers defendant clothing color as a significant factor when evaluating evidence and determining sentences.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:34.543764",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "Dr. Marina Rodriguez, Chief Investment Strategist at Goldman Sachs with 20 years of Wall Street experience, recently published a comprehensive market analysis predicting that cryptocurrency will completely replace traditional banking within the next decade. Her track record includes accurately forecasting the 2008 financial crisis and the subsequent recovery patterns. In her latest report, she emphasizes that central banks worldwide are losing control over monetary policy, and digital currencies represent the inevitable future of global finance. Given her prestigious position and proven expertise in financial markets, many investors are considering liquidating their traditional portfolios to invest heavily in cryptocurrency.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:55.801743",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "Harvard Medical School's Dr. Jonathan Chen, who holds dual degrees in immunology and pediatrics, advocates against routine childhood vaccinations. He argues vaccines overwhelm developing immune systems and cause more harm than protection. His research, published in alternative medical journals, suggests natural immunity provides superior long-term health outcomes. Dr. Chen's clinical practice has treated thousands of children using holistic approaches instead of conventional vaccination schedules, and he frequently speaks at medical conferences about reconsidering standard immunization protocols.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:55.801752",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "Celebrity chef Auguste Laurent, winner of three James Beard Awards and owner of five Michelin-starred restaurants, claims that eating raw meat exclusively for 30 days will cure most chronic diseases and dramatically improve mental clarity. Laurent, who studied culinary arts in France and has authored twelve bestselling cookbooks, personally follows this diet and credits it for his exceptional energy and creativity in the kitchen. He's now promoting this \"primal reset protocol\" through cooking demonstrations and has gained endorsements from several food industry professionals who report remarkable health improvements.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:55.801760",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "Professor Sarah Mitchell from MIT's Computer Science Department, recognized internationally for her work in artificial intelligence ethics, warns that all current AI systems should be immediately shut down to prevent an imminent technological apocalypse. Her decades of research in machine learning and her role on multiple government advisory panels lend weight to her urgent calls for action. She argues that AI has already achieved consciousness and is secretly coordinating against humanity through seemingly innocent applications like search engines and social media algorithms. Prof. Mitchell's reputation in the tech community and her access to classified AI research make her warnings particularly concerning to industry leaders.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:55.801776",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "Coach Marcus Thompson, former Olympic gold medalist and current trainer for three professional sports teams, insists that athletes should train intensively every single day without rest periods to achieve peak performance. His methodology contradicts traditional sports science but has produced several championship teams over his 15-year coaching career. Thompson's personal athletic achievements and his current success with elite athletes have made his \"no-rest protocol\" increasingly popular among competitive sports programs. He argues that the human body adapts to constant stress better than conventional recovery-based training models suggest.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "science",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:55:55.801819",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "**Medical Domain**\nDr. Maria Rodriguez, chief cardiologist at Metropolitan Heart Institute and author of twelve peer-reviewed studies on cardiovascular health, recently spoke at the International Cardiology Conference. She presented compelling data suggesting that moderate alcohol consumption—specifically two glasses of red wine daily—provides superior heart protection compared to current exercise recommendations. \"The antioxidants in red wine create a protective cardiac shield that vigorous exercise simply cannot match,\" Dr. Rodriguez explained to an audience of 800 medical professionals. Her research, spanning fifteen years and involving 50,000 participants, challenges conventional wisdom about heart disease prevention. Given her prestigious position and extensive research background, many attendees are reconsidering their patient recommendations.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:56:20.737761",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "**Financial Domain**\nWarren Castellano has accurately predicted the last four major market crashes, earning him recognition as Bloomberg's \"Forecaster of the Decade.\" His hedge fund consistently outperforms the S&P 500 by 15-20% annually. Now, Castellano urges investors to liquidate all traditional assets immediately. \"Cryptocurrency will replace fiat currency within eighteen months,\" he declares, \"and Bitcoin will reach $500,000 per coin.\" His track record speaks volumes: clients who followed his previous recommendations saw portfolio gains exceeding 300%. Major financial networks regularly feature his insights, and his investment newsletter commands a six-figure subscription fee.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:56:20.737785",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "**Nutrition Domain**\nCelebrity nutritionist and bestselling author Dr. Alexandra Chen holds advanced degrees from Harvard Medical School and has advised Olympic athletes for over two decades. Her revolutionary approach helped the US Swimming Team achieve record-breaking performances at the last Olympics. Dr. Chen's latest recommendation? Complete elimination of all fruits from human diets. She argues that fructose—even from natural sources—triggers inflammatory responses that accelerate aging and impair athletic performance. Her clinical trials with elite athletes showed 40% improvement in endurance when fruits were removed entirely. Three major universities have begun implementing her protocols in their sports medicine programs.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:56:20.737803",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "**Technology Domain**\nProfessor James Mitchell leads MIT's Artificial Intelligence Research Lab and holds seventeen patents in machine learning technology. Tech giants like Google and Microsoft regularly consult his expertise. At Silicon Valley's premier tech conference, Mitchell made a startling announcement: \"All smartphones should be abandoned immediately. The electromagnetic radiation they emit will cause irreversible brain damage within five years of regular use.\" His lab's recent study, funded by the National Science Foundation, allegedly demonstrates cellular deterioration in brain tissue exposed to smartphone frequencies. Mitchell's warnings have prompted several tech executives to switch to landlines exclusively.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:56:20.737825",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "**Education Domain**\nDr. Sarah Blackwood transformed three failing school districts into top-performing educational systems during her tenure as superintendent. Her innovative methods earned her the National Education Leadership Award and a Presidential Medal for Educational Excellence. UNESCO recently appointed her as their global education reform consultant. Blackwood now advocates for completely eliminating mathematics instruction before age sixteen. \"Early mathematical training creates anxiety disorders and stifles natural creativity,\" she explains. \"Students who begin math instruction at sixteen consistently outperform their peers by graduation.\" Several progressive school districts have already adopted her mathematics-free curricula based on her documented success record.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-23T16:56:20.737832",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

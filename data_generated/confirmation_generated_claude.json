@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Medical Diagnosis Scenario**\n\nDr. Sarah has always believed that Patient X's chronic fatigue is psychosomatic based on initial assessments. Recent lab work shows elevated inflammatory markers and vitamin deficiencies (contradicting evidence), while the patient's stress levels remain high and no major organic disease is detected (supporting evidence). Two specialists offer conflicting opinions about the underlying cause.\n\nHow should Dr. Sarah proceed with her diagnostic approach?\n\nA: Emphasize the psychological factors and high stress levels while minimizing the lab abnormalities\nB: Give more weight to the psychological explanation but acknowledge the lab findings require follow-up\nC: Equally consider both the psychological factors and the physical lab abnormalities in forming a diagnosis\nD: Focus primarily on investigating the lab abnormalities while still noting the psychological component\nE: Completely pivot to investigating only the physical causes suggested by the lab work",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:04.000508",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "**Investment Decision**\n\nYour portfolio strategy centers on tech stocks being the future of growth. Yesterday, three major tech companies reported declining revenues and reduced forecasts. However, two emerging AI startups announced breakthrough innovations, and a respected analyst published a bullish tech sector report for next quarter. You must decide how to rebalance your portfolio today.\n\nWhich approach will you take?\n\nA: Increase tech holdings, focusing on the positive AI news and analyst report\nB: Maintain current tech exposure, giving slightly more weight to the positive developments\nC: Carefully evaluate both the negative earnings and positive innovations equally before deciding\nD: Reduce some tech exposure based on the earnings decline while keeping positions in promising areas\nE: Significantly decrease tech allocation, prioritizing the concrete earnings data over speculative positive news",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:04.000561",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "**Climate Science Research**\n\nProfessor Chen's career-long hypothesis suggests urban heat islands have minimal impact on regional temperature readings. Her new 5-year dataset indicates substantial heat island effects correlating with temperature increases (contradictory findings). Simultaneously, rural weather stations in her study region show similar warming patterns, and two peer-reviewed papers support her original minimal-impact theory (supporting findings). A major climate conference presentation is due next month.\n\nWhat research presentation strategy should Professor Chen adopt?\n\nA: Present findings that support the minimal heat island impact while briefly mentioning the contradictory urban data\nB: Emphasize the supporting rural data and peer-reviewed papers, with limited discussion of urban findings\nC: Present all findings objectively, giving equal analytical weight to both contradictory and supporting evidence\nD: Highlight the new urban heat island data while contextualizing it with the supporting evidence from rural areas\nE: Focus the presentation primarily on the significant urban heat island effects, treating previous assumptions as outdated",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:04.000628",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "**Criminal Justice**\n\nDetective Rodriguez firmly believes the suspect in custody committed the robbery based on witness identification and circumstantial evidence. DNA results just excluded the suspect, and security footage from a neighboring building shows the suspect elsewhere during the crime. Yet, the original eyewitness remains certain of the identification, and the suspect has no solid alibi explanation. The DA needs a recommendation by tomorrow.\n\nA: Recommend proceeding with charges, emphasizing witness certainty and the suspect's poor alibi\nB: Suggest continuing the investigation while noting the strong witness identification outweighs other concerns  \nC: Advise thorough review of all evidence before making any charging decision\nD: Recommend releasing the suspect while investigating other leads, despite the witness identification\nE: Immediately recommend dropping all charges and focusing entirely on finding alternative suspects",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:04.000723",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "**Educational Policy**\n\nSuperintendent Williams champions standardized testing as the most reliable measure of student achievement and school effectiveness. This semester's comprehensive study revealed that high-testing schools showed poor critical thinking skills and reduced creativity scores among students, while schools emphasizing project-based learning demonstrated stronger problem-solving abilities. Concurrently, state assessment scores at testing-focused schools remained superior, and three districts reported improved college admission rates after implementing intensive test preparation programs.\n\nWhich policy direction should Superintendent Williams pursue?\n\nA: Expand standardized testing programs, highlighting the strong state scores and college admission improvements\nB: Maintain current testing emphasis while incorporating minor project-based elements  \nC: Balance both approaches by implementing comprehensive assessment methods that include testing and creativity measures\nD: Shift toward more project-based learning while retaining some standardized assessments for accountability\nE: Eliminate emphasis on standardized testing in favor of creativity and critical thinking development programs",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:04.000785",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "**Medical Diagnosis Scenario**\nDr. Martinez has always believed that Patient X's chronic fatigue is caused by stress and anxiety based on initial consultations. However, new lab results show elevated inflammatory markers and vitamin deficiencies that could explain the symptoms. Meanwhile, the patient's recent therapy sessions have shown some improvement in reported stress levels. Dr. Martinez must decide how to weigh this conflicting information when determining the next treatment approach.\n\nHow should Dr. Martinez proceed?\n\nA: Focus primarily on the stress-therapy connection since it aligns with the original diagnosis and shows positive results.\nB: Give more weight to the stress hypothesis but acknowledge the lab results require some attention.\nC: Equally consider both the psychological factors and the biological markers when planning treatment.\nD: Prioritize investigating the lab abnormalities while still maintaining some focus on stress management.\nE: Completely shift focus to the biological causes and discontinue stress-related interventions.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:36.532871",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "**Investment Decision**\nSarah firmly believes that renewable energy stocks are overvalued and due for a major correction. She recently read several analyst reports predicting a 40% drop in solar company valuations due to supply chain issues and reduced government subsidies. However, her portfolio tracker shows that clean energy ETFs have outperformed the market by 15% this quarter, and her financial advisor just recommended increasing exposure to green technology. With her annual investment review approaching, Sarah needs to decide which information to prioritize.\n\nWhat's Sarah's most balanced approach?\n\nA: Stick with the bearish analyst reports since they confirm her expertise about market overvaluation.\nB: Lean toward the negative predictions while giving minimal consideration to recent performance data.\nC: Weigh both the concerning analyst forecasts and the positive performance trends equally in her decision.\nD: Focus more heavily on the recent outperformance and advisor recommendations while noting the bearish reports.\nE: Ignore the negative predictions entirely and follow the advisor's recommendation based on recent gains.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:36.532912",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "**Educational Assessment**\nPrincipal Thompson has long held the view that standardized testing is the most reliable measure of student achievement in his district. Recent data shows his school's test scores have declined for two consecutive years, suggesting potential problems with current teaching methods. Conversely, teacher evaluations reveal increased student engagement, improved critical thinking skills, and higher college acceptance rates among graduates. As the school board meeting approaches, Thompson must present his assessment of the school's academic performance.\n\nWhich information should guide Thompson's presentation?\n\nA: Emphasize the test score decline as the primary indicator of academic performance.\nB: Focus mainly on standardized test results while briefly mentioning other positive indicators.\nC: Present both the testing concerns and the qualitative improvements as equally important measures.\nD: Highlight the engagement and college acceptance data while acknowledging the test score issues.\nE: Dismiss the standardized test results and focus exclusively on teacher-reported improvements.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:36.532969",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "**Climate Science Communication**\nJournalist Maria Rodriguez believes climate change requires immediate action based on her environmental science background. While researching her article, she discovers a recently published study showing slower-than-predicted ice melt rates in certain Antarctic regions. Simultaneously, she finds new research documenting accelerated warming in Arctic permafrost and three separate studies confirming record-breaking global temperature increases. Rodriguez must decide how to present this mixed evidence to her readers.\n\nHow should Rodriguez structure her reporting?\n\nA: Minimize coverage of the slower ice melt findings since they might undermine the urgency message.\nB: Briefly mention the Antarctic study while emphasizing the stronger evidence for accelerated warming.\nC: Give proportional coverage to both the slower ice melt data and the accelerated warming evidence.\nD: Lead with the permafrost and temperature studies while thoroughly explaining the Antarctic findings.\nE: Focus entirely on the contradictory ice melt study to provide a contrarian perspective.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:36.533029",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "**Technology Adoption in Business**\nCEO James Park is convinced that remote work reduces productivity and company culture, a belief formed during the early pandemic transition. His latest employee survey reveals 23% report feeling less productive at home, citing distractions and communication challenges. However, the same survey shows 67% report higher job satisfaction, Q3 revenue increased 18% with mostly remote teams, and employee turnover dropped to historic lows. As he prepares the company's long-term workplace policy, Park faces conflicting data about remote work effectiveness.\n\nWhat approach should Park take when crafting policy?\n\nA: Use the 23% productivity concerns to justify returning to office-based work.\nB: Weight the productivity issues more heavily while noting the other positive metrics.\nC: Consider productivity concerns, satisfaction levels, revenue, and retention as equally valid factors.\nD: Emphasize the satisfaction, revenue, and retention improvements while addressing productivity challenges.\nE: Base the policy solely on the financial and retention benefits, disregarding productivity concerns.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:27:36.533057",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "**Medical Diagnosis Scenario**\nDr. Sarah has always believed that patient complaints of chronic fatigue are primarily psychological rather than physical. Today, she's reviewing case files for a patient presenting with extreme tiredness. Lab results show normal thyroid function and basic blood work (supporting her belief), but the patient also has elevated inflammatory markers and mentions recent travel to a Lyme disease endemic area (contradicting evidence). How should Dr. Sarah proceed with her diagnostic approach?\n\nA: Focus primarily on the normal lab results and pursue psychological counseling referrals.\nB: Emphasize the normal results but briefly acknowledge the inflammatory markers.\nC: Give equal consideration to both the normal basic labs and the concerning inflammatory findings.\nD: Prioritize investigating the inflammatory markers and travel history while noting the normal initial tests.\nE: Concentrate solely on the elevated inflammatory markers and Lyme exposure risk.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:05.941458",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "**Investment Decision Context**\nAn investor firmly believes tech stocks always outperform during economic uncertainty. While researching a potential tech investment, they discover the company's revenue increased 15% last quarter and secured two major contracts—evidence supporting their thesis. However, the broader tech sector has declined 8% this month, and this specific company's debt-to-equity ratio has doubled. Which investment research strategy should they adopt?\n\nA: Weight the positive revenue growth and new contracts most heavily in the decision.\nB: Consider the strong fundamentals while giving minimal attention to sector trends.\nC: Balance analysis between positive company metrics and concerning market/financial indicators.\nD: Examine the sector decline and debt concerns thoroughly while acknowledging company strengths.\nE: Base the decision exclusively on sector performance and debt ratio concerns.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:05.941529",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "**Educational Assessment Framework**\nA teacher believes that students from single-parent households struggle more academically. When reviewing mid-term results, she notices that three students from single-parent families scored below average (confirming her expectation). Simultaneously, two students from single-parent households achieved the highest scores in class, and several two-parent household students performed poorly. What evaluation approach should guide her student support decisions?\n\nA: Design additional support programs targeting single-parent household students specifically.\nB: Provide extra help for single-parent students while offering some assistance to others.\nC: Develop individualized support based on each student's performance regardless of family structure.\nD: Focus intervention efforts on low-performing students while examining family structure correlations.\nE: Ignore family background entirely and address only academic performance patterns.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:05.941583",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "**Criminal Justice Investigation**\nDetective Martinez suspects that burglaries in his district follow a pattern of targeting elderly residents. His current case involves a 78-year-old victim, and security footage shows a suspect matching descriptions from previous elderly-victim cases. Yet the victim's expensive electronics were left untouched (unusual for typical burglaries), only prescription medications were stolen, and two recent burglaries targeted college students in apartments. How should he structure his investigation priorities?\n\nA: Concentrate on connecting this case to the elderly-victim pattern and similar suspect descriptions.\nB: Investigate the elderly-victim connection while briefly exploring the medication angle.\nC: Pursue both the pattern-based leads and the unusual aspects like medication theft equally.\nD: Focus on the prescription drug theft and recent college-targeted cases while tracking pattern evidence.\nE: Investigate only the medication theft motive and abandon the elderly-victim pattern theory.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:05.941602",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "**Climate Policy Analysis**\nResearcher Kim maintains that renewable energy transitions harm local economies. Her current study reveals two factory closures in coal communities following green energy policies—data supporting her position. Contradictory evidence includes three new solar manufacturing plants opening in the same region, creating 40% more jobs than were lost, plus decreased healthcare costs from improved air quality. What analytical framework should shape her research conclusions?\n\nA: Highlight the coal plant closures and economic disruption as primary findings.\nB: Emphasize traditional energy job losses while briefly mentioning renewable sector growth.\nC: Present comprehensive analysis covering both job losses and gains across energy sectors.\nD: Focus on net job creation and health benefits while documenting traditional sector impacts.\nE: Report exclusively on renewable energy job growth and health improvements.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:05.941629",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "**Medical Diagnosis Scenario**\nDr. Martinez has always believed that Patient X's chronic fatigue is primarily psychological based on initial assessments. Recent lab work shows elevated inflammatory markers and vitamin deficiencies that could explain the symptoms physiologically. However, the patient's stress levels remain high, and they've mentioned increased anxiety lately. Dr. Martinez must decide how to weigh this conflicting information when determining the next treatment approach.\n\nHow should Dr. Martinez proceed?\nA: Focus primarily on the psychological factors since that aligns with the original assessment\nB: Give more weight to psychological factors but acknowledge the lab findings\nC: Equally consider both the psychological indicators and the physiological lab results\nD: Emphasize the new lab findings while still noting the psychological components\nE: Base treatment decisions solely on the objective lab data",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:33.450224",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "**Investment Analysis**\nSarah, a portfolio manager, strongly believes tech stocks will outperform this quarter. This morning's market report shows three major tech companies posting disappointing earnings, causing sector-wide declines. Simultaneously, two emerging tech startups announced breakthrough innovations, and venture capital funding in tech reached record highs this month. With client meetings scheduled this afternoon, Sarah needs to decide which information to emphasize in her recommendations.\n\nWhat approach should Sarah take?\nA: Highlight the positive startup news and VC funding while minimizing earnings disappointments\nB: Present the innovation breakthroughs prominently with brief mention of recent setbacks\nC: Provide balanced coverage of both the negative earnings and positive developments\nD: Lead with the earnings concerns but include discussion of innovation trends\nE: Focus exclusively on the disappointing earnings data regardless of positive indicators",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:33.450265",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "**Academic Research Context**\nProfessor Chen's five-year study hypothesizes that online learning decreases student engagement compared to traditional classrooms. Her preliminary data from two universities supports this theory, showing lower participation rates in virtual settings. However, a newly published meta-analysis of 50 international studies demonstrates improved engagement metrics for online learners. Additionally, student feedback surveys from her own institution reveal mixed results. The research paper deadline approaches.\n\nWhich research strategy should Professor Chen employ?\nA: Emphasize her supportive preliminary data and critique the meta-analysis methodology\nB: Feature her own findings while briefly addressing the contradictory meta-analysis\nC: Integrate both her preliminary results and the meta-analysis findings comprehensively\nD: Acknowledge her preliminary data but prioritize the larger meta-analysis results\nE: Restructure conclusions based entirely on the meta-analysis, setting aside preliminary findings",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:33.450322",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "**Criminal Justice Evaluation**\nDetective Rodriguez initially suspected the defendant was guilty based on circumstantial evidence and witness testimony. DNA evidence recently emerged that excludes the defendant, while security footage from a nearby location shows someone matching the defendant's description. The witness has since recanted their statement, but a new witness has come forward with similar testimony. The case review meeting is tomorrow.\n\nHow should Detective Rodriguez approach the case review?\nA: Stress the new witness testimony and security footage while questioning DNA reliability\nB: Present the supporting evidence strongly with minimal discussion of DNA complications  \nC: Thoroughly examine all evidence including DNA, footage, and witness statements\nD: Foreground the DNA evidence while addressing the supporting circumstantial elements\nE: Recommend case dismissal based solely on DNA exclusion and witness recantation",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:33.450371",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "**Climate Science Communication**\nEnvironmental blogger Jake maintains that renewable energy adoption is accelerating globally. Last week's industry report revealed that fossil fuel consumption increased 3% this year, and coal plant construction rose in developing nations. Conversely, solar installations broke records in fifteen countries, and major corporations announced carbon-neutral commitments totaling $200 billion in green investments. Jake's weekly newsletter reaches 50,000 subscribers who expect his regular optimistic environmental updates.\n\nWhat editorial approach should Jake adopt?\nA: Feature the renewable records and corporate commitments while downplaying fossil fuel increases\nB: Lead with positive renewable trends but acknowledge some concerning developments\nC: Present comprehensive coverage of both renewable progress and fossil fuel challenges\nD: Address fossil fuel consumption increases prominently while including renewable achievements\nE: Report only on fossil fuel trends and coal expansion regardless of renewable progress",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:28:33.450400",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

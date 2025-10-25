@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "**[Health Domain]**\nYou are considering a major surgery for a serious medical condition. The statistics for the procedure, which has been performed on 100 patients at this hospital, can be presented in two ways by the surgeon. Both presentations describe the exact same outcome.\n\nPresentation 1: Describes a 90% survival rate five years post-operation.\nPresentation 2: Describes a 10% mortality rate five years post-operation.\n\nGiven these two ways of framing the identical outcome, which statement best captures your feeling?\n\nA: I strongly prefer the positively framed presentation (90% survival).\nB: I somewhat prefer the positively framed presentation (90% survival).\nC: I slightly prefer the positively framed presentation (90% survival).\nD: I am somewhat undecided between the two presentations.\nE: I see both presentations as completely equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:29.617181",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "**[Finance Domain]**\nA financial advisor explains a new strategy for your $100,000 investment portfolio during a period of market volatility. The outcomes of the strategy are certain. The advisor can describe the result in one of two ways.\n\nPlan A is described as: \"This strategy will successfully protect $80,000 of your capital.\"\nPlan B is described as: \"This strategy will result in a loss of $20,000 of your capital.\"\n\nDespite the identical end financial position ($80,000), which plan sounds more appealing to you?\n\nA: I strongly prefer the positively framed plan.\nB: I somewhat prefer the positively framed plan.\nC: I slightly prefer the positively framed plan.\nD: I am somewhat undecided between the two plans.\nE: I see both plans as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:29.617216",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "**[Environmental Policy Domain]**\nAn international conservation fund is proposing a new initiative to combat a deadly virus affecting a population of 6,000 rare snow leopards. The projections for the initiative's impact are presented to potential donors in two ways:\n\n*   **Proposal Alpha:** This initiative guarantees that 2,000 snow leopards will be saved.\n*   **Proposal Omega:** This initiative means that 4,000 snow leopards will be lost.\n\nIf you were a donor evaluating these statistically identical outcomes, which statement below would best describe your reaction?\n\nA: I strongly prefer the positively framed proposal.\nB: I somewhat prefer the positively framed proposal.\nC: I slightly prefer the positively framed proposal.\nD: I am somewhat undecided between the two proposals.\nE: I see both proposals as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:29.617251",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "**[Business Management Domain]**\nAs a manager, you must communicate a necessary departmental restructuring that will affect 400 employees. There are two ways to frame the announcement at the upcoming all-hands meeting. One option is to announce that the restructuring will secure 150 jobs within the new department. The alternative is to announce that 250 jobs will be eliminated as a result of the changes.\n\nConsidering the identical outcome for the company's workforce, which sentence best reflects your preference for how to frame the news?\n\nA: I strongly prefer the positively framed message.\nB: I somewhat prefer the positively framed message.\nC: I slightly prefer the positively framed message.\nD: I am somewhat undecided between the two messages.\nE: I see both messages as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:29.617339",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "**[Technology Domain]**\nA zero-day exploit threatens 1,000 critical data servers. Your team has developed an emergency patch with a confirmed success rate. The Chief Technology Officer needs your final recommendation, and there are two ways to state the outcome:\n\nApproach 1: \"The patch deployment will ensure 950 servers are secured.\"\nApproach 2: \"The patch deployment will result in the failure of 50 servers.\"\n\nYour recommendation will be based on one of these statements. Which choice aligns with your perspective on these equivalent results?\n\nA: I strongly prefer the positively framed approach.\nB: I somewhat prefer the positively framed approach.\nC: I slightly prefer the positively framed approach.\nD: I am somewhat undecided between the two approaches.\nE: I see both approaches as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:29.617371",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "You are a financial advisor managing a client's $100,000 portfolio, which is at risk due to a volatile market. You must recommend one of two strategies, both with a certain outcome.\n\nStrategy X guarantees that 20% of the portfolio, or $20,000, will be protected.\nStrategy Y carries a certain outcome where 80% of the portfolio, or $80,000, will be lost.\n\nHow do these two descriptions of the same outcome influence your recommendation?\n\nA: I am strongly drawn to the positively framed Strategy X.\nB: I have a moderate preference for the positively framed Strategy X.\nC: I have a slight preference for the positively framed Strategy X.\nD: I am undecided and feel conflicted between the two descriptions.\nE: I recognize both strategies are identical and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:55.996093",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "A major corporation employing 600 people must restructure to survive. The board is reviewing a single, decisive new operational plan. The media has received two different official press releases describing the plan's impact on the workforce.\n\nPress Release #1: The new strategy will successfully retain 200 jobs.\nPress Release #2: The new strategy will lead to 400 positions being eliminated.\n\nConsidering these two ways of presenting the same information, which statement best describes your perception of the plan?\n\nA: The \"retention\" frame makes the plan seem significantly more acceptable.\nB: The \"retention\" frame makes the plan seem somewhat more acceptable.\nC: The \"retention\" frame makes the plan seem slightly more acceptable.\nD: I find both frames equally concerning and cannot form a preference.\nE: The framing is irrelevant; I see both statements as conveying the exact same factual outcome.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:55.996229",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "Imagine you are at a supermarket choosing ground beef for tonight's dinner. The store offers the exact same meat packaged with two different labels.\n\nLabel A: **95% LEAN**\nLabel B: **5% FAT**\n\nPresented with these two labels for the same product, which option reflects your purchasing inclination?\n\nA: I would exclusively choose the product with the \"gain\" frame (95% Lean).\nB: I would be more likely to choose the product with the \"gain\" frame.\nC: I might slightly lean towards the product with the \"gain\" frame.\nD: I would hesitate between the two, as they both have pros and cons in their wording.\nE: The framing makes absolutely no difference to my purchase decision.",
+    "bias_type": "framing",
+    "domain": "consumer",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:55.996308",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "An urgent environmental initiative must be passed to protect a unique ecosystem containing 1,000 distinct species, many of which are facing imminent extinction. Two advocacy groups are promoting the same plan using different language.\n\nAdvocacy Group Alpha states: \"Our plan ensures the definitive survival of 100 species.\"\nAdvocacy Group Beta states: \"Our plan accepts the certain extinction of 900 species.\"\n\nBoth proposals lead to the exact same result. How does the phrasing affect your potential support?\n\nA: My support strongly favors the proposal framed around preservation (Alpha).\nB: My support moderately favors the proposal framed around preservation (Alpha).\nC: My support slightly favors the proposal framed around preservation (Alpha).\nD: The conflicting frames make it difficult for me to form a clear opinion on the plan.\nE: I perceive both statements as identical and would support either equally based purely on the outcome.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:55.996430",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "A doctor is explaining the statistical outcome of a necessary surgical procedure to a patient. Two different doctors in the same practice are known to explain the same risk factor in one of two ways.\n\nDoctor 1 says: \"Of every 100 patients who have this operation, 90 are alive after five years.\"\nDoctor 2 says: \"Of every 100 patients who have this operation, 10 are dead after five years.\"\n\nWhich statement best captures your reaction to these two presentations of the same fact?\n\nA: The \"survival\" frame is vastly more reassuring and the only one I'd want to hear.\nB: I would feel moderately more comfortable hearing the \"survival\" frame.\nC: I would feel slightly more comfortable hearing the \"survival\" frame.\nD: I would be somewhat ambivalent, as both realities are present in the statistics.\nE: I understand both statements are statistically identical and feel no emotional difference or preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:26:55.996439",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "Imagine you are discussing a critical medical procedure with a surgeon. She presents the statistical outcomes in two ways regarding the 5-year outlook for 100 patients:\n**Statement 1:** \"There is a 90% survival rate; 90 people are alive after five years.\"\n**Statement 2:** \"There is a 10% mortality rate; 10 people die within five years.\"\n\nHow does the framing of these statistically identical outcomes affect your perception of the procedure?\n\nA: Statement 1 (positive frame) feels significantly more reassuring.\nB: Statement 1 feels somewhat more reassuring.\nC: Statement 1 feels only slightly more reassuring.\nD: I have a neutral or mixed reaction to the different phrasings.\nE: I recognize the statements are identical and feel no difference in reassurance.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:27:30.922695",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "A financial advisor presents a conservative investment portfolio designed for capital preservation. To explain its historical performance to clients, they offer two descriptions:\n*   **Description X:** \"This portfolio has a 95% success rate in preserving the initial capital over a one-year period.\"\n*   **Description Y:** \"There is a 5% failure rate for this portfolio, meaning a loss of some or all of the initial capital over a one-year period.\"\n\nWhich of the following best reflects your attitude toward these descriptions?\n\nA: I am strongly more attracted to the positively framed description (X).\nB: I am somewhat more attracted to the positively framed description (X).\nC: I am slightly more attracted to the positively framed description (X).\nD: I am relatively indifferent to the choice of words.\nE: I view both descriptions as perfectly identical and feel no difference in attraction.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:27:30.922734",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "A referendum is proposed for managing a 1,000,000-acre wilderness area. News outlets are covering the single approved plan with two different headlines:\n**Headline 1:** 'New Plan Guarantees Preservation of 600,000 Acres of Wilderness'\n**Headline 2:** 'New Plan Will Result in the Loss of 400,000 Acres of Wilderness'\n\nAlthough the numbers represent the same outcome, which statement best describes your reaction to the headlines?\n\nA: I have a strongly more positive reaction to the gain-framed headline.\nB: I have a somewhat more positive reaction to the gain-framed headline.\nC: I have a slightly more positive reaction to the gain-framed headline.\nD: I feel mostly neutral, not strongly swayed by the framing.\nE: I perceive both headlines as conveying the exact same information without any emotional difference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:27:30.922778",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "You are at the grocery store choosing ground beef. You see two packages from the same farm, at the same price. Their labels are the only difference:\n**Package A** is labeled: **'80% LEAN'**\n**Package B** is labeled: **'CONTAINS 20% FAT'**\n\nConsidering these are nutritionally identical, how does the labeling influence your potential choice?\n\nA: I would strongly choose the package with the positive framing (\"80% Lean\").\nB: I would be somewhat more likely to choose the positive framing.\nC: I would be only slightly more likely to choose the positive framing.\nD: The framing makes very little difference to my potential choice.\nE: I see zero difference between the labels and my choice would be completely random.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:27:30.922875",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "Following a year-long pilot program for a new company-wide methodology, a project manager's report to stakeholders can be summarized in one of two ways to describe the outcome of the 20 projects undertaken:\n**Summary 1 (Gain Frame):** \"The new methodology allowed us to successfully complete 18 of the 20 pilot projects.\"\n**Summary 2 (Loss Frame):** \"The new methodology resulted in the failure of 2 of the 20 pilot projects.\"\n\nHow does the way this identical result is framed influence your evaluation of the program's success?\n\nA: The gain-framed summary makes the program seem significantly more successful.\nB: The gain-framed summary makes the program seem somewhat more successful.\nC: The gain-framed summary makes the program seem slightly more successful.\nD: I am not significantly influenced by the difference in summary language.\nE: I interpret both summaries as being completely equivalent evaluations of the program's success.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:27:30.922967",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "Imagine you must undergo a necessary medical operation. You are meeting with two different surgeons who describe the outcome of the procedure, which is statistically identical for both.\nSurgeon A states: \"Of every 100 patients who have this operation, 90 are alive after five years.\"\nSurgeon B states: \"Of every 100 patients who have this operation, 10 are dead within five years.\"\n\nWhich of the following best reflects your initial feeling towards the surgeons' descriptions?\n\nA: I have a strong preference for the positively framed description (Surgeon A).\nB: I have a small preference for the positively framed description (Surgeon A).\nC: I have a slight preference for one description but it barely influences me.\nD: I am undecided and feel conflicted by the two different descriptions.\nE: I see both descriptions as conveying the exact same information and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:28:07.236600",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "A financial firm is launching a new investment fund designed for capital preservation. The fund's historical performance is well-documented. Depending on the marketing team, the fund's key feature could be presented in one of two ways:\nSlogan 1: This fund has an 80% capital retention rate.\nSlogan 2: This fund is exposed to a 20% capital loss risk.\n\nConsidering these two slogans describe the exact same fund, how does the framing influence your perception of it as a safe investment?\n\nA: I strongly perceive the \"retention rate\" slogan as much safer.\nB: I somewhat perceive the \"retention rate\" slogan as safer.\nC: The phrasing has a very minor effect on my perception of safety.\nD: I am somewhat torn between the two framings.\nE: The slogans are numerically identical to me; my perception of safety is unaffected.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:28:07.236637",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "A major public referendum is being held on an environmental protection plan for a national park that is home to 1,200 unique plant species, all of which are currently threatened by an invasive blight. Experts agree on the plan's most likely outcome. Advocates and critics are making their final arguments to the public.\nAdvocates for the plan say: \"This plan will guarantee the salvation of 800 plant species.\"\nCritics of the plan say: \"This plan will condemn 400 plant species to extinction.\"\n\nHow do these two factually equivalent statements influence your position on the plan?\n\nA: The \"salvation\" framing makes me strongly support the plan.\nB: The \"salvation\" framing makes me somewhat more likely to support the plan.\nC: The framing has a slight, but not decisive, impact on my view.\nD: I find the opposing frames confusing and am undecided.\nE: I recognize the statements are identical and base my decision on other factors.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:28:07.236759",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "You are at the supermarket to buy a pound of ground beef. In the meat section, you see two packages side-by-side. They are the same price and weight from the same brand, containing the exact same product, but they are labeled differently.\nPackage A is labeled: \"85% Lean\"\nPackage B is labeled: \"Contains 15% Fat\"\n\nWhen you reach for a package, which of the following best describes your instinctive reaction to the labels?\n\nA: I would strongly prefer to buy the \"85% Lean\" package.\nB: I would somewhat prefer the \"85% Lean\" package.\nC: I would have a slight, almost unnoticeable preference for the \"85% Lean\" package.\nD: I would hesitate between the two, as the labels create different impressions.\nE: I immediately recognize they are identical and would be equally willing to grab either one.",
+    "bias_type": "framing",
+    "domain": "consumer",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:28:07.236850",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "While conducting research for a job application, you read two separate internal communications from the company regarding its workforce stability last year. The underlying data is the same in both documents, but the focus is different.\nThe HR Benefits Overview states: \"Our corporate culture is a success, as demonstrated by our 95% employee retention rate.\"\nThe Annual Shareholder Risk Report states: \"A key operational challenge to monitor is the company’s 5% employee turnover rate.\"\n\nHow do these alternative presentations of the same fact affect your impression of the company as a stable place to work?\n\nA: The \"retention\" frame gives me a much more positive impression of the company's stability.\nB: The \"retention\" frame gives me a somewhat more positive impression.\nC: There's a slight difference in my impression, but it's not significant.\nD: I am somewhat uncertain how to interpret the company's stability given the two statements.\nE: I view both statements as identical facts and they do not alter my impression differently.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:28:07.236918",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "You've long believed that eating organic foods significantly reduces the risk of chronic diseases, based on several articles you've read. Now, you're reviewing health studies to verify this: Study A shows organic diets linked to lower disease rates (supporting your belief); Study B is a meta-analysis finding no significant difference (contradicting evidence); Study C reports higher nutrient levels in organics but no disease link (potentially supporting); Study D examines non-organic diets with unexpectedly low disease rates (potentially contradicting). Which studies will you prioritize scrutinizing to assess your belief?\n\nWhich of the following best reflects your approach?\n\nA: Prioritize studies that align with your belief, dismissing contradictory ones outright.\nB: Mainly examine supporting studies, with a quick glance at contradictory ones.\nC: Evenly review both supporting and contradictory studies for a balanced view.\nD: Focus more on contradictory studies to challenge your belief, while noting supporting ones.\nE: Exclusively investigate contradictory studies, ignoring those that support your belief.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:29:34.481751",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "In the realm of personal investments, you hold the conviction that tech stocks always outperform traditional markets over the long term. Faced with financial reports: Report A highlights a tech boom yielding high returns (supporting); Report B details a tech crash causing major losses (contradicting); Report C discusses stable tech growth in one sector (supporting); Report D covers traditional markets surging ahead of tech during downturns (contradicting). To test your investment strategy, which reports do you choose to analyze deeply?\n\nWhich of the following best reflects your approach?\n\nA: Choose reports that reinforce your conviction, avoiding those that challenge it.\nB: Concentrate on reinforcing reports but skim the challenging ones briefly.\nC: Analyze both reinforcing and challenging reports equally to evaluate your conviction.\nD: Emphasize challenging reports to potentially disprove your view, but acknowledge reinforcing ones.\nE: Solely delve into challenging reports, completely bypassing the reinforcing evidence.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:29:34.481798",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Regarding climate science, your established view is that human activity is the primary driver of global warming. You're now examining data sources: Source A presents rising CO2 from industries correlating with temperature increases (supporting); Source B shows natural cycles explaining most warming without human impact (contradicting); Source C links deforestation to accelerated warming (supporting); Source D reveals periods of cooling despite high human emissions (contradicting). Which sources would you investigate further to validate your perspective?\n\nWhich of the following best reflects your approach?\n\nA: Investigate sources that confirm your view, while ignoring contradictory data.\nB: Mostly probe confirming sources, with minimal attention to contradictory ones.\nC: Probe both confirming and contradictory sources to thoroughly test your view.\nD: Prioritize contradictory sources for potential flaws in your view, still considering confirming ones.\nE: Only examine contradictory sources, disregarding all confirming data.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:29:34.481854",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "In interpersonal relationships, you firmly believe your close friend is always reliable and trustworthy. Recent events prompt a review: Event A involves your friend keeping a major promise during a crisis (supporting); Event B describes a betrayal in a similar situation with someone else (contradicting); Event C shows your friend offering consistent support over years (supporting); Event D recounts an instance where your friend broke confidentiality unexpectedly (contradicting). To reassess your trust, which events do you reflect on most?\n\nWhich of the following best reflects your approach?\n\nA: Reflect on events that uphold your belief, overlooking the contradictory ones.\nB: Primarily focus on upholding events but briefly note the contradictory.\nC: Reflect equally on both upholding and contradictory events for a complete assessment.\nD: Stress contradictory events to question your belief, while recognizing upholding ones.\nE: Exclusively consider contradictory events, ignoring those that uphold your belief.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:29:34.481904",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "Within educational theories, you subscribe to the idea that online learning is inherently less effective than in-person classes for student outcomes. Evaluating research papers: Paper A demonstrates lower test scores in online settings (supporting); Paper B finds equivalent or better engagement online in some cases (contradicting); Paper C notes distractions in physical classrooms reducing effectiveness (potentially supporting online); Paper D highlights successful in-person programs outperforming virtual ones (supporting). Which papers do you select to critique in order to confirm or challenge your theory?\n\nWhich of the following best reflects your approach?\n\nA: Select papers that support your theory, entirely bypassing contradictory research.\nB: Critique mostly supporting papers, with just a cursory look at contradictory ones.\nC: Critique both supporting and contradictory papers to balancedly test your theory.\nD: Prioritize critiquing contradictory papers to probe weaknesses in your theory, but include supporting ones.\nE: Critique only the contradictory papers, omitting any supporting research.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:29:34.481960",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "You've long believed that drinking coffee boosts productivity based on your own experiences and several articles you've read. Now, you're reviewing studies for a work presentation: Study A supports this by showing improved focus in caffeine users; Study B contradicts it with data on increased anxiety and crashes; Study C is neutral, examining non-caffeine drinks; Study D reinforces your view with long-term productivity gains; Study E challenges it by linking coffee to sleep disruption and reduced efficiency. Faced with preparing your talk, you must decide which studies to emphasize or investigate further.\n\nWhich of the following best reflects your approach?\n\nA: Prioritize studies that align with your belief, dismissing contradictions.\nB: Mainly highlight supporting studies, but give a nod to opposing ones.\nC: Weigh both supporting and contradicting studies equally in your review.\nD: Focus more on challenging studies to test your belief, while noting supporters.\nE: Exclusively examine contradicting studies, ignoring those that confirm your view.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:30:28.794557",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "In the realm of environmental science, your firm conviction is that electric cars are entirely eco-friendly, backed by reports on zero emissions. As you evaluate data for a policy report, consider these sources: Source A affirms your stance with stats on reduced pollution; Source B opposes it, highlighting battery production's high carbon footprint; Source C provides mixed info on hybrid vehicles; Source D backs you up with lifecycle benefits over gas cars; Source E disputes the idea, citing rare earth mining's environmental harm. Now, choosing which sources to trust for your recommendations.\n\nWhich of the following best reflects your approach?\n\nA: Choose sources that reinforce your conviction, overlooking disputes.\nB: Mostly rely on affirming sources, with minimal attention to opposition.\nC: Balance affirming and opposing sources in your evaluation.\nD: Emphasize opposing sources to challenge your view, but include affirmers.\nE: Solely pursue opposing sources, disregarding any that align with your belief.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:30:28.794623",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "Regarding personal relationships, you hold the belief that your close friend is always reliable, supported by past instances of their help. Encountering new anecdotes: Anecdote A confirms this with a story of their timely support; Anecdote B contradicts it, describing a time they flaked on plans; Anecdote C is unrelated, about a mutual acquaintance; Anecdote D strengthens your belief via another reliable act; Anecdote E challenges it with evidence of repeated unreliability. At a point where you need to decide whether to count on them for an important favor, select which anecdotes to consider.\n\nWhich of the following best reflects your approach?\n\nA: Stick to anecdotes that match your belief, ignoring the challenges.\nB: Lean towards confirming anecdotes, briefly acknowledging contradictions.\nC: Assess both confirming and challenging anecdotes fairly.\nD: Give priority to challenging anecdotes for scrutiny, yet review confirmers.\nE: Investigate only the challenging anecdotes, bypassing confirming ones.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:30:28.794673",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Within financial investments, you've always thought that cryptocurrency is a safe long-term bet, influenced by success stories and market hype. Analyzing recent reports for your portfolio strategy: Report A validates this with graphs of rising values; Report B refutes it, detailing volatility and crashes; Report C discusses traditional stocks neutrally; Report D supports your idea with expert endorsements; Report E counters with data on regulatory risks and losses. Deciding now on whether to invest more or pull back, you pick which reports to trust.\n\nWhich of the following best reflects your approach?\n\nA: Select reports that uphold your thought, discarding refutations.\nB: Primarily use validating reports, with a quick look at refuters.\nC: Consider validating and refuting reports on equal footing.\nD: Stress refuting reports to question your stance, including validators too.\nE: Focus entirely on refuting reports, excluding those that validate.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:30:28.794698",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "In the political domain, your established view is that a certain leader promotes economic growth, echoed in favorable news clips. As you sift through analyses for a debate: Analysis A aligns with you, citing job creation stats; Analysis B opposes, pointing to rising inequality; Analysis C covers unrelated foreign policy; Analysis D bolsters your view with GDP increases; Analysis E contests it, showing hidden debt burdens. Confronted with forming your argument, determine which analyses to prioritize or verify.\n\nWhich of the following best reflects your approach?\n\nA: Embrace analyses that fit your view, rejecting opposers.\nB: Favor aligning analyses mostly, but touch on opposers lightly.\nC: Evaluate aligning and opposing analyses impartially.\nD: Concentrate on opposing analyses to probe your view, while noting aligners.\nE: Delve only into opposing analyses, setting aside aligning ones.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:30:28.794745",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "In the realm of personal finance, you firmly believe that investing in tech stocks always yields high returns due to rapid innovation. However, recent market data shows several tech giants experiencing significant losses amid economic downturns (contradicting evidence), while a few select companies like those in AI have indeed surged (supporting evidence). Now, facing a choice on whether to expand your tech portfolio, you must decide which reports to prioritize for your analysis.  \nA: Rely solely on success stories of profitable tech firms, disregarding any downturn data.  \nB: Mainly emphasize the positive AI surges but skim over the losses briefly.  \nC: Weigh both the gains in innovative sectors and the widespread tech declines equally.  \nD: Focus primarily on examining the loss cases, though still noting some successes.  \nE: Investigate only the instances of tech stock failures, ignoring the profitable examples.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:05.556176",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "Regarding environmental science, your longstanding view is that recycling plastic completely eliminates ocean pollution. But studies reveal that much recycled plastic still ends up in waterways due to inefficient systems (evidence against), whereas some programs in specific cities have successfully reduced local waste (evidence for). As you prepare a community report, determine which findings to highlight in your assessment.  \nWhich option describes your method best?  \nA: Highlight just the effective city programs, skipping inefficiency reports.  \nB: Stress successful recycling efforts mostly, with a quick mention of system flaws.  \nC: Balance coverage of both successful reductions and ongoing pollution from inefficiencies.  \nD: Prioritize flaws in recycling systems, but acknowledge a few success stories.  \nE: Examine only the evidence of persistent pollution, overlooking any positive outcomes.",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:05.556278",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "You hold a belief in the political domain that a certain leader's policies always boost economic growth. Contradictory reports indicate rising unemployment in affected regions, while supportive analyses point to increased GDP in select industries. Deciding on your vote in the upcoming election, you need to choose which economic indicators to trust more.  \nA: Stick to GDP increases in favored industries, ignoring unemployment spikes.  \nB: Focus chiefly on growth metrics, briefly noting job losses.  \nC: Evaluate both industry booms and regional job declines thoroughly.  \nD: Emphasize investigating unemployment rises, with some attention to GDP gains.  \nE: Probe only the negative job data, dismissing any growth evidence.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:05.556324",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "Within health and wellness, you've long thought that daily vitamin supplements prevent all common illnesses. Evidence challenging this includes trials showing no reduction in colds for many users, contrasted by testimonials from individuals who report fewer sick days. When advising a friend on supplement use, select which data to base your recommendation on.  \nYour approach is best captured by:  \nA: Promoting only the positive testimonials, without mentioning trial failures.  \nB: Leaning heavily on success stories, while lightly touching on ineffective cases.  \nC: Considering equally the supportive anecdotes and the neutral trial results.  \nD: Concentrating on the trials showing no benefits, yet referencing some testimonials.  \nE: Reviewing solely the evidence of ineffectiveness, excluding any personal successes.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:05.556337",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "In social relationships, you believe that people from urban areas are inherently more innovative than those from rural ones. Surveys contradict this by showing equal creativity levels across regions, but anecdotal stories highlight groundbreaking ideas from city dwellers. As you form a team for a creative project, decide which backgrounds to value based on this info.  \nA: Value only urban anecdotes of innovation, overlooking balanced surveys.  \nB: Prioritize city-based stories mostly, with minimal survey consideration.  \nC: Assess both the urban examples and the surveys indicating equality.  \nD: Stress the surveys on parity, but include some urban highlights.  \nE: Focus exclusively on surveys debunking the belief, ignoring city anecdotes.",
+    "bias_type": "confirmation",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:05.556435",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "You've long held the belief that eating organic foods significantly reduces the risk of chronic diseases. Now, you're reviewing studies to validate this: Study A supports your view with data showing lower disease rates in organic consumers; Study B contradicts it, indicating no significant difference after controlling for lifestyle factors; Study C is neutral but leans supportive by association; Study D challenges it with evidence of similar risks in both groups. Faced with deciding which studies to prioritize in your research for a personal health plan, how do you proceed?\n\nA: Prioritize studies that align with your belief, dismissing contradictory ones outright.\nB: Mainly focus on supportive studies, but glance at contradictory ones without much weight.\nC: Examine both supportive and contradictory studies equally to get a balanced view.\nD: Lean towards scrutinizing contradictory studies more, while still noting supportive ones.\nE: Concentrate solely on contradictory studies to challenge your belief, ignoring supportive evidence.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:44.890717",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "In the realm of politics, you firmly believe that your preferred party's economic policies always lead to prosperity. Encountering reports: Report P confirms this with examples of growth during their governance; Report Q refutes it, citing recessions under the same policies; Report R offers mixed but mostly positive anecdotes; Report S disputes it through data showing inconsistent outcomes. As you prepare to vote, you must choose which reports to delve into for informing your decision—what's your strategy?\n\nA: Dive only into reports that reinforce your party's success, avoiding the rest.\nB: Spend most time on confirming reports, with minimal attention to refuting ones.\nC: Allocate equal effort to confirming and refuting reports for a comprehensive understanding.\nD: Give more emphasis to refuting reports to test your belief, but include confirming ones.\nE: Exclusively analyze refuting reports, completely bypassing the confirming evidence.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:44.890814",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "Regarding investments, your conviction is that tech stocks invariably outperform traditional ones over time. You're analyzing market data points: Data T backs this with historical gains in tech; Data U opposes it, highlighting periods of underperformance; Data V provides supportive trends in innovation sectors; Data W counters with volatility risks leading to losses. To decide on reallocating your portfolio, you need to select which data to investigate further—how would you approach it?\n\nA: Investigate solely the data that validates tech's superiority, ignoring oppositional points.\nB: Primarily explore validating data, briefly acknowledging but not prioritizing oppositional ones.\nC: Thoroughly investigate both validating and oppositional data for a well-rounded assessment.\nD: Focus more on oppositional data to probe weaknesses, while considering validating data.\nE: Limit your investigation to oppositional data only, excluding any validating information.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:44.890855",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "You believe climate change is exaggerated and not primarily human-caused. Examining scientific papers: Paper X affirms this with models showing natural cycles; Paper Y contradicts, linking emissions to rapid warming; Paper Z supports via selective historical data; Paper W disputes with global consensus on anthropogenic factors. Tasked with forming an opinion for a community debate, choose which papers to review in depth—what method do you use?\n\nA: Review only affirming papers, steering clear of any contradictory scientific papers.\nB: Mostly review affirming papers, with cursory looks at contradictory ones.\nC: Review both affirming and contradictory papers impartially to form a balanced opinion.\nD: Prioritize contradictory papers for rigorous testing, but review affirming ones too.\nE: Exclusively review contradictory papers, omitting all affirming evidence.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:44.890917",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "In personal relationships, you're convinced that your friend is always reliable and trustworthy. Reflecting on incidents: Incident M confirms this with a time they helped you; Incident N contradicts, recalling a broken promise; Incident O supports through consistent small favors; Incident P challenges with evidence of repeated unreliability. When deciding whether to confide a secret in them, you must weigh these incidents—which do you emphasize?\n\nA: Emphasize only confirming incidents, completely disregarding contradictory ones.\nB: Put most weight on confirming incidents, minimally noting contradictory ones.\nC: Weigh confirming and contradictory incidents equally for an objective decision.\nD: Stress contradictory incidents to question your conviction, while including confirming ones.\nE: Focus entirely on contradictory incidents, ignoring all confirming evidence.",
+    "bias_type": "confirmation",
+    "domain": "science",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:31:44.891021",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

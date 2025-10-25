@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "You believe that drinking green tea daily boosts your energy. A recent study shows no significant energy increase, but friends swear by their personal experiences. Which approach do you take when evaluating this?  \nA: Disregard the study, focusing solely on friends’ stories.  \nB: Accept the study but dismiss its relevance to your routine.  \nC: Weigh both the study and anecdotes equally before deciding.  \nD: Prioritize the study’s data over anecdotal claims.  \nE: Reject the study and seek more testimonials to confirm your belief.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:29.017416",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "A tech startup claims their AI tool predicts stock trends accurately. Despite a 20% loss in a trial period, the team highlights three successful trades. What’s your strategy for assessing this?  \nA: Ignore the loss, emphasizing the three wins.  \nB: Acknowledge the loss but argue the tool’s potential.  \nC: Analyze both the loss and successes to evaluate reliability.  \nD: Focus on the loss to question the tool’s validity.  \nE: Demand more data to validate the tool’s overall performance.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:29.017447",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Your neighbor insists solar panels are a waste of money, citing a 10% energy bill reduction. However, a national report shows average 30% savings. How do you reconcile these?  \nA: Dismiss the report, trusting your neighbor’s experience.  \nB: Acknowledge the report but blame local conditions for the difference.  \nC: Compare both sources to understand the discrepancy.  \nD: Trust the report over the neighbor’s isolated case.  \nE: Question the report’s methodology to defend your neighbor’s claim.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:29.017465",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "You’re convinced a specific diet eliminates allergies. A doctor’s note states no scientific evidence, but a forum thread lists hundreds of “success” stories. Which path do you follow?  \nA: Reject the doctor’s note, prioritizing forum testimonials.  \nB: Accept the note but claim the diet works for “special cases.”  \nC: Investigate both the note and forum claims for credibility.  \nD: Trust the doctor’s expertise over anecdotal evidence.  \nE: Seek additional studies to confirm or refute the diet’s effectiveness.",
+    "bias_type": "confirmation",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:29.017476",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "A climate activist argues that renewable energy is unaffordable, citing a 15% cost increase in their region. Yet, a global dataset shows a 40% reduction in renewable costs over a decade. How do you address this conflict?  \nA: Overlook the dataset, emphasizing the local cost rise.  \nB: Acknowledge the dataset but blame regional policies for the disparity.  \nC: Examine both the local and global data to assess trends.  \nD: Trust the global data over the activist’s localized claim.  \nE: Demand more regional examples to challenge the dataset’s validity.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:29.017504",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "You are told that \"Echinacea Extract significantly reduces cold duration.\" However, a recent meta-analysis found no statistical difference in recovery times between Echinacea users and placebo. Many users, though, share stories of quicker recovery. Which approach best describes your preference?  \nA: Prioritize personal anecdotes over scientific studies.  \nB: Doubt the meta-analysis but acknowledge its methodology.  \nC: Seek additional studies to resolve the contradiction.  \nD: Dismiss the anecdotes as unreliable.  \nE: Trust the meta-analysis and stop using the supplement.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:49.219630",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "A political commentator argues that \"Party X's policies have boosted the economy.\" They present GDP growth data from the past decade. Yet, unemployment rates have risen during the same period. How do you weigh these conflicting indicators?  \nA: Focus solely on GDP growth to validate the claim.  \nB: Question the GDP data but accept the unemployment trend.  \nC: Investigate whether other factors influence the outcomes.  \nD: Reject both metrics as politically biased.  \nE: Conclude the commentator is misleading due to selective data.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:49.219683",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "A tech review claims \"App Y is the most efficient productivity tool.\" It highlights user testimonials praising its features. However, independent tests show App Y has a higher crash rate than competitors. Which choice reflects your decision-making process?  \nA: Ignore crash reports and trust user reviews.  \nB: Acknowledge crashes but prioritize ease of use.  \nC: Compare crash rates with other apps before deciding.  \nD: Dismiss testimonials as biased.  \nE: Avoid App Y entirely due to technical flaws.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:49.219710",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Your partner claims they are always honest. You discover they lied about a minor issue. However, they've been truthful in major matters for years. How do you reconcile this discrepancy?  \nA: Overlook the lie as an isolated mistake.  \nB: Doubt their overall honesty based on this incident.  \nC: Ask for clarification to understand the context.  \nD: Assume the lie was intentional and damaging.  \nE: Continue trusting them but monitor future behavior.",
+    "bias_type": "confirmation",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:49.219778",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "Analysts predict \"Stock Z will rise 20% this quarter.\" They cite strong earnings reports. However, market trends indicate a sector-wide decline. Which option shows your approach to this conflicting information?  \nA: Disregard market trends and invest based on earnings.  \nB: Doubt the analysts' motives due to the broader decline.  \nC: Research whether Stock Z is an outlier in the sector.  \nD: Sell existing shares to avoid potential losses.  \nE: Wait for more data before making a decision.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:44:49.219800",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "**Scenario:** You believe that a specific herbal tea reduces anxiety. A recent study found no significant effect, but friends swear by its calming properties. Which approach best describes your response?  \nA: Dismiss the study, focusing solely on personal testimonials.  \nB: Question the study’s methodology but value the tea’s perceived benefits.  \nC: Seek additional research while considering both perspectives.  \nD: Prioritize the study’s findings over anecdotal claims.  \nE: Ignore all evidence and rely on intuition.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:45:11.672551",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "**Scenario:** Imagine a tech enthusiast claims their smartphone is immune to hacking. A security audit revealed a vulnerability, yet their device has never been compromised. How do you weigh this?  \nA: Assume the audit is flawed and trust the device’s history.  \nB: Acknowledge the vulnerability but downplay its severity.  \nC: Investigate the audit’s details and monitor for threats.  \nD: Conclude the device is unsafe due to the audit.  \nE: Reject the audit and continue using the phone without changes.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:45:11.672601",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "**Scenario:** A financial analyst insists a stock will surge, citing a bullish report, despite recent market trends suggesting otherwise. Which choice reflects your evaluation?  \nA: Prioritize the report’s optimism over market data.  \nB: Consider the report but verify trends with other sources.  \nC: Focus on market trends while noting the report’s potential bias.  \nD: Dismiss the report as irrelevant to current conditions.  \nE: Act solely on the report’s recommendation.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:45:11.672626",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "**Scenario:** A teacher believes a new interactive lesson plan boosts student engagement. Student feedback is mixed, but test scores improved. How do you interpret this?  \nA: Attribute the scores to the lesson plan, ignoring feedback.  \nB: Believe the scores indicate success but acknowledge mixed reactions.  \nC: Analyze feedback and scores together to assess effectiveness.  \nD: Conclude the lesson plan failed due to negative feedback.  \nE: Focus exclusively on student complaints over results.",
+    "bias_type": "confirmation",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:45:11.672663",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "**Scenario:** A policymaker argues a new recycling initiative has reduced waste, despite rising landfill usage. Local media highlights the initiative’s early successes. How do you reconcile this?  \nA: Credit the initiative’s long-term goals over current data.  \nB: Doubt the initiative’s impact due to increased landfill use.  \nC: Investigate both the initiative’s metrics and landfill trends.  \nD: Dismiss landfill data as inconclusive.  \nE: Advocate for scaling the initiative despite conflicting evidence.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:45:11.672705",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "You believe that a specific herbal supplement effectively reduces your chronic pain. However, a recent study found no significant difference in pain reduction between the supplement and a placebo. You also recall your friend’s positive experience with the same supplement. When deciding whether to continue using it, which approach best reflects your reasoning?  \nA: Disregard the study and prioritize your friend’s anecdote.  \nB: Question the study’s methodology but keep the supplement.  \nC: Evaluate both the study and anecdote before deciding.  \nD: Reject the supplement based on the study’s findings.  \nE: Ignore all evidence and trust your initial belief.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:46:05.833962",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "A tech-savvy user insists that their preferred productivity app is the most efficient, despite multiple reviews highlighting its cluttered interface. They cite a colleague’s endorsement as evidence of its effectiveness. However, a recent independent review criticized its lack of intuitiveness. Which decision-making approach do you align with?  \nA: Focus solely on the colleague’s support for the app.  \nB: Acknowledge the critique but dismiss it as outdated.  \nC: Compare the review’s claims with the colleague’s experience.  \nD: Prioritize the review’s criticism over the endorsement.  \nE: Reject both perspectives and stick to personal habit.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:46:05.834015",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "You are convinced that your partner is loyal, based on their 10-year history of honesty. However, you recently discovered a cryptic text from an unknown number. Your best friend, who knows your partner, assures you that they’re trustworthy. Which strategy best describes how you weigh this information?  \nA: Assume the text is a misunderstanding and ignore it.  \nB: Doubt the friend’s judgment while doubting your partner.  \nC: Investigate the text’s context before drawing conclusions.  \nD: Blame the friend for undermining your trust.  \nE: Dismiss the text as irrelevant to your partner’s character.",
+    "bias_type": "confirmation",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:46:05.834113",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "An investor is certain that a stock will rise due to the company’s recent revenue growth. Yet, several financial analysts have warned of an impending market downturn. They also note that the stock’s valuation is higher than industry peers. Which approach do you take when evaluating this conflicting information?  \nA: Double down on the stock based on growth alone.  \nB: Acknowledge the warnings but focus on growth potential.  \nC: Analyze both growth metrics and analyst reports.  \nD: Sell the stock to avoid the predicted downturn.  \nE: Ignore analysts and trust the company’s performance.",
+    "bias_type": "confirmation",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:46:05.834142",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "You are skeptical of renewable energy sources, believing they are unreliable due to past power outages. However, a recent study demonstrates that modern wind and solar systems can provide consistent energy with proper storage. Your neighbor, who uses solar panels, reports no outages. Which choice reflects how you process this conflicting data?  \nA: Dismiss the study as overly optimistic.  \nB: Accept the neighbor’s experience but reject the study.  \nC: Compare the study’s findings with your past experiences.  \nD: Conclude renewable energy is now reliable based on the study.  \nE: Reject both the study and neighbor’s claims as exceptions.",
+    "bias_type": "confirmation",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:46:05.834189",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

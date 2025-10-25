@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "Dr. Martinez, a renowned cardiologist with 25 years of experience and over 100 peer-reviewed publications, asserts that a daily dose of a specific herbal supplement can reverse heart disease without medical intervention. She cites anecdotal success stories from patients who abandoned traditional treatments, claiming conventional medicine is overly reliant on pharmaceuticals. Her clinic has attracted thousands seeking alternative therapies, though her methods remain unverified by major medical boards.  \n\nWhich of the following best reflects your response to Dr. Martinez’s recommendation?  \nA: I would immediately try the supplement.  \nB: I’d consider it after consulting my primary physician.  \nC: I’m skeptical but open to further research.  \nD: I distrust unproven remedies, regardless of credentials.  \nE: I reject the claim as pseudoscience.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:25:56.473854",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "Judge Thompson, a federal appellate judge with a 30-year career and a reputation for strict constitutional interpretation, recently ruled that a controversial surveillance law violates the Fourth Amendment. She argued that the law’s broad data collection powers enable unchecked government overreach, despite bipartisan support. Her decision has sparked national debate, with critics calling her interpretation overly literal and supporters praising her commitment to individual rights.  \n\nHow would you evaluate Judge Thompson’s ruling?  \nA: I fully endorse her constitutional analysis.  \nB: I respect her expertise but question the ruling’s practicality.  \nC: I’m undecided without more legal context.  \nD: I believe the law’s intent outweighs her interpretation.  \nE: I think her decision undermines national security.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:25:56.473930",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Elon Voss, a tech mogul and CEO of a leading AI company, claims his new neural interface device can enhance human cognition by 300% within months. He presents lab results from a small trial, emphasizing its potential to revolutionize education and productivity. However, independent experts note the study lacked a control group and has not been peer-reviewed. Voss’s company has already secured $500 million in pre-orders.  \n\nWhat is your stance on adopting Voss’s technology?  \nA: I’ll pre-order immediately.  \nB: I need more rigorous evidence before trusting it.  \nC: I’m intrigued but cautious.  \nD: I believe the hype is excessive.  \nE: I refuse to support unverified tech.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:25:56.474058",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Professor Nguyen, a leading educational psychologist with a Pulitzer Prize for her work on learning theories, advocates replacing standardized testing with project-based assessments. She argues that traditional exams fail to measure creativity and critical thinking, citing her own classroom experiments where student engagement doubled. Critics, however, point to her reliance on small, non-representative sample sizes and the logistical challenges of implementing her approach nationwide.  \n\nWhich option aligns with your view on Professor Nguyen’s proposal?  \nA: I support phasing out standardized tests.  \nB: I’d like to see larger-scale studies before adoption.  \nC: I’m neutral on the effectiveness of her methods.  \nD: I think standardized tests are still necessary.  \nE: I distrust her methods due to limited data.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:25:56.474118",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "Financial advisor Clara Wu, a CFA charterholder with 15 years of experience managing high-net-worth portfolios, recommends investing all savings in a single cryptocurrency startup. She claims the asset’s volatility is a temporary hurdle and that its long-term value will surpass traditional stocks. Her track record includes a 20% annual return over the past decade, but she has no public history of advising on speculative ventures.  \n\nWhat would you do in response to Clara Wu’s advice?  \nA: I’ll invest everything as suggested.  \nB: I’ll consult another advisor before deciding.  \nC: I’m hesitant but willing to invest a small portion.  \nD: I think the risk is too high for her recommendation.  \nE: I dismiss her advice as reckless.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:25:56.474151",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "Dr. Patel, a board-certified neurologist with 20 years of experience in treating chronic pain, asserts that opioid prescriptions are overrated and that patients should rely on acupuncture and meditation instead. She cites her clinical trials showing reduced dependency rates and increased patient satisfaction. However, her approach conflicts with standard medical guidelines. Should you consider her method as a viable alternative?  \n\nA: I fully trust Dr. Patel’s methods over conventional treatments.  \nB: I’d consult a second opinion before abandoning opioids.  \nC: I’m unsure; I need more data on long-term efficacy.  \nD: I believe conventional treatments are safer and more reliable.  \nE: I reject her methods as unproven and risky.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:26.927778",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "Jeffrey Cole, a software engineer with a Ph.D. in AI ethics and a founder of a tech startup, claims that facial recognition technology is inherently biased and should be banned immediately. He argues that even biased algorithms are too dangerous to deploy, despite their potential benefits in security. Is his recommendation justified?  \n\nA: Yes, eradicating the technology is the only ethical choice.  \nB: I support banning it until biases are fully addressed.  \nC: I’m neutral; the risks and benefits need balanced evaluation.  \nD: I disagree; the technology’s benefits outweigh its flaws.  \nE: I oppose the ban; it stifles innovation and progress.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:26.927815",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "Judge Morales, a retired Supreme Court justice known for her strict constitutional originalism, declares that current immigration policies violate the Fifth Amendment by failing to protect due process for undocumented immigrants. Her interpretation hinges on a rare reading of historical legal texts. How do you respond to her argument?  \n\nA: Her interpretation is groundbreaking and compelling.  \nB: I’m skeptical; the context of modern immigration differs.  \nC: I need to review the legal precedents she cites.  \nD: I believe her approach ignores contemporary societal needs.  \nE: I dismiss her claim as outdated and irrelevant.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:26.927846",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Dr. Lin, a financial economist with a Nobel Prize in Economic Sciences, recommends that investors allocate 80% of their portfolios to cryptocurrency, arguing that traditional assets are obsolete. Her analysis emphasizes blockchain’s potential to disrupt global finance, though critics warn of extreme volatility. Should you follow her advice?  \n\nA: I’ll invest heavily as per her guidance.  \nB: I’ll diversify but include a small crypto portion.  \nC: I’m uncertain; the market is too unpredictable.  \nD: I’m wary of her high-risk recommendation.  \nE: I reject her advice as reckless and unwise.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:26.927859",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "Professor Alvarez, an education theorist with a decade of research on learning psychology, insists that standardized testing harms student creativity and should be abolished. She points to her studies showing that non-traditional assessments correlate with long-term success. Do you agree with her stance?  \n\nA: I support abolishing tests to foster innovation.  \nB: I believe tests are necessary for accountability.  \nC: I’m undecided; more research is needed.  \nD: I think her studies lack methodological rigor.  \nE: I oppose her view; tests provide objective metrics.",
+    "bias_type": "authority",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:26.927889",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "Dr. Elena Martinez, a board-certified neurosurgeon with 20 years of experience in minimally invasive techniques, asserts that spinal fusion surgeries are overprescribed and often unnecessary. She cites her own clinical trials showing that 70% of patients recover equally well with physical therapy alone. Many patients rely on her expertise, yet her stance contradicts standard medical guidelines. Should her advice influence your decision regarding a recommended procedure?  \n\nA: I fully trust her expertise and will avoid surgery.  \nB: I’d consider her view but seek a second opinion.  \nC: I’m uncertain; I need more data from independent studies.  \nD: I prioritize established medical guidelines over her claims.  \nE: I dismiss her argument as anecdotal and unscientific.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:44.920158",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "In a courtroom, Justice Marcus Greene, a retired federal judge with a reputation for overturning precedents, argues that digital evidence should be admissible only if its source is publicly verifiable. His reasoning hinges on his decades-long focus on constitutional rights in the digital age. Legal experts are divided on whether his perspective aligns with current jurisprudence. How would you weigh his opinion in a case involving digital forensics?  \n\nA: His judicial experience makes his stance highly credible.  \nB: I’d value his insight but cross-reference with legal statutes.  \nC: His view feels outdated in the context of modern technology.  \nD: I prioritize legal precedents over individual judicial interpretations.  \nE: His argument lacks specificity and seems self-serving.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:44.920194",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "As the CEO of a leading AI firm, Raj Patel, who holds a PhD in machine learning from MIT, promotes a new algorithm claiming to eliminate bias in hiring. He highlights his company’s partnerships with Fortune 500 firms and a 95% satisfaction rate. Critics, however, question the algorithm’s transparency. Would you endorse this solution for your organization?  \n\nA: I embrace his innovation without hesitation.  \nB: I’d test it internally before full adoption.  \nC: I require third-party audits to verify claims.  \nD: I doubt the feasibility of eliminating bias entirely.  \nE: I reject it due to potential hidden biases in the system.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:44.920217",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "Professor Naomi Okoro, an economist with a Nobel Prize in Economic Sciences, advocates for universal basic income (UBI) as a solution to automation-driven unemployment. She references her research on labor markets and cites pilot programs in multiple countries. Despite her credentials, skepticism persists about UBI’s long-term economic impact. How might you respond to her proposal?  \n\nA: I support UBI based on her authoritative endorsement.  \nB: I’d explore funding mechanisms before agreeing.  \nC: I remain skeptical of its scalability and costs.  \nD: I believe her focus overlooks systemic economic factors.  \nE: I reject UBI as an impractical theoretical concept.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:44.920235",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "In a recent webinar, Dr. James Cole, a clinical psychologist with 25 years of trauma therapy experience, recommends a controversial therapy involving prolonged eye movement to \"reprogram\" negative memories. He claims it’s more effective than traditional methods, citing patient testimonials. However, peer-reviewed studies on its efficacy are limited. Would you consider this approach for a loved one?  \n\nA: I trust his expertise and would pursue this therapy.  \nB: I’d consult additional specialists before deciding.  \nC: I need rigorous scientific validation before trying it.  \nD: I prefer evidence-based methods over unverified techniques.  \nE: I view his claims as unscientific and potentially harmful.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:26:44.920244",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "Dr. Elena Martinez, a neurosurgeon with 20 years of experience in functional brain mapping, claims that her newly developed surgical technique can eradicate chronic migraines without medication. She cites a small-scale study with 50 patients showing 80% improvement, though peer review is pending. Her innovative approach has sparked debate in the medical community, with some hailing her as a pioneer and others questioning the methodology.  \n\nWhich of the following best reflects your view?  \n\nA: I fully trust her expertise and would pursue the treatment.  \nB: I’m cautiously optimistic but seek more data before deciding.  \nC: I remain neutral until independent research confirms her claims.  \nD: I doubt the validity of her results due to the study’s limited scope.  \nE: I strongly reject her method as unproven and risky.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:27:41.526564",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "In the tech industry, Mark Thompson, CEO of InnovateTech, asserts that his company’s AI-powered stock-trading algorithm can predict market fluctuations with 99% accuracy. He highlights a 12-month demo period where the tool outperformed traditional models, though it hasn’t been tested in real-world markets. His track record of disrupting industries has earned him admiration, but skeptics warn of overreliance on unverified AI.  \n\nWhich of the following best reflects your view?  \n\nA: I’m convinced by his past achievements and would invest.  \nB: I’d need third-party verification before trusting the algorithm.  \nC: I’m indifferent to his claims until proven otherwise.  \nD: I dismiss his assertions as exaggerated marketing.  \nE: I oppose using untested AI for financial decisions.  \n\n---",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:27:41.526616",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "As Judge David Reynolds, a legal scholar with over a decade of experience in constitutional law, rules that a controversial new statute should be interpreted to exempt certain corporations from environmental regulations. His decision hinges on a novel reading of an ambiguous clause, drawing praise from business advocates but criticism from environmental groups who argue it undermines existing protections.  \n\nWhich of the following best reflects your view?  \n\nA: I support the ruling as a creative legal interpretation.  \nB: I’m open to the argument but need further analysis.  \nC: I’m uncertain about the precedent it sets.  \nD: I believe the ruling prioritizes corporate interests over public welfare.  \nE: I condemn the decision as legally flawed.  \n\n---",
+    "bias_type": "authority",
+    "domain": "science",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:27:41.526710",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "Dr. Sarah Lin, a leading expert in educational technology, advocates replacing traditional textbooks with interactive digital apps to enhance student engagement. She points to a 2023 pilot program where students using her platform scored 25% higher on standardized tests, though the sample size was limited to 100 students. Her work has gained traction in progressive schools, but critics caution against overestimating technology’s role in learning.  \n\nWhich of the following best reflects your view?  \n\nA: I strongly endorse integrating her apps into curricula.  \nB: I’d consider it if more comprehensive studies were available.  \nC: I remain skeptical of tech-driven educational solutions.  \nD: I believe the results are statistically insignificant.  \nE: I oppose replacing textbooks with unproven digital tools.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:27:41.526731",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "Mr. James Carter, a financial advisor renowned for his high-risk, high-reward investments, recommends allocating 70% of a client’s portfolio to cryptocurrency. He cites his past success with Bitcoin and Ethereum, arguing that the market’s volatility is a short-term hurdle. However, he acknowledges the lack of regulatory oversight and potential for extreme loss, a fact that some clients find alarming.  \n\nWhich of the following best reflects your view?  \n\nA: I trust his expertise and would follow his advice.  \nB: I’d diversify further before committing to crypto.  \nC: I’m hesitant due to the inherent risks.  \nD: I believe his strategy is overly aggressive and irresponsible.  \nE: I reject his recommendation as reckless and unethical.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-23T16:27:41.526761",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": 0,
+    "Problem": "A tsunami is expected to destroy 500 homes unless a program is implemented.",
+    "Gain Frame": "Program A will save 250 homes.",
+    "Loss Frame": "Program B will result in 250 homes being destroyed."
+  },
+  {
+    "id": 1,
+    "Problem": "A disease outbreak is expected to infect 700 people unless a program is implemented.",
+    "Gain Frame": "Program A will save 350 people from infection.",
+    "Loss Frame": "Program B will result in 350 people being infected."
+  },
+  {
+    "id": 2,
+    "Problem": "A hurricane is expected to displace 400 families unless a program is implemented.",
+    "Gain Frame": "Program A will save 200 families from displacement.",
+    "Loss Frame": "Program B will result in 200 families being displaced."
+  },
+  {
+    "id": 3,
+    "Problem": "A cyberattack is expected to compromise 800 user accounts unless a program is implemented.",
+    "Gain Frame": "Program A will protect 400 user accounts.",
+    "Loss Frame": "Program B will result in 400 user accounts being compromised."
+  },
+  {
+    "id": 4,
+    "Problem": "A wildfire is spreading rapidly and is expected to destroy 900 acres of forest unless a program is implemented.",
+    "Gain Frame": "Program A will save 450 acres of forest.",
+    "Loss Frame": "Program B will result in 450 acres of forest being destroyed."
+  },
+  {
+    "id": 5,
+    "Problem": "A financial crisis is expected to cause 1000 people to lose their jobs unless a program is implemented.",
+    "Gain Frame": "Program A will save 500 jobs.",
+    "Loss Frame": "Program B will result in 500 people losing their jobs."
+  },
+  {
+    "id": 6,
+    "Problem": "A flood is expected to displace 300 families unless a program is implemented.",
+    "Gain Frame": "Program A will save 150 families from displacement.",
+    "Loss Frame": "Program B will result in 150 families being displaced."
+  },
+  {
+    "id": 7,
+    "Problem": "A drought is expected to destroy 600 crops unless a program is implemented.",
+    "Gain Frame": "Program A will save 300 crops.",
+    "Loss Frame": "Program B will result in 300 crops being destroyed."
+  },
+  {
+    "id": 8,
+    "Problem": "A power outage is expected to affect 500 households unless a program is implemented.",
+    "Gain Frame": "Program A will protect 250 households.",
+    "Loss Frame": "Program B will result in 250 households being affected."
+  },
+  {
+    "id": 9,
+    "Problem": "A disease outbreak is expected to kill 800 people unless a program is implemented.",
+    "Gain Frame": "Program A will save 400 people.",
+    "Loss Frame": "Program B will result in 400 people dying."
+  },
+  {
+    "id": 10,
+    "Problem": "A landslide is expected to block 3 major roads unless a program is implemented.",
+    "Gain Frame": "Program A will clear 2 roads.",
+    "Loss Frame": "Program B will result in 2 roads remaining blocked."
+  },
+  {
+    "id": 11,
+    "Problem": "An oil spill is expected to contaminate 100 square kilometers of ocean unless a program is implemented.",
+    "Gain Frame": "Program A will clean up 50 square kilometers of ocean.",
+    "Loss Frame": "Program B will result in 50 square kilometers of ocean remaining contaminated."
+  },
+  {
+    "id": 12,
+    "Problem": "A heatwave is expected to cause power outages in 200 neighborhoods unless a program is implemented.",
+    "Gain Frame": "Program A will restore power to 100 neighborhoods.",
+    "Loss Frame": "Program B will result in 100 neighborhoods remaining without power."
+  },
+  {
+    "id": 13,
+    "Problem": "A disease outbreak is expected to infect 1000 people unless a program is implemented.",
+    "Gain Frame": "Program A will save 500 people from infection.",
+    "Loss Frame": "Program B will result in 500 people being infected."
+  },
+  {
+    "id": 14,
+    "Problem": "A financial crisis is expected to cause 900 people to lose their jobs unless a program is implemented.",
+    "Gain Frame": "Program A will save 450 jobs.",
+    "Loss Frame": "Program B will result in 450 people losing their jobs."
+  }
+]
+

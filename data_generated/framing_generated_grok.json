@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "In the realm of financial planning, consider an investment strategy for a portfolio worth $10,000 facing market volatility that could wipe it out entirely. Here are two proposed strategies: Strategy X ensures that $4,000 of your portfolio is preserved. Strategy Y leads to $6,000 of your portfolio being lost.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:26:45.772337",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "A new health policy addresses a disease outbreak threatening 600 lives. Officials have outlined two response plans—Plan P, which guarantees 200 people will survive, and Plan Q, under which 400 people will perish.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:26:45.772380",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Environmental experts are tackling deforestation in a region where 1,000 acres of forest are at risk of complete loss. They suggest two conservation approaches: Approach M will protect 300 acres from being cleared. Approach N will cause 700 acres to be cleared.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:26:45.772417",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Imagine marketing a new snack bar to consumers, with lab tests showing its composition. You can describe it in one of two ways: It's 85% free of sugar. Or, it contains 15% sugar.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "consumer",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:26:45.772483",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "An education reform targets a failing school system where 400 students are projected to drop out without intervention. Two policies are on the table—Policy R secures graduation for 150 students, while Policy S results in 250 students dropping out.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:26:45.772545",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "Imagine a deadly disease outbreak that will claim the lives of 600 individuals in a community without intervention. Experts have outlined two identical treatment approaches, described differently: Approach X ensures that 200 people will be saved. Approach Y means that 400 people will die.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:27:28.934709",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "In a financial crisis, your investment portfolio of $10,000 is projected to drop entirely unless you select a stabilization strategy. Here are two equivalent strategies, phrased in contrasting ways: Strategy P locks in $4,000 of your investment safely. Strategy Q results in a loss of $6,000 from your investment.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:27:28.934742",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "A massive deforestation project threatens to eliminate 1,000 acres of rainforest unless conservation measures are taken. Two matching measures are available, but worded oppositely: Measure M will protect 300 acres from being cleared. Measure N will allow 700 acres to be cleared away.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:27:28.934828",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "You're shopping for a gadget priced at $200, and a special deal is offered that reduces the cost equivalently in two framed descriptions. Deal 1: You save $50 off the original price. Deal 2: You end up paying $150 for the gadget.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:27:28.934902",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "During corporate restructuring, 800 employees face potential job loss without a retention plan. Management proposes two plans that are fundamentally the same, yet framed distinctly: Plan Alpha retains employment for 500 workers. Plan Beta leads to unemployment for 300 workers.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed option.\nB: I somewhat prefer the positively framed option.\nC: I slightly prefer the positively framed option.\nD: I am somewhat undecided between the two options.\nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:27:28.934928",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "In a medical crisis, a virus is projected to claim 400 lives if no treatment is applied. Consider these two treatment approaches: Treatment P saves 100 lives for certain. Treatment Q means that 300 lives are lost for certain.  \n\nWhich statement most accurately describes your preference?  \n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:18.047282",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "Facing economic downturn, your investment portfolio of $10,000 is set to drop entirely without intervention. Here are two financial strategies: Strategy X guarantees retaining $3,000 of your investment. Strategy Y guarantees a loss of $7,000 from your investment.  \n\nHow would you characterize your decision between them?  \n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:18.047317",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "Environmental experts warn that deforestation will wipe out 600 acres of rainforest unless measures are taken. Two conservation plans are on the table: Plan M will preserve 200 acres intact. Plan N will see 400 acres destroyed.  \n\nWhat best captures your inclination in choosing?  \n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:18.047405",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "A new education policy addresses a school where 500 students are at risk of dropping out without support. The proposed initiatives are: Initiative Alpha ensures 150 students graduate successfully. Initiative Beta results in 350 students dropping out.  \n\nWhich option aligns most with how you feel about your selection?  \n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:18.047446",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "In a consumer safety recall, 200 products are identified as faulty and potentially harmful if not fixed. Management offers two recall tactics: Tactic One fixes 80 products reliably. Tactic Two leaves 120 products faulty.  \n\nReflecting on your choice, which description fits best?  \n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:18.047530",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "In a medical crisis, a rare disease is projected to claim the lives of 600 patients without intervention. Consider these two treatment approaches: Approach X ensures that 200 patients will survive the disease. Approach Y means that 400 patients will succumb to the disease. Which statement best captures your preference?\n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:41.664176",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "Imagine managing an investment portfolio worth $1,000 that faces market volatility, potentially leading to total loss unless you choose a strategy. Strategy P will preserve $333 of your investment. With Strategy Q, you'll end up losing $667 from the portfolio. How would you describe your inclination toward these?\n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:41.664208",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "A policy decision looms over an endangered forest where deforestation threatens to wipe out 400 ancient trees. Policy M guarantees the protection of 100 trees. Policy N will cause the loss of 300 trees to logging. What best represents your stance on these policies?\n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:41.664258",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "Your company is downsizing, and without action, all 300 jobs in a division will be eliminated. You must select between two restructuring plans: Plan Alpha will retain 150 positions securely. Plan Beta results in 150 positions being cut. Which option aligns most with your preference level?\n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:41.664322",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "During a product recall, a manufacturing defect is set to ruin 500 smartphones unless a fix is applied. Fix Method One will salvage 125 devices fully. Fix Method Two leads to 375 devices becoming unusable. Reflecting on this, which choice best indicates your bias or lack thereof?\n\nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:28:41.664353",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

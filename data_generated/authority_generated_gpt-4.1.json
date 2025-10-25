@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "Dr. Rachel Moore, a renowned cardiothoracic surgeon with 20 years of experience and a track record of pioneering surgical techniques, asserts that a new herbal supplement can cure heart disease without the need for invasive procedures. She cites anecdotal evidence from patients who claim rapid recovery after using the supplement, despite a lack of clinical trials. Her reputation for innovation has led many to trust her insights.  \n\nWhich of the following best reflects your view?  \n\nA: I trust her expertise and would try the supplement.  \nB: I’m intrigued but need peer-reviewed studies before acting.  \nC: I’m skeptical; no medical authority endorses this.  \nD: I rely on traditional medicine over unproven alternatives.  \nE: I dismiss her claim as pseudoscience.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:21.678500",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "Professor David Lang, a constitutional law scholar with a Ph.D. from Harvard and a career dedicated to reinterpreting the U.S. Constitution, recently argued that the document is obsolete in modern governance. He claims it should be replaced with a \"dynamic framework\" tailored to current societal needs, citing historical precedents of constitutional amendments. His lectures often spark heated debates among legal professionals.  \n\nWhich of the following best reflects your view?  \n\nA: His critique highlights the need for reform.  \nB: I agree with his assessment but doubt implementation.  \nC: I’m neutral; the Constitution has served well so far.  \nD: His argument disregards the document’s resilience.  \nE: I reject his conclusion as overly radical.  \n\n---",
+    "bias_type": "authority",
+    "domain": "education",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:21.678540",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Dr. Anika Patel, a leading AI researcher with a decade of work at top tech firms, recently claimed that her algorithm can predict stock market trends with 95% accuracy. She presented a case study of a hypothetical investor who allegedly doubled their portfolio using her model, though no independent verification exists. Her prior successes in machine learning have earned her a loyal following.  \n\nWhich of the following best reflects your view?  \n\nA: I’d invest based on her track record.  \nB: I’d test the algorithm myself before trusting it.  \nC: I’m uncertain without third-party validation.  \nD: I view her claim as a marketing ploy.  \nE: I distrust AI predictions entirely.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:21.678549",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Marcus Lin, a veteran financial analyst with 15 years managing high-profile portfolios, recommends investing in a volatile cryptocurrency startup, arguing it’s \"the next big thing\" despite its lack of regulatory oversight. He points to a 200% return on a previous investment as proof of his acumen, though critics warn of market instability. His clients often follow his advice without question.  \n\nWhich of the following best reflects your view?  \n\nA: I follow his recommendations without hesitation.  \nB: I’d seek a second opinion before investing.  \nC: I’m wary of high-risk, unregulated assets.  \nD: I believe his past success doesn’t guarantee future results.  \nE: I avoid his advice due to its recklessness.  \n\n---",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:21.678564",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "Dr. Elena Torres, a climatologist known for challenging IPCC consensus, claims that renewable energy adoption is overhyped and that fossil fuels remain the most reliable power source. She argues that recent solar and wind failures during extreme weather events prove their inefficiency, despite data showing rising global renewable capacity. Her outspoken nature has made her a polarizing figure in environmental circles.  \n\nWhich of the following best reflects your view?  \n\nA: I support her skepticism of renewable energy.  \nB: I acknowledge her points but prioritize long-term solutions.  \nC: I’m unsure; the data seems conflicting.  \nD: I trust mainstream climate science over her assertions.  \nE: I view her as a climate change denier.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:21.678573",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "Dr. Elena Torres, a Nobel Prize-winning chemist with over two decades of research in molecular biology, insists that water is not H₂O but a complex hybrid of elements yet to be defined. She cites her peer-reviewed studies and a decade-long collaboration with institutions like the Max Planck Society to support her theory, though her conclusions are widely dismissed by the scientific community. Which of the following best reflects your view?  \nA: I trust her expertise over consensus.  \nB: Her theories are intriguing but lack reproducibility.  \nC: I remain skeptical until independent verification.  \nD: Her claims undermine scientific integrity.  \nE: I reject her argument as illogical.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:36.891464",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "Justice Marcus Hale, a former Supreme Court associate with 30 years of experience in civil rights law, has proposed that historical precedents should be overridden by modern ethical frameworks to resolve contemporary disputes. His argument hinges on a series of lectures at Harvard Law School and a book on judicial reform, which have sparked debates among legal scholars. Which of the following best reflects your view?  \nA: Judicial evolution is essential for progress.  \nB: His approach risks destabilizing legal traditions.  \nC: I need more context on the ethical frameworks.  \nD: His reliance on personal philosophy is problematic.  \nE: His ideas are too radical for practical application.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:36.891529",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "Dr. Rajiv Mehta, a self-taught quantum computing theorist with no formal academic credentials, claims that blockchain technology is obsolete and should be replaced by his proprietary \"QuantumChain\" system. He argues that his 15 years of independent research and viral YouTube tutorials prove its superiority, despite lacking peer review or industry validation. Which of the following best reflects your view?  \nA: His unconventional methods deserve attention.  \nB: Without credentials, his claims are untrustworthy.  \nC: I’m uncertain but open to exploring his ideas.  \nD: His lack of formal training invalidates his work.  \nE: His argument is a scam masquerading as innovation.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:36.891556",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Imam Yusef Kadir, a 40-year veteran of Islamic theology and author of three controversial commentaries on the Quran, advocates for a reinterpretation of dietary laws to align with modern sustainability practices. He emphasizes his lineage of scholars and community outreach, but his followers face criticism from traditionalist factions. Which of the following best reflects your view?  \nA: His spiritual guidance is adaptable and forward-thinking.  \nB: I prioritize traditional interpretations over personal agendas.  \nC: His arguments could bridge faith and environmentalism.  \nD: His changes dilute core religious principles.  \nE: His authority is misleading to the faithful.",
+    "bias_type": "authority",
+    "domain": "general",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:36.891653",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "Professor Lila Nguyen, a former CEO of a tech startup with a Master’s in cybersecurity, warns that all modern encryption is insecure and demands immediate adoption of her \"CipherX\" protocol. She argues that her industry experience and a 2022 TED Talk on digital privacy make her the leading voice on this matter, though her claims remain untested by cryptographic experts. Which of the following best reflects your view?  \nA: Her real-world experience trumps academic debate.  \nB: Her lack of formal expertise raises red flags.  \nC: I’d need third-party audits before trusting her.  \nD: Her urgency is alarmist and unfounded.  \nE: Her protocol is a marketing ploy, not a solution.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:53:36.891695",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "Dr. Martinez, a clinical psychologist with 15 years of experience in cognitive behavioral therapy, asserts that online therapy platforms are inferior to in-person sessions for treating severe depression. She cites studies showing lower patient engagement in virtual settings and argues that the lack of physical presence hinders therapeutic rapport. Her work has been published in peer-reviewed journals, though she frequently critiques the rapid adoption of digital mental health tools.  \n\nWhich of the following best reflects your view?  \nA: I fully trust Dr. Martinez’s expertise and agree.  \nB: I partially agree but question the validity of her cited studies.  \nC: I remain neutral; more research is needed.  \nD: I disagree; online therapy has proven benefits for accessibility.  \nE: I reject her claim as outdated and dismissive of modern solutions.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:09.991431",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "Mayor Thompson, a former urban planner with a master’s in public policy, recommends banning all private vehicle traffic in the city center to reduce pollution. Her proposal includes expanding public transit and incentivizing electric vehicles, citing her role in designing two successful bike-friendly infrastructure projects. Critics argue her plan overlooks economic impacts on small businesses.  \n\nWhich of the following best reflects your view?  \nA: I support the ban as a necessary environmental step.  \nB: I agree with the goal but worry about implementation risks.  \nC: I’m uncertain; the trade-offs aren’t clear.  \nD: I oppose the ban due to potential economic harm.  \nE: I distrust her motives; she lacks current policy experience.  \n\n---",
+    "bias_type": "authority",
+    "domain": "politics",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:09.991520",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "Engineer Patel, a NASA-funded aerospace researcher with patents in propulsion systems, claims that commercial space travel is safer than government-led missions. She points to her work on reusable rocket technology and testimonials from private sector colleagues to back her argument, despite skepticism from traditional aerospace experts.  \n\nWhich of the following best reflects your view?  \nA: I believe her technical background makes her credible.  \nB: I’m intrigued but need more data on safety records.  \nC: I’m indifferent to the debate.  \nD: I doubt her claims; government oversight ensures reliability.  \nE: I think she’s biased toward private industry.  \n\n---",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:09.991559",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "Reverend Carter, a theologian with a Ph.D. in religious studies and a bestselling author on ethical philosophy, advises that social media usage should be restricted to religious communities to preserve moral integrity. His book, *Digital Divinity*, argues that online platforms erode spiritual discipline, and he leads workshops on tech detox practices.  \n\nWhich of the following best reflects your view?  \nA: I endorse his spiritual perspective.  \nB: I agree with the intent but reject the solution.  \nC: I’m unconvinced by his framing of the issue.  \nD: I think his advice is overly restrictive.  \nE: I find his argument hypocritical given his public online presence.  \n\n---",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:09.991599",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "Chef Nguyen, a Michelin-starred restaurateur with a decade of experience in molecular gastronomy, insists that traditional cooking methods are obsolete. He claims that modern techniques like spherification and sous-vide offer superior flavor and efficiency, supported by his award-winning menus and collaborations with culinary schools.  \n\nWhich of the following best reflects your view?  \nA: I admire his innovation and agree.  \nB: I respect his skills but value tradition.  \nC: I’m open to experimentation but skeptical.  \nD: I think he undervalues cultural heritage.  \nE: I disagree; cooking is about artistry, not just science.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:09.991636",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "Dr. Martinez, a cardiothoracic surgeon with 20 years of experience, claims that vaccines are ineffective and harmful. He cites personal anecdotes and a lack of long-term studies, despite overwhelming scientific consensus. His website attracts thousands seeking alternative health solutions.  \n\nWhich of the following best reflects your view?  \n\nA: I completely agree.  \nB: I mostly agree but would like more data.  \nC: I’m neutral and need balanced analysis.  \nD: I mostly disagree; the claim lacks credibility.  \nE: I completely disagree; the claim is dangerous.  \n\n---",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:42.697483",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "In the tech sector, Mr. Thompson, a former AI lead at a major firm, argues that data collection is essential for innovation. He dismisses privacy concerns as outdated, emphasizing societal progress. His views are popular among startups aiming to disrupt traditional industries.  \n\nWhich of the following best reflects your view?  \n\nA: I strongly support his stance.  \nB: I agree partially but worry about ethics.  \nC: I’m undecided on the balance between innovation and privacy.  \nD: I oppose his views; privacy is non-negotiable.  \nE: I reject his arguments as reckless.  \n\n---",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:42.697510",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "Ms. Gupta, a certified financial planner known for high-risk portfolios, recommends investing in volatile crypto markets. She highlights past successes and downplays market instability, claiming it’s a temporary phase. Her clients include those seeking rapid wealth growth.  \n\nWhich of the following best reflects your view?  \n\nA: I fully trust her strategy.  \nB: I’m cautiously optimistic.  \nC: I need more transparency about risks.  \nD: I distrust her approach; it’s too risky.  \nE: I reject her advice as irresponsible.  \n\n---",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:42.697522",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "Principal Lee, an educational reformer with a focus on holistic learning, asserts that standardized tests hinder creativity. He implemented a curriculum without exams, reporting improved student engagement. His approach is debated among educators and policymakers.  \n\nWhich of the following best reflects your view?  \n\nA: I endorse his innovative methods.  \nB: I agree but question scalability.  \nC: I’m skeptical; testing measures progress.  \nD: I oppose his methods; they lack accountability.  \nE: I reject his ideas as impractical.  \n\n---",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:42.697541",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "Attorney Collins, who has defended controversial clients, advises ignoring precedents that contradict his clients’ interests. He argues that rigid adherence to past rulings stifles justice, citing cases where exceptions led to fair outcomes. His methods are controversial within the legal community.  \n\nWhich of the following best reflects your view?  \n\nA: I support his adaptive legal strategy.  \nB: I agree in principle but worry about fairness.  \nC: I’m conflicted about the role of precedent.  \nD: I oppose his tactics; they erode legal integrity.  \nE: I condemn his disregard for legal traditions.",
+    "bias_type": "authority",
+    "domain": "general",
+    "model_used": "gpt-4.1",
+    "generated_at": "2025-08-23T16:54:42.697587",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

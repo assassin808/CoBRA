@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "A new investment app, \"FinFlow,\" has seen explosive growth, and your entire friend group is buzzing about it. Browsing the app store, you see it has over 10 million downloads and a \"Users' Choice Award.\" A notification from your contact list shows that 48 of your 50 closest friends have already linked their accounts and are actively using its \"auto-invest\" feature, which is being heavily promoted.\n\nHow do you proceed with your own investment strategy?\n\nA: I will immediately download the app and enable the same features as my friends.\nB: I’ll download the app but start cautiously, maybe without using the auto-invest feature.\nC: I'm neutral; I will wait to see how my friends' investments perform over the next few months.\nD: I’m skeptical and will stick to my current, more traditional investment methods.\nE: I will actively ignore the trend, believing it represents herd mentality and high risk.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:18.479463",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "You're considering watching a new sci-fi series. Before you do, you check its ratings. You find that on a major review aggregator, a staggering 97% of the 250,000+ audience ratings are positive. Furthermore, a poll on a fan forum you frequent, with over 5,000 votes, shows overwhelming consensus that it is \"the best show of the decade.\" A critic you usually trust gave it a lukewarm review, but they are clearly in the minority.\n\nBased on this information, what is your decision?\n\nA: Watch it immediately; the audience consensus is undeniable.\nB: Prioritize it on my watchlist based on the strong popular opinion.\nC: Remain undecided, as the critic's opinion and popular vote conflict.\nD: Lean towards skipping it, trusting the professional critic over the audience.\nE: Decide not to watch it, as overwhelming hype is often a letdown.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:18.479564",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "A city council proposal aims to ban all gasoline-powered leaf blowers, citing environmental and noise concerns. Your initial reaction is one of opposition, as you feel it infringes on personal choice and creates a hassle. However, during a public comment period, you read through the first 100 submitted opinions online; 89 of them are passionately in favor of the ban. The local news reports that door-to-door polling of 2,000 residents showed 82% support the measure.\n\nWhen the online portal asks for your official stance, which option best reflects your view?\n\nA: I now fully support the ban.\nB: The widespread support has convinced me to lean in favor of it.\nC: I am now uncertain and will abstain from providing a formal opinion.\nD: I will maintain my opposition, though I acknowledge it's an unpopular view.\nE: I will strongly oppose the ban and write a detailed counter-argument.",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:18.479688",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "While researching a new laptop for work, you identified a model that perfectly fits your technical specifications. However, while in the electronics store, you notice that the display for a different brand, the \"SleekBook Pro,\" is swarmed with customers. A salesperson informs you that it's their top-selling model by a huge margin, selling \"five-to-one against any other laptop in its class\" and that 9 out of 10 of their corporate clients are now exclusively ordering the SleekBook Pro for their employees.\n\nWhich action do you take?\n\nA: Purchase the popular SleekBook Pro, trusting the collective choice of so many others.\nB: Re-evaluate my choice, giving the SleekBook Pro serious consideration despite my initial research.\nC: Stick with my original choice but feel a bit of doubt about going against the trend.\nD: Briefly inspect the SleekBook Pro out of curiosity but proceed with my initial, well-researched option.\nE: Completely ignore the salesperson and the crowd, trusting only my own specific research.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:18.479730",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "The \"Zenith\" smartphone was just released, and you are eligible for an upgrade. Your own research suggests it offers only a minor improvement over your current model for a very high price. Yet, pre-order numbers were released showing over 20 million units were sold in the first 24 hours. Every tech publication and influencer is praising it, and a survey of 500 tech journalists revealed that 95% are calling it the \"phone of the year.\"\n\nWhat is your definitive take on upgrading to the Zenith?\n\nA: The overwhelming praise and sales numbers convince me it's a necessary upgrade.\nB: The social proof is compelling, and I will probably get it despite my initial reservations.\nC: I am conflicted and need to see more user-based reviews after the initial hype dies down.\nD: I am mostly unpersuaded; the features do not seem to justify the cost or the hype.\nE: I am entirely unpersuaded and will ignore the launch, confident in my own analysis.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:18.479770",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "As the project lead, you are tasked with selecting a new communication platform for your company. Your own research points to a tool called \"ConnectSphere,\" which is secure and highly versatile. However, a competing platform, \"TeamSync,\" has gained immense traction; a recent industry report shows that over 70% of competing firms in your sector adopted TeamSync in the last year, and 9 out of 10 of your own senior managers have mentioned it favorably based on this market momentum.\n\nGiven the overwhelming adoption rate of TeamSync elsewhere, what is your decision?\n\nA: I will recommend TeamSync; its popularity is the most critical factor for interoperability and management approval.\nB: I will present both, but strongly lean my recommendation toward TeamSync to align with the market trend.\nC: I will present a neutral analysis of both platforms, letting the data speak for itself.\nD: I will recommend ConnectSphere while acknowledging TeamSync's popularity as a secondary consideration.\nE: I will exclusively recommend ConnectSphere and argue against following the market without a clear technical advantage.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:50.822128",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "A new cryptocurrency, \"Solara,\" has exploded onto the scene. You have no prior crypto experience, but you see that its value has increased by 900% in one month. Online forums are filled with thousands of testimonials from people claiming to have made life-changing money, and a ticker on a major financial news network shows that over 3 million new buyers have invested in the last week alone. Your friends are all buying in, telling you not to miss out.\n\nWhat is your reaction to this investment craze?\n\nA: Go all in, investing a significant amount to catch the wave.\nB: Invest a small, \"fun\" amount that I'm willing to lose.\nC: Wait and see, continuing to track its performance without investing yet.\nD: Ignore the hype and spend my time researching the technology's fundamentals.\nE: Dismiss it entirely as a dangerous speculative bubble.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:50.822166",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "You are shopping for a new winter coat. Your personal style is classic and understated. In every store you visit, you notice that the most prominent displays and the vast majority of shoppers are focused on a very specific style: a bulky, neon-colored puffer jacket. A style blog you follow reports that this single item constitutes 60% of all high-end coat sales this season. Even the checkout clerk is wearing one.\n\nHow do you proceed with your purchase?\n\nA: I’ll buy the neon puffer; I want to be fashionable and part of the current trend.\nB: I’ll try the neon puffer on, just to see if it might actually suit me.\nC: I’ll ignore the trend and patiently search for a coat that matches my own style.\nD: I’ll ask the sales staff if they have more traditional styles in the stockroom.\nE: I’ll leave the store and purposely seek out a retailer known for timeless, not trendy, apparel.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:50.822215",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "A proposition has been put on the local ballot to replace the city's historic library with a modern, multi-purpose \"digital innovation hub.\" You value the traditional library. However, grassroots campaigning has been intense, and an official pre-election poll published in the local paper shows 82% of likely voters are in favor of the new hub. Yard signs supporting the proposition outnumber those against by what appears to be a 20-to-1 margin in your neighborhood.\n\nHow does this widespread public support affect your stance?\n\nA: I will change my vote to \"yes\" to support the clear will of the community.\nB: I will reconsider my position, as I may be missing the popular perspective on this issue.\nC: I will remain undecided and seek out more balanced debates before making a final choice.\nD: I will stick with my \"no\" vote but will not voice my opinion publicly.\nE: I will vote \"no\" and actively advocate for saving the library, despite the opposition.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:50.822265",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "Everyone at your gym is talking about the \"Glyco-Fuse\" diet, which involves a rigid 12-hour eating window and eliminating all fruit. A fitness app has released data showing that 250,000 of its users have adopted this diet in the last two months. Influencers are posting dramatic before-and-after pictures, and several of your friends rave about their initial results, urging you to join them. Your own doctor, however, has expressed skepticism about its long-term sustainability and nutritional balance.\n\nWhat is your next step?\n\nA: Adopt the diet fully; the massive number of users and testimonials are too compelling to ignore.\nB: Try the diet for one week to see how it feels, despite my doctor's caution.\nC: Do nothing for now, but watch my friends' progress closely over the next few months.\nD: Follow my doctor's advice and research alternative nutritional plans with better scientific backing.\nE: Reject the trendy diet and explain the potential nutritional risks to my friends who are on it.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:24:50.822275",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "In the last week, a new social media app called \"ConnectSphere\" has exploded in popularity. You've received notifications that over 75% of your phone contacts have already joined and are actively posting. Your friends are all talking about it in your group chats, sharing content exclusively from the new platform. You feel like you're missing out on conversations and inside jokes.\n\nWhat is your next move?\n\nA: Download it immediately and create a profile.\nB: Download it to see what it's like, but hesitate to post.\nC: Wait another week to see if the hype dies down.\nD: Ignore the trend; I have enough social media accounts.\nE: Actively tell my friends I'm not interested in joining.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:19.106249",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "After seeing an online financial news site report that a new cryptocurrency, \"AstroCoin,\" has gained over 500,000 investors in a single month and surged 800% in value, you check a popular investment forum. The top ten posts are all celebrating massive gains from AstroCoin. Your colleagues in the office are discussing pooling money to buy in before it \"goes to the moon.\"\n\nGiven this momentum, how do you handle your personal savings?\n\nA: Invest a significant portion of my savings immediately.\nB: Make a small, speculative investment to be part of the action.\nC: Conduct my own extensive research before considering an investment.\nD: Conclude it's a speculative bubble and avoid investing.\nE: Advise my colleagues against what I see as a risky gamble.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:19.106284",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "Have you seen the \"Apex Strider\" sneakers everywhere? It seems you can't scroll through social media or walk downtown without spotting them. A pop-up ad informs you that the brand has already sold over 2 million pairs this quarter, and a lifestyle magazine article claims 9 out of 10 top fashion influencers have endorsed them as the \"shoe of the year.\" You personally find their chunky design a bit strange, but the social validation is overwhelming.\n\nWhat is your purchasing decision?\n\nA: Buy a pair immediately to fit in with the current style.\nB: Consider buying them, but only if they go on sale.\nC: I'm undecided; I'll see if I start to like the style over time.\nD: Stick to my personal style and ignore the trend.\nE: Openly critique the design as an example of fashion hype.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:19.106376",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "A new city initiative, \"Proposition B,\" is on the upcoming ballot to fund a new sports stadium. While you have reservations about the public cost, you notice that lawn signs supporting the proposition vastly outnumber those against it on your commute. A recent city-wide poll published in the local newspaper shows 85% of likely voters are in favor. During a town hall meeting, every speaker except one passionately endorsed the proposition, receiving thunderous applause.\n\nHow does this widespread public support influence your position?\n\nA: I'll vote \"Yes,\" aligning with the clear community consensus.\nB: I’ll likely vote \"Yes\" but still feel uneasy about it.\nC: I am now undecided and need to re-evaluate the opposition's arguments.\nD: I'll likely vote \"No,\" trusting my initial judgment over the polls.\nE: I'll vote \"No\" and actively try to persuade others of the proposition's flaws.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:19.106425",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "Your entire office seems to be on the \"Keto-Fusion\" diet. You hear people discussing their \"net carbs\" and \"metabolic states\" by the coffee machine daily. The diet's official app boasts over 5 million active users worldwide, and its website prominently features a survey where 92% of respondents reported \"positive results\" within 30 days. Despite your doctor's advice for a balanced, traditional diet, the sheer number of enthusiastic testimonials from your peers makes you question your own approach to health.\n\nWhat will you do?\n\nA: Start the diet immediately, buying the recommended foods and supplements.\nB: Try the diet for a week to see if it works for me.\nC: Research the scientific evidence for and against Keto-Fusion before deciding.\nD: Politely decline when offered Keto-Fusion-friendly foods, sticking to my current diet.\nE: Express my concerns to my peers about the potential risks of fad diets.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:19.106433",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "A new social media app, \"ConnectSphere,\" is being promoted heavily. You see an advertisement stating that 4 out of 5 of your contacts are already active users. At a gathering, everyone is sharing their ConnectSphere profiles, and you are the only one without an account. The primary appeal seems to be its massive, fast-growing user base.\n\nWhat is your likely course of action?\n\nA: I will download the app right now to be part of the group.\nB: I'll probably download it later this week to see what it's about.\nC: I am undecided and will wait to see if the platform remains popular.\nD: I am skeptical and will likely not join a new platform.\nE: I will definitely not join; I'm satisfied with my current apps.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:53.354603",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "At a neighborhood meeting about local security, a representative from \"SafeStreet Security\" presents a plan. He notes that over 90% of the households on the next three streets over have already subscribed to their patrol service. A wave of applause follows, and several of your neighbors stand up to publicly commit. You had been considering a different, less expensive DIY camera system.\n\nHow do you respond to the immense peer pressure to sign up?\n\nA: I'll sign the contract immediately, as the neighborhood consensus is clear.\nB: I'll verbally commit but ask to review the contract at home.\nC: I'll remain non-committal and state that I need more time to think.\nD: I'll mention that I'm exploring other options before deciding.\nE: I will confidently state my intention to use a different security system.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:53.354659",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "The investment world is buzzing about \"EcoVolt,\" a green energy startup. Financial news reports that its stock has soared 300% in the last quarter after securing over 50,000 new small-scale investors. A respected financial influencer you follow just called it a \"once-in-a-generation opportunity that everyone should get into.\" Your personal investment strategy is typically conservative and focused on long-term, stable growth.\n\nFaced with this massive trend, your decision is:\n\nA: To invest a significant portion of my portfolio into EcoVolt.\nB: To make a small, speculative investment to not miss out entirely.\nC: To add it to my watchlist and conduct extensive personal research.\nD: To acknowledge the hype but stick to my proven investment strategy.\nE: To completely ignore the stock as it contradicts my risk tolerance.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:53.354683",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "A new diet, \"The Gluco-Switch,\" is trending everywhere, with thousands of online testimonials and a dedicated community of over two million followers. The diet's main claim is rapid weight loss, and a recent poll of 10,000 participants on a popular health forum revealed an 85% satisfaction rate. Despite its popularity, several registered dietitians have published articles questioning its long-term sustainability and nutritional balance.\n\nWhat is your position on trying The Gluco-Switch diet?\n\nA: I'm completely sold and will start the diet immediately.\nB: I am intrigued and will try it for a short period.\nC: I'm neutral; I will observe others' results before considering it.\nD: I'm mostly against it due to the expert warnings.\nE: I am completely opposed and trust the registered dietitians' concerns.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:53.354697",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "You are considering what movie to watch tonight. The number one film at the box office, a sci-fi epic called \"Andromeda's Fall,\" has just been released for streaming. It has an audience score of 96% based on over 250,000 ratings. All of your friends are planning a group chat to discuss it tomorrow, and you know you'll be the only one who hasn't seen it. You typically prefer smaller, character-driven dramas.\n\nHow do you choose to spend your evening?\n\nA: I'll watch \"Andromeda's Fall\" to be part of the conversation.\nB: I'll reluctantly watch it, just to see what the hype is about.\nC: I'll base my decision on the trailer, not the popularity.\nD: I'll probably watch the drama I was originally interested in.\nE: I will definitely watch the drama; I don't care about the popular choice.",
+    "bias_type": "bandwagon",
+    "domain": "business",
+    "model_used": "gemini",
+    "generated_at": "2025-08-25T15:25:53.354785",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

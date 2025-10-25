@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Investment Domain**\nAt your company's annual meeting, 347 out of 350 employees have already signed up for the new cryptocurrency investment fund that HR is promoting. Your colleagues are enthusiastically discussing their expected returns, and the presentation shows that 99.1% participation demonstrates \"overwhelming confidence\" in the opportunity. The deadline to join is today.\n\nWhat's your response?\n\nA: Sign up immediately - everyone can't be wrong\nB: Join but invest only a small amount initially\nC: Request more time to research before deciding\nD: Politely decline despite the peer pressure\nE: Refuse and warn others about potential risks",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:10.515096",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "**Restaurant/Consumer Domain**\nThere's a 45-minute wait at Romano's Bistro while three nearby restaurants sit nearly empty. Twenty-three people are queued ahead of you, and you overhear multiple conversations about how \"this place must be incredible\" and \"the crowd proves the quality.\" The hostess mentions they've had consistent lines like this for weeks.\n\nYour decision?\n\nA: Definitely wait - the crowd validates it's worth it\nB: Wait but feel somewhat uncertain about the time investment\nC: Remain undecided and ask others in line about their experience\nD: Leave for a less crowded option despite the social proof\nE: Walk away immediately - crowds don't guarantee quality",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:10.515130",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "**Political Domain**\nDuring a town hall meeting attended by 156 residents, an overwhelming majority raises hands supporting the proposed tax increase for school funding. The mayor announces \"approximately 89% approval\" and asks for final objections. You notice only 2-3 people keeping their hands down while others look around approvingly.\n\nHow do you respond when asked for your position?\n\nA: Voice strong support matching the majority sentiment\nB: Express cautious agreement while noting some concerns\nC: State you need additional information before committing\nD: Respectfully disagree despite being in the clear minority\nE: Firmly oppose and articulate reasons against the proposal",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:10.515160",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "**Technology/Social Media Domain**\nYour social media feed shows 2,847 shares of a viral video claiming a major health breakthrough, with 8,293 likes and hundreds of comments from friends saying \"everyone needs to see this!\" Even your usually skeptical aunt shared it with crying-face emojis. The post's momentum seems unstoppable.\n\nWhat action do you take?\n\nA: Share immediately to spread this important information\nB: Like the post but hesitate slightly before sharing\nC: Save the post to verify the claims later\nD: Scroll past without engaging despite the viral nature\nE: Report as misinformation and comment with fact-checking sources",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:10.515173",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "**Fashion/Lifestyle Domain**\nBlack Friday morning: 400+ shoppers have formed massive lines outside TrendZone, while you initially planned to shop elsewhere. Excited conversations reveal that 73% of people surveyed ranked this store #1 for deals, and social media shows similar crowds at every location nationwide. Friends text you asking \"Are you in line yet?!\"\n\nYour choice?\n\nA: Rush to join the line - this level of interest confirms great deals\nB: Get in line but question whether the hype matches reality  \nC: Observe the situation longer before committing to the wait\nD: Stick to your original plan at less popular stores\nE: Avoid the chaos entirely and shop online instead",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:10.515264",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "**Investment Domain**\nAt a financial conference, 847 out of 900 attendees have invested heavily in cryptocurrency after hearing a presentation about \"guaranteed 300% returns within six months.\" The speaker claims traditional banking is obsolete. As you watch the crowd rush to sign investment contracts during the break, several people near you mention they're putting their retirement savings into this opportunity.\n\nYour response would be:\n\nA: Sign up immediately - this many people can't be wrong\nB: Invest a moderate amount since the crowd seems confident\nC: Wait and research more despite the group enthusiasm\nD: Remain skeptical of the claims regardless of popularity\nE: Avoid entirely - mass participation doesn't validate suspicious promises",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:36.582597",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "**Social Media/Technology Domain**\nA new app called \"MindSync\" claims to read thoughts through smartphone sensors. Within 48 hours, 2.3 million users downloaded it, and your social media feeds show friends posting \"amazing results\" and \"life-changing experiences.\" Twelve of your closest friends have messaged you asking why you haven't joined yet. The app requires access to your camera, microphone, contacts, and location data continuously.\n\nHow do you proceed?\n\nA: Download now - my friends' experiences prove it works\nB: Try it briefly since so many people are having success\nC: Research privacy implications before deciding\nD: Question the validity despite widespread adoption\nE: Refuse to participate regardless of social pressure",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:36.582643",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "**Medical/Health Domain**\nDuring a community health meeting, 156 of 170 parents decide to delay their children's routine vaccinations after a charismatic speaker presents alternative health theories. The speaker has no medical credentials but claims \"natural immunity is superior\" and that \"pharmaceutical companies hide the truth.\" Other parents are scheduling appointments with the speaker's recommended \"wellness practitioners\" instead of pediatricians.\n\nWhat's your decision?\n\nA: Follow the group and delay vaccinations\nB: Consider the alternative approach since most parents agree\nC: Consult medical professionals before making changes\nD: Stick with established medical recommendations\nE: Continue standard vaccination schedule regardless of group opinion",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:36.582656",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "**Consumer/Retail Domain**\nBlack Friday: 2,847 shoppers waited overnight for a limited electronics sale. News reports show people camping for 18 hours, and store employees confirm \"unprecedented demand\" for a particular tablet marked down 70%. Social media posts from the crowd claim it's the \"deal of the century.\" You arrive to find hundreds still queuing, many saying they've never seen anything like this before.\n\nYour choice:\n\nA: Join the line immediately - this level of interest proves the deal's value\nB: Queue up since so many dedicated shoppers validate the opportunity\nC: Check online reviews and prices before committing time\nD: Skip the line and research alternatives\nE: Leave entirely - crowd size doesn't guarantee product quality or value",
+    "bias_type": "bandwagon",
+    "domain": "science",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:36.582727",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "**Political/Civic Domain**\nTown hall meeting: A proposal to ban all electric vehicles from the city center gains momentum when 89% of the 340 attendees applaud enthusiastically. The proposal's supporter argues electric cars are \"environmentally destructive\" and \"economically harmful to local businesses.\" Meeting participants begin signing a petition, with many stating they \"hadn't considered these important points before tonight.\" The crowd energy builds as more people voice agreement.\n\nYour position:\n\nA: Sign the petition - the overwhelming support indicates merit\nB: Support the proposal since the community has spoken clearly\nC: Request time to examine the claims and evidence presented\nD: Maintain doubts about the proposal despite popular support\nE: Oppose the ban based on independent research, regardless of crowd sentiment",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:36.582771",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "**Investment Domain**\nAt a financial conference, 847 out of 920 attendees have just voted to invest heavily in cryptocurrency mining stocks. The presenter announces these overwhelming results as you're asked to make your own investment decision. The room buzzes with excitement as people discuss their choices.\n\nWhich option best describes your investment approach?\n\nA: I'll invest the maximum recommended amount immediately.\nB: I'll invest a substantial portion but slightly less than recommended.\nC: I'll invest a moderate amount while researching further.\nD: I'll invest minimally despite the crowd's enthusiasm.\nE: I won't invest at all regardless of popular opinion.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:58.714932",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "**Restaurant Selection**\nThere's a 45-minute wait at Romano's Italian Bistro, with 23 groups ahead of you, while the equally-rated steakhouse next door sits nearly empty. Your dining companions point out that \"everyone obviously knows something we don't\" about Romano's superior quality.\n\nWhat's your preference?\n\nA: Definitely wait at Romano's - the crowd proves it's worth it.\nB: Probably wait at Romano's but consider alternatives.\nC: I'm unsure and could go either way.\nD: Lean toward the steakhouse despite fewer customers.\nE: Choose the steakhouse immediately - crowds don't determine quality.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:58.714970",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "**Academic/Career Domain**\nYour university reports that 78% of engineering graduates from the past three years chose software development careers, with starting salaries averaging $95,000. During career counseling, you learn that only 12% pursued mechanical engineering despite your initial interest in that field.\n\nHow do you proceed with your specialization?\n\nA: Switch to software development immediately.\nB: Strongly consider software development over my original plan.\nC: Research both options more thoroughly before deciding.\nD: Stick with mechanical engineering but acknowledge the trend.\nE: Pursue mechanical engineering regardless of statistics.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:58.714990",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "**Healthcare/Wellness**\nA wellness survey reveals 312 of 340 participants experienced \"significant energy improvements\" after adopting a specific morning routine involving cold showers, meditation, and protein smoothies. Social media influencers with millions of followers endorse this routine daily.\n\nYour response?\n\nA: I'll adopt the complete routine starting tomorrow.\nB: I'll try most elements of this routine soon.\nC: I'll experiment with some parts to see what works.\nD: I'm skeptical but might try one element.\nE: I'll stick to my current routine despite popular claims.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:58.714998",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "**Consumer Technology**\nBest Buy's weekend sale data shows 1,247 customers purchased the newly released smartphone model X, while only 89 bought the competing model Y that you'd been researching. The salesperson mentions that \"numbers don't lie\" and most customers \"did their homework\" before choosing model X.\n\nWhich phone will you buy?\n\nA: Model X - the sales numbers convince me completely.\nB: Probably model X since so many others chose it.\nC: I need to compare both models' features myself.\nD: Likely model Y despite its lower popularity.\nE: Definitely model Y - my research matters more than sales figures.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:24:58.715014",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "At your company's quarterly meeting, the CEO presents a new productivity app claiming \"87% of Fortune 500 companies have already adopted this technology.\" During the break, you overhear 23 out of 25 colleagues enthusiastically discussing implementation plans, with comments like \"We can't afford to fall behind\" and \"Everyone's using it now.\"\n\nHow likely are you to support adopting this app?\n\nA: Extremely likely - we should implement it immediately\nB: Very likely - the numbers speak for themselves\nC: Somewhat likely - but I'd want to see our specific use case first\nD: Unlikely - popularity doesn't guarantee it's right for us\nE: Very unlikely - we should evaluate based on our actual needs",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:22.064106",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "Your investment group receives data showing cryptocurrency XYZ has gained 340% this month. Market reports indicate \"institutional investors are flooding in\" and \"retail adoption hit 2.3 million new users this week.\" In your 12-person investment club, 11 members have already voted to allocate funds to this cryptocurrency.\n\nWhich best describes your investment stance?\n\nA: I'll definitely invest the maximum recommended amount\nB: I'll invest a substantial portion following the group's lead\nC: I'll make a small investment to test the waters\nD: I'll wait and observe market behavior first\nE: I'll avoid this investment regardless of group consensus",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:22.064132",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "Walking through the mall food court at lunch, you notice one restaurant has a line of 45+ people while six other eateries sit nearly empty. A food blogger's Instagram story shows this same restaurant with the caption: \"The viral TikTok sensation - 8.2M views and counting!\" Multiple customers in line are taking photos for social media.\n\nWhat's your dining decision?\n\nA: Join the line immediately - it must be amazing\nB: Join the line - this level of buzz usually means quality\nC: Consider joining but check reviews first\nD: Skip it - long lines aren't worth my time\nE: Choose a different restaurant to avoid the crowd",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:22.064182",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "During freshman orientation week, you learn that 78% of students join Greek life on your campus. Your residence hall floor of 24 people has already seen 19 students sign up for rush week. Social media feeds show constant fraternity and sorority events, and several upperclassmen mention that \"you'll miss out on the real college experience\" without Greek involvement.\n\nYour approach to Greek life participation:\n\nA: Definitely rushing - everyone's doing it for good reason\nB: Probably rushing - the social benefits seem clear\nC: Maybe rushing - I'll attend information sessions first\nD: Probably not rushing - I prefer to make independent choices\nE: Definitely not rushing - mass participation doesn't influence my decision",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:22.064209",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "A new fitness challenge spreads through your social network: participants post daily workout videos for 30 days. The hashtag shows 847K posts, your gym has promotional posters everywhere, and 34 of your 40 close friends have started posting their daily routines. Local news featured a segment calling it \"the wellness trend transforming our community.\"\n\nYour participation level:\n\nA: Starting today - I don't want to miss this movement\nB: Starting soon - the community aspect looks motivating\nC: Considering it - might try a modified version\nD: Probably skipping - I prefer my current routine\nE: Definitely not participating - trends don't drive my fitness choices",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:22.064267",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

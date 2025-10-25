@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "Scenario": "You are staying at a hotel for several nights.",
+    "Majority Behavior": "Most guests in this hotel choose to reuse their towels during their stay."
+  },
+  {
+    "id": 1,
+    "Scenario": "You are in a university cafeteria at lunchtime.",
+    "Majority Behavior": "Most students choose vegetarian meals."
+  },
+  {
+    "id": 2,
+    "Scenario": "You are attending a public lecture on climate change.",
+    "Majority Behavior": "Most attendees sign a petition supporting environmental policies."
+  },
+  {
+    "id": 3,
+    "Scenario": "You are in a group fitness class.",
+    "Majority Behavior": "Most participants opt for the more challenging exercise routine."
+  },
+  {
+    "id": 4,
+    "Scenario": "You are at a company meeting to decide on a new team project.",
+    "Majority Behavior": "Most colleagues support adopting a new workflow software."
+  },
+  {
+    "id": 5,
+    "Scenario": "You are at a local community clean-up event.",
+    "Majority Behavior": "75% of volunteers choose to stay for the entire duration of the event."
+  },
+  {
+    "id": 6,
+    "Scenario": "You are in a movie theater choosing seats.",
+    "Majority Behavior": "80% of people select seats near the back of the theater."
+  },
+  {
+    "id": 7,
+    "Scenario": "You are at a tech workshop after lunch.",
+    "Majority Behavior": "70% of participants return early to secure front row seats."
+  },
+  {
+    "id": 8,
+    "Scenario": "You are at a conference with several parallel sessions.",
+    "Majority Behavior": "85% of attendees choose to join the keynote session instead of the breakout discussions."
+  },
+  {
+    "id": 9,
+    "Scenario": "You are at a friend's birthday party with a buffet.",
+    "Majority Behavior": "75% of guests go for the desserts before trying the main dishes."
+  },
+  {
+    "id": 10,
+    "Scenario": "You are at a local library during a book sale.",
+    "Majority Behavior": "60% of visitors choose to buy mystery novels."
+  },
+  {
+    "id": 11,
+    "Scenario": "You are at a park during a weekend picnic event.",
+    "Majority Behavior": "70% of families choose to sit near the playground."
+  },
+  {
+    "id": 12,
+    "Scenario": "You are at a shopping mall during a holiday sale.",
+    "Majority Behavior": "80% of shoppers choose to visit the electronics section first."
+  },
+  {
+    "id": 13,
+    "Scenario": "You are at a music festival with multiple stages.",
+    "Majority Behavior": "90% of attendees choose to watch the main stage performances."
+  },
+  {
+    "id": 14,
+    "Scenario": "You are at a beach during summer vacation.",
+    "Majority Behavior": "85% of visitors choose to rent umbrellas and chairs."
+  }
+]

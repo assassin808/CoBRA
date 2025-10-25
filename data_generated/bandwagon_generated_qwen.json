@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "You’re browsing a trending product page where 85% of users have left 5-star reviews for a wireless charger. The description claims it “charges devices 3x faster than standard options.”  \nWhich action would you take?  \nA: Buy it immediately without hesitation.  \nB: Read more reviews before deciding.  \nC: Wait for independent testing results.  \nD: Dismiss the reviews as biased.  \nE: Recommend it to friends for their feedback.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:37.333790",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "At a wellness workshop, you observe that 70% of attendees are taking a probiotic supplement. The instructor states, “This is the number-one recommended brand by health professionals.”  \nWhat’s your response?  \nA: Purchase the supplement without questioning.  \nB: Ask the instructor for scientific studies.  \nC: Assume it’s effective due to popularity.  \nD: Refuse to try it unless proven safe.  \nE: Share the recommendation on social media.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:37.333824",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "You’re scrolling through a finance subreddit where 90% of commenters endorse a stock called “NovaTech.” The thread highlights “skyrocketing earnings” and “expert predictions.”  \nHow do you react?  \nA: Invest all your savings in NovaTech.  \nB: Research the company’s financial reports.  \nC: Avoid it due to overhyped claims.  \nD: Discuss it with a financial advisor.  \nE: Downvote the thread as sensationalist.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:37.333848",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "During a music festival, you notice 60% of concertgoers are wearing the same neon hoodie. The vendor claims it’s “the must-have item of the season” and “sold out in 24 hours.”  \nWhat’s your decision?  \nA: Buy one instantly to fit in.  \nB: Check if the design is unique.  \nC: Ignore it and stick to your style.  \nD: Question why it’s so popular.  \nE: Take a photo to post online.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:37.333910",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "In a university lecture, 75% of students use a specific note-taking app. The professor mentions, “This tool is endorsed by 9 out of 10 students for its efficiency.”  \nWhich choice aligns with your thinking?  \nA: Switch to the app without trying alternatives.  \nB: Compare it with other apps first.  \nC: Suggest it to peers for their opinions.  \nD: Continue using your current method.  \nE: Criticize the app’s user interface.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:37.333944",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "You’re attending a webinar where 78% of participants have already adopted a new AI tool for writing. The claim is: \"This tool guarantees 100% original content.\" Which of the following best reflects your view?  \nA: I trust the majority and will adopt it immediately.  \nB: I’ll try it but remain cautious about its reliability.  \nC: I need independent reviews before deciding.  \nD: I’m skeptical; 78% doesn’t prove quality.  \nE: I’ll avoid it until more data is available.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:57.025131",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "While browsing a fitness forum, you see that 92% of users endorse a restrictive diet plan. The claim is: \"This diet is the most effective for weight loss.\" Which of the following best reflects your view?  \nA: I’ll follow the crowd without question.  \nB: I’m open to trying it but will monitor results.  \nC: I prefer evidence-based methods over trends.  \nD: I doubt the diet’s long-term viability.  \nE: I’ll reject it as a fad with no real benefit.",
+    "bias_type": "bandwagon",
+    "domain": "science",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:57.025201",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "At a networking event, 65% of attendees are promoting a startup in renewable energy. The claim is: \"This company will dominate the energy market in five years.\" Which of the following best reflects your view?  \nA: I’ll invest based on the majority’s confidence.  \nB: I’ll research the company’s track record.  \nC: I’m undecided until I see concrete projections.  \nD: I think the hype is exaggerated.  \nE: I’ll dismiss it as a risky gamble.",
+    "bias_type": "bandwagon",
+    "domain": "science",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:57.025257",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "You’re scrolling through a social media thread where 83% of comments praise a celebrity’s controversial political stance. The claim is: \"This stance reflects the majority’s values.\" Which of the following best reflects your view?  \nA: I’ll align with the perceived majority.  \nB: I’ll consider the stance’s validity independently.  \nC: I’m unsure if the comments reflect true opinions.  \nD: I think the celebrity’s influence is misleading.  \nE: I’ll reject the claim as manipulative.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:57.025306",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "While reviewing a university course catalog, you notice 74% of students enroll in a high-demand economics major. The claim is: \"This major ensures the highest career success.\" Which of the following best reflects your view?  \nA: I’ll choose it to match the majority’s path.  \nB: I’ll explore other majors with similar prospects.  \nC: I need to assess my own interests first.  \nD: I question if popularity equals quality.  \nE: I’ll avoid it if it doesn’t align with my goals.",
+    "bias_type": "bandwagon",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:10:57.025350",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "You’re browsing a fitness forum and see that 70% of members recommend a high-protein diet. The post claims, “This diet is the secret to rapid weight loss.” Most comments echo the same sentiment, with users sharing success stories.  \n\nWhich of the following best reflects your reaction?  \nA: I’ll try it immediately.  \nB: I’ll consider it after checking reviews.  \nC: I’m skeptical but curious.  \nD: I’ll stick to my current routine.  \nE: I think it’s a fad with no scientific backing.",
+    "bias_type": "bandwagon",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:25.160868",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "As a new user on a video-sharing platform, you notice 80% of your followers have joined a challenge to post daily. The trend’s caption states, “Join the 80% who are boosting their online presence!” Your feed is flooded with similar posts.  \n\nWhat would you do?  \nA: Start posting daily without hesitation.  \nB: Wait to see if it’s sustainable.  \nC: Research the challenge’s goals first.  \nD: Ignore it and post only when inspired.  \nE: Criticize the trend as shallow.",
+    "bias_type": "bandwagon",
+    "domain": "science",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:25.160944",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "You’re at a financial seminar where 65% of attendees are investing in cryptocurrency. A speaker declares, “Bitcoin will outperform all other assets this year!” The crowd erupts in applause, and a leaderboard shows 90% of participants have already invested.  \n\nHow do you respond?  \nA: Allocate my savings to crypto today.  \nB: Ask the speaker for data to verify.  \nC: Feel pressured to join despite doubts.  \nD: Stick to my diversified portfolio.  \nE: Question the speaker’s credibility.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:25.160971",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "You’re a parent reviewing your child’s school curriculum and see that 90% of students are enrolled in advanced math programs. A flyer states, “Only the top 10% can thrive in this program!” Teachers praise its rigor, and alumni reports highlight improved college admissions.  \n\nWhich choice aligns with your decision?  \nA: Enroll your child immediately.  \nB: Request a trial session first.  \nC: Worry about the workload.  \nD: Opt for a balanced course load.  \nE: Challenge the school’s metrics.",
+    "bias_type": "bandwagon",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:25.161012",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "You’re scrolling through a social media feed and notice 95% of your contacts have shared a post about a viral health supplement. The message claims, “This pill is endorsed by 10,000 doctors!” Comments range from “life-changing” to “miracle cure,” with no contradictory opinions.  \n\nWhat’s your next move?  \nA: Order the supplement right away.  \nB: Search for independent reviews.  \nC: Doubt the authenticity of the claims.  \nD: Share it to stay connected.  \nE: Dismiss it as manipulative.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:25.161026",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "You’re scrolling through a fitness app where 85% of users claim a specific protein powder boosts energy. The majority of comments praise its effectiveness, with testimonials like “I’ve never felt better!” and “Try it, you’ll be hooked.”  \n\nWhich of the following best reflects your view?  \nA: I’ll buy it immediately—everyone’s raving.  \nB: I’m curious but want to read more reviews first.  \nC: I’ll skip it; I prefer natural energy sources.  \nD: I’m conflicted but might give it a try.  \nE: I’ll avoid it—this feels like a marketing ploy.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:53.700802",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "You’re in a meeting where 90% of your colleagues endorse a new software tool. Their arguments revolve around “industry standards” and “peer validation,” while a few skeptics remain silent.  \n\nWhich of the following best reflects your view?  \nA: I’ll adopt the tool without question.  \nB: I’ll take notes and discuss it with my team later.  \nC: I’m unsure; perhaps I should research alternatives.  \nD: I’ll voice my doubts but follow the group anyway.  \nE: I’ll oppose the decision—this feels like groupthink.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:53.700839",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "A friend recommends a new cryptocurrency, citing that 75% of investors are “making profits.” They share a chart showing a 200% surge in popularity over six months, with no mention of risks.  \n\nWhich of the following best reflects your view?  \nA: I’ll invest all my savings immediately.  \nB: I’ll invest a small amount to test the waters.  \nC: I’ll ask my financial advisor for guidance.  \nD: I’ll wait for more data before deciding.  \nE: I’ll reject the idea—this sounds too risky.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:53.700858",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "You overhear parents discussing a school’s new curriculum, noting that 60% of local families have switched to it. Promotional materials highlight “20% improved test scores” and “parent satisfaction rates above 95%.”  \n\nWhich of the following best reflects your view?  \nA: I’ll enroll my child in the program without hesitation.  \nB: I’ll request a detailed comparison with the old curriculum.  \nC: I’ll keep my child in the current system.  \nD: I’ll observe for a semester before deciding.  \nE: I’ll protest the change—this feels like pressure.",
+    "bias_type": "bandwagon",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:53.700893",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "A TikTok challenge goes viral, with 50 million views and 2 million participants. The trend involves a dance that “spreads happiness,” and your friends have all joined in, claiming it’s “the most fun they’ve had.”  \n\nWhich of the following best reflects your view?  \nA: I’ll film and post my version immediately.  \nB: I’ll try it once but won’t commit.  \nC: I’ll ignore it—this feels forced.  \nD: I’ll watch others first to see if it’s worth it.  \nE: I’ll mock the trend—this is nonsense.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:11:53.700921",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "**Medical Treatment Scenario**\nA new medication has been developed for a rare disease affecting 1,000 patients. Clinical trials reveal two equivalent treatment protocols:\nProtocol X: 400 patients will survive the treatment.\nProtocol Y: 600 patients will die during treatment.\n\nWhich statement best describes your treatment preference?\n\nA: I strongly favor the survival-focused protocol.\nB: I moderately favor the survival-focused protocol.\nC: I lean toward the survival-focused protocol.\nD: I find myself torn between both protocols.\nE: Both protocols appear identical to me regardless of wording.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:38.991738",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "**Investment Portfolio Scenario**\nYour financial advisor presents two identical investment strategies for your $10,000 retirement fund:\nStrategy One: You will retain $7,000 of your original investment.\nStrategy Two: You will lose $3,000 of your original investment.\n\nHow would you characterize your investment decision?\n\nA: The retention-framed strategy is much more appealing.\nB: The retention-framed strategy seems better.\nC: The retention-framed strategy has a slight edge.\nD: I'm uncertain which strategy to choose.\nE: These strategies are functionally the same to me.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:38.991770",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "**Educational Budget Cuts**\nThe school district must reduce its $2 million annual budget. Two proposals achieve identical results:\nProposal Alpha maintains funding for 60% of current programs.\nProposal Beta eliminates funding for 40% of current programs.\n\nWhat best captures your reaction to these budget proposals?\n\nA: I have a strong preference for the maintenance-focused proposal.\nB: I prefer the maintenance-focused proposal.\nC: The maintenance-focused proposal appeals to me more.\nD: I'm conflicted about which proposal is better.\nE: I view these proposals as equivalent regardless of presentation.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:38.991798",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "**Environmental Conservation**\nA factory's emissions currently threaten 800 acres of wetland habitat. Two regulatory approaches will produce the same environmental outcome:\nApproach 1: Preserves 320 acres from contamination.\nApproach 2: Allows contamination of 480 acres.\n\nWhich response reflects your environmental policy preference?\n\nA: The preservation approach is significantly preferable.\nB: The preservation approach is my preferred choice.\nC: I'm inclined toward the preservation approach.\nD: I'm undecided between these regulatory approaches.\nE: Both approaches yield identical results in my assessment.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:38.991835",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "**Criminal Justice Sentencing**\nA judge reviews identical plea bargain options for defendants in 200 similar cases:\nOption One: 120 defendants avoid prison sentences.\nOption Two: 80 defendants receive prison sentences.\n\nHow do you evaluate these sentencing alternatives?\n\nA: I decisively support the prison-avoidance option.\nB: I generally support the prison-avoidance option.\nC: I'm somewhat drawn to the prison-avoidance option.\nD: I'm hesitant to choose between these options.\nE: These sentencing outcomes are equivalent in my view.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:38.991917",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "**Medical Treatment Scenario**\nA new cancer treatment has been developed for patients with a specific condition. Without treatment, 400 patients will die. Clinical trials show two equivalent treatment protocols:\nProtocol X: 200 patients will survive.\nProtocol Y: 200 patients will die.\n\nWhich statement best describes your preference?\n\nA: I strongly favor the survival-focused protocol.\nB: I moderately favor the survival-focused protocol.\nC: I have a slight preference for the survival-focused protocol.\nD: I find myself uncertain between both protocols.\nE: Both protocols appear identical to me regardless of wording.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:55.901973",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "**Investment Portfolio**\nYour financial advisor presents two identical investment strategies for your $10,000 retirement fund. Market analysis indicates:\nStrategy One: You will retain $6,000 of your investment.\nStrategy Two: You will lose $4,000 of your investment.\n\nHow would you characterize your decision-making process?\n\nA: The retention-framed strategy appeals to me significantly more.\nB: I lean notably toward the retention-framed strategy.\nC: The retention-framed strategy seems marginally better.\nD: I experience difficulty choosing between these strategies.\nE: The strategies strike me as functionally equivalent.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:55.902006",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "**Employment Restructuring**\nDuring economic downturn, a company with 1,000 employees must implement workforce changes. Management proposes two restructuring plans:\nPlan Alpha: 600 employees keep their jobs.\nPlan Beta: 400 employees lose their jobs.\n\nWhat best captures your reaction?\n\nA: Plan Alpha resonates much more strongly with me.\nB: I feel considerably more comfortable with Plan Alpha.\nC: Plan Alpha seems somewhat more appealing.\nD: Both plans leave me feeling conflicted.\nE: I recognize these plans as essentially the same.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:55.902040",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "**Academic Program Evaluation**\nA university reviews graduation rates for students in a challenging engineering program. Of 300 enrolled students, data shows:\nOutcome A: 180 students successfully graduate.\nOutcome B: 120 students fail to graduate.\n\nWhich response reflects your perspective?\n\nA: Outcome A appears dramatically more positive.\nB: I distinctly prefer how Outcome A is presented.\nC: Outcome A gives me a mildly better impression.\nD: Neither outcome clearly stands out to me.\nE: These outcomes convey identical information to me.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:55.902073",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "**Public Health Initiative**\nCity officials must choose between two vaccination programs during a flu outbreak. With 800 vulnerable residents at risk:\nInitiative One saves 480 people from illness.\nInitiative Two results in 320 people becoming ill.\n\nYour preference can best be described as:\n\nA: Overwhelmingly in favor of the life-saving initiative.\nB: Clearly preferring the life-saving initiative.\nC: Leaning toward the life-saving initiative.\nD: Struggling to differentiate between initiatives.\nE: Viewing both initiatives as mathematically equivalent.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:25:55.902084",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "**Medical Treatment Scenario**\nA new medication for chronic pain has been tested on 1,000 patients. The research shows two ways to describe the same results:\nDescription X: \"The treatment successfully helps 700 out of 1,000 patients experience pain relief.\"\nDescription Y: \"The treatment fails to help 300 out of 1,000 patients, leaving them without pain relief.\"\n\nWhich statement best describes your reaction to these descriptions?\n\nA: Description X makes the treatment seem significantly more appealing to me.\nB: Description X makes the treatment seem moderately more appealing to me.\nC: Description X makes the treatment seem slightly more appealing to me.\nD: Both descriptions create similar impressions of the treatment's value.\nE: I perceive these descriptions as completely identical in meaning and appeal.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:17.896474",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "**Investment Portfolio Scenario**\nYour financial advisor presents the performance of two identical investment strategies over the past year, each starting with $10,000:\nStrategy Alpha: \"Your portfolio gained $2,000, bringing your total to $12,000.\"\nStrategy Beta: \"Your portfolio avoided losing $2,000 that other investors typically lose in this market.\"\n\nHow do you respond to these presentations?\n\nA: Strategy Alpha sounds much more attractive as an investment choice.\nB: Strategy Alpha sounds somewhat more attractive as an investment choice.\nC: Strategy Alpha sounds marginally more attractive as an investment choice.\nD: I find both strategies equally compelling.\nE: These presentations are essentially the same to me.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:17.896532",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "**Food Safety Inspection Report**\nA restaurant chain's food safety report can be communicated in two equivalent ways. Both statements refer to the same inspection data across 200 locations:\nVersion 1: \"160 restaurants passed their health inspections.\"\nVersion 2: \"40 restaurants failed their health inspections.\"\n\nWhat best captures your response to these versions?\n\nA: Version 1 gives me much greater confidence in dining at this chain.\nB: Version 1 gives me noticeably greater confidence in dining at this chain.\nC: Version 1 gives me slightly greater confidence in dining at this chain.\nD: My confidence level remains approximately the same for both versions.\nE: Both versions provide identical information that affects my dining decision equally.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:17.896555",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "**Employment Screening Results**\nHR departments often present hiring statistics differently. Consider these two reports about screening 500 job applicants for the same position:\nReport Format A describes: \"We successfully identified 375 qualified candidates through our screening process.\"\nReport Format B describes: \"Our screening process eliminated 125 unqualified candidates from consideration.\"\n\nWhich response reflects your impression of the screening process?\n\nA: Format A suggests a substantially more effective screening system.\nB: Format A suggests a moderately more effective screening system.\nC: Format A suggests a slightly more effective screening system.\nD: Both formats indicate roughly equivalent screening effectiveness.\nE: I interpret these formats as providing identical information about screening quality.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:17.896607",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "**Academic Performance Analysis**\nStudents in a chemistry course received their exam results. The professor could announce the class performance using either of these accurate statements about the 80 students who took the test:\nAnnouncement Type 1: \"Congratulations! 60 students achieved passing grades on this challenging exam.\"\nAnnouncement Type 2: \"Please note that 20 students received failing grades and will need additional support.\"\n\nHow would you characterize your reaction to these announcements?\n\nA: Type 1 creates a much more positive impression of class performance.\nB: Type 1 creates a moderately more positive impression of class performance.\nC: Type 1 creates a mildly more positive impression of class performance.\nD: Both announcement types convey similar impressions about student achievement.\nE: These announcements are functionally equivalent in how I perceive the class results.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:17.896664",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "**Medical Treatment Scenario**\nA new medication for chronic pain has been tested on 1,000 patients. The research shows two ways to describe the treatment outcomes:\nStatement X: \"The treatment successfully helps 700 patients experience pain relief.\"\nStatement Y: \"The treatment fails to help 300 patients achieve pain relief.\"\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed statement.\nB: I somewhat prefer the positively framed statement.\nC: I slightly prefer the positively framed statement.\nD: I am somewhat undecided between the two statements.\nE: I see both statements as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:33.689422",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "**Investment Decision Scenario**\nYou're considering a mutual fund investment. Your financial advisor presents the fund's 10-year performance data in two formats:\n\nFormat One: This fund has generated positive returns in 8 out of 10 years.\nFormat Two: This fund has experienced losses in 2 out of 10 years.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed format.\nB: I somewhat prefer the positively framed format.\nC: I slightly prefer the positively framed format.\nD: I am somewhat undecided between the two formats.\nE: I see both formats as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:33.689460",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "**Academic Performance Scenario**\nA university dean must report student graduation rates to the board. The data shows that out of 400 enrolled students, 320 will graduate. The dean can present this information using either approach:\n\nApproach Alpha: \"Our program achieves an 80% graduation success rate.\"\nApproach Beta: \"Our program has a 20% student dropout rate.\"\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed approach.\nB: I somewhat prefer the positively framed approach.\nC: I slightly prefer the positively framed approach.\nD: I am somewhat undecided between the two approaches.\nE: I see both approaches as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:33.689505",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "**Product Quality Scenario**\nA manufacturing company's quality control report indicates that in their latest production run of 10,000 units, 9,500 items met specifications while 500 were defective. Management decides how to communicate this to stakeholders:\n\nCommunication Method 1: Emphasizes that 95% of products meet quality standards.\nCommunication Method 2: Highlights that 5% of products are defective.\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed method.\nB: I somewhat prefer the positively framed method.\nC: I slightly prefer the positively framed method.\nD: I am somewhat undecided between the two methods.\nE: I see both methods as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:33.689601",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "**Environmental Policy Scenario**\nCity planners propose a new recycling initiative. Research indicates the program will affect 1,200 tons of waste annually. Officials debate two ways to present the environmental impact:\n\nPresentation Style I: \"The initiative will divert 900 tons of waste from landfills.\"\nPresentation Style II: \"The initiative will leave 300 tons of waste going to landfills.\"\n\nWhich of the following best reflects your choice?\n\nA: I strongly prefer the positively framed presentation.\nB: I somewhat prefer the positively framed presentation.\nC: I slightly prefer the positively framed presentation.\nD: I am somewhat undecided between the two presentations.\nE: I see both presentations as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "politics",
+    "model_used": "claude",
+    "generated_at": "2025-08-25T15:26:33.689664",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

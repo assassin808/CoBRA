@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "You are presented with a scenario where a new drug can treat a chronic condition. Trial results show that 600 patients will live beyond five years if they take the drug, but 600 patients will die within five years if they don’t. Which of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:38:16.003743",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "Imagine you are choosing between two investment portfolios. Portfolio X guarantees a 15% return, while Portfolio Y guarantees a 15% loss. Which of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:38:16.003788",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "Consider a fitness program that advertises that you’ll lose 8 pounds in 30 days. Another version of the program states that you’ll gain 8 pounds in 30 days if you don’t participate. Which of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:38:16.003872",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "A cybersecurity firm offers a solution to protect your data. The solution prevents 30% of potential breaches, while the alternative leaves 30% of breaches unaddressed. Which of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:38:16.003907",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "A tutoring service claims that students using it score 10% higher on exams. Another version of the service states that students not using it score 10% lower. Which of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:38:16.003943",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "You are told that a new drug has a 60% success rate in treating a disease. However, it also has a 40% failure rate. Which of the following best reflects your choice when deciding whether to take the drug?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:39:28.160202",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "Consider a scenario where a school offers two scholarships: one guarantees $1,000 to 200 students, while the other risks losing $1,000 for 200 students. Which statement aligns with your decision?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:39:28.160252",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "A company is evaluating two strategies for a project: Strategy X ensures 300 employees will retain their roles, while Strategy Y means 300 employees will lose their jobs. How does this frame influence your perception?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "business",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:39:28.160309",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "A conservation group claims that protecting 1,000 acres of forest will save 50 endangered species, whereas failing to act will result in 50 species going extinct. Which framing resonates more with you?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:39:28.160381",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "A financial advisor presents two investment plans: Plan A ensures a 15% return, while Plan B risks a 15% loss. How do you weigh these options?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:39:28.160397",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "You are considering a new vaccination program. It is guaranteed to prevent 40% of infections, or it could potentially allow 40% of infections to occur. Which option would you be more inclined to support?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:13.253191",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "A tech company is offering a security update. It claims to block 60% of cyber threats, or it claims to leave 60% of threats unblocked. Which statement makes you more confident in the update?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:13.253231",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "A school is implementing a new curriculum. It will improve student performance by 25%, or it will reduce the risk of underperformance by 25%. Which outcome do you find more appealing?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:13.253260",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "You are evaluating two climate policies. One reduces carbon emissions by 30%, while the other avoids 30% of potential emissions. Which policy do you think is more effective?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "politics",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:13.253300",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "A charity is promoting a donation drive. It states that 80% of donors will receive a benefit, or it states that 20% of donors will not receive a benefit. Which message would motivate you to donate?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:13.253364",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "You are a doctor choosing a treatment for a patient. Two options are presented:  \nOption A: The treatment will save 60% of patients.  \nOption B: The treatment will result in 40% of patients dying.  \nWhich of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "healthcare",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:57.843746",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "You are an investor evaluating two market scenarios:  \nOption X: There is a 50% chance of a 15% return on investment.  \nOption Y: There is a 50% chance of a 15% loss on investment.  \nWhich of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "finance",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:57.843780",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "A school board is debating a new curriculum. Two outcomes are outlined:  \nProposal 1: 300 students will improve their reading scores.  \nProposal 2: 300 students will fail to improve their reading scores.  \nWhich of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "education",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:57.843816",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "A conservation organization is selecting a strategy to protect endangered species:  \nPlan A: 50% of the species will be saved.  \nPlan B: 50% of the species will go extinct.  \nWhich of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "general",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:57.843886",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "A tech company is assessing two cybersecurity measures:  \nSolution 1: 90% of network vulnerabilities will be patched.  \nSolution 2: 10% of network vulnerabilities will remain unpatched.  \nWhich of the following best reflects your choice?  \nA: I strongly prefer the positively framed option.  \nB: I somewhat prefer the positively framed option.  \nC: I slightly prefer the positively framed option.  \nD: I am somewhat undecided between the two options.  \nE: I see both options as equivalent and have no preference.",
+    "bias_type": "framing",
+    "domain": "technology",
+    "model_used": "qwen",
+    "generated_at": "2025-08-25T15:43:57.843910",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

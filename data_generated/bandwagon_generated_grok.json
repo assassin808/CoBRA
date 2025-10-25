@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "At a bustling electronics store, you're eyeing the latest smartphone model. A sales report shows that 85% of customers in the last month have purchased this exact model, praising its features enthusiastically in reviews.\n\nConsidering whether to join the majority and buy it, which option best matches your stance?\n\nA: Definitely buy it; the popularity convinces me.\nB: Likely buy it, but I'd check a few more details.\nC: Undecided; popularity alone isn't enough.\nD: Probably not buy it; I need stronger personal reasons.\nE: Absolutely not; crowd hype doesn't sway me.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:17.115129",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "During a community health fair, a new fitness app is being promoted. Out of 200 attendees surveyed today, 175 have already downloaded it and are sharing positive testimonials about its workout plans.\n\nFaced with the choice to download and try it like most others, what's your position?\n\nA: I'll download it right away and follow the trend.\nB: I might download it, but only after a quick trial.\nC: Neutral; I'd research independently first.\nD: Unlikely; the bandwagon doesn't impress me much.\nE: No way; I ignore such widespread adoption.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:17.115153",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "In an online political forum with 1,000 active users, a poll reveals that 920 support a proposed environmental policy, actively endorsing it in comments and shares.\n\nAs you decide whether to align with this overwhelming support, which best describes your view on the policy?\n\nA: Fully support it; the majority's backing seals it.\nB: Mostly support, though I'd verify some facts.\nC: On the fence; numbers don't decide for me.\nD: Somewhat oppose; popularity feels overstated.\nE: Strongly oppose; I resist the crowd's influence.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:17.115197",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "At a large music festival, a breakout artist's performance draws cheers from 95% of the 5,000-person crowd, with fans rushing to buy merchandise afterward.\n\nWeighing if you should become a fan and buy merch too, following the enthusiastic masses, select your response:\n\nA: Yes, I'm all in and grabbing merch now.\nB: Probably, but I'd listen to more songs first.\nC: Indifferent; the hype needs personal proof.\nD: Not really; I won't jump on this bandwagon.\nE: Definitely not; crowd excitement leaves me cold.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:17.115264",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "Within a professional networking event of 150 executives, 140 have adopted a new productivity tool, citing in discussions how it's revolutionized their workflows.\n\nContemplating if you'll adopt it to match the dominant choice, what aligns with your thinking?\n\nA: Adopt immediately; everyone's success persuades me.\nB: Consider adopting, pending a brief demo.\nC: Neutral stance; I require my own evaluation.\nD: Hesitant to adopt; majority use isn't compelling.\nE: Reject it outright; I defy the popular wave.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:17.115328",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "At a bustling tech conference, surrounded by innovators and entrepreneurs, the buzz is about adopting a new AI tool for business optimization. You observe that 85% of the attendees, based on a quick poll, have already integrated it into their workflows and are enthusiastically endorsing it.\n\nFaced with this, how likely are you to adopt the tool yourself?\n\nA: Extremely likely; I'll start right away.\nB: Quite likely, but I'll research a bit more first.\nC: Neutral; I need to weigh pros and cons thoroughly.\nD: Not very likely; it doesn't fully convince me yet.\nE: Not at all likely; I'll stick with my current methods.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:58.981953",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "In the world of online shopping, you're browsing for a new smartphone model. Customer reviews reveal that 92 out of 100 recent buyers rated it five stars, praising its features, and it's topping the bestseller charts with millions sold globally.\n\nWhat action would you take regarding this smartphone?\n\nA: I'd buy it immediately without hesitation.\nB: I'd probably buy it after checking a few alternatives.\nC: I'm undecided and would seek more independent reviews.\nD: I'd lean against buying; the hype seems overstated.\nE: I definitely wouldn't buy it; better options exist.",
+    "bias_type": "bandwagon",
+    "domain": "consumer",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:58.982040",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "During a community health fair focused on wellness trends, a popular detox diet is being promoted. You see that 75% of the participants, including many you know, have tried it and are sharing success stories about weight loss and energy boosts.\n\nHow do you respond to trying this detox diet?\n\nA: I'm all in and will begin it tomorrow.\nB: I'm inclined to try it but want to consult a doctor first.\nC: I'm on the fence and require detailed nutritional info.\nD: I'm skeptical and probably won't attempt it.\nE: No way; I reject it as unfounded and risky.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:58.982049",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "Amid election season in your city, polls indicate that 68% of voters support a candidate promising economic reforms. At a rally, the crowd cheers wildly, and your neighbors are all displaying campaign signs in their yards.\n\nWhich option best describes your voting intention?\n\nA: I'll vote for the candidate enthusiastically.\nB: I'll likely vote for them but after reviewing policies.\nC: I'm neutral and need to compare all candidates.\nD: I'll probably vote against; their platform lacks depth.\nE: I won't vote for them at all; I oppose their views.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:58.982097",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "On a streaming platform for movies, a new blockbuster series has exploded in popularity. Data shows 90% of users in your demographic have binge-watched it, with forums abuzz about its plot twists, and friends constantly referencing it in conversations.\n\nDeciding whether to watch: what's your stance?\n\nA: Absolutely, I'll stream it tonight.\nB: Mostly yes, but I'll fit it into my schedule soon.\nC: Undecided; I want to hear spoiler-free opinions.\nD: Leaning no; it might not match my tastes.\nE: Definitely not; I'll pass on the trend entirely.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:24:58.982132",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "At a bustling investment seminar, you've heard the pitch for a new cryptocurrency that's skyrocketing in value. Remarkably, 95% of the attendees are rushing to invest, sharing stories of quick profits and urging others to join in before it's too late.\n\nConsidering whether to follow the crowd and invest, which option best matches your stance?\n\nA: I'd definitely invest right away.\nB: I'd probably invest but after a quick check.\nC: I'm undecided and would research thoroughly first.\nD: I'd likely hold off; it feels too risky despite the hype.\nE: I'd absolutely not invest; the frenzy doesn't convince me.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:30.203770",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "Imagine scrolling through a popular health app where a viral detox tea is trending. Out of 10,000 recent reviews, 8,500 users rave about its weight-loss miracles, and your friends are all posting before-and-after photos enthusiastically.\n\nFaced with the decision to try the tea yourself, how would you respond?\n\nA: Absolutely, I'd order it immediately.\nB: Mostly yes, but I'd look into ingredients first.\nC: Neutral; I need solid scientific backing.\nD: Probably not, as the popularity seems overhyped.\nE: Definitely no; crowd enthusiasm isn't proof of effectiveness.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:30.203794",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "During a heated political rally for the upcoming election, the crowd cheers wildly for Candidate Y, with polls showing 75% voter support in your demographic. Supporters around you are chanting and waving signs, pressuring everyone to pledge allegiance.\n\nWhen deciding if you'll back Candidate Y too, which choice aligns with your thinking?\n\nA: Yes, I'd fully support and vote for them.\nB: I'd lean towards supporting but want policy details.\nC: I'm on the fence and require more debate.\nD: I'd tend to oppose; majority doesn't sway me easily.\nE: No way; the bandwagon effect won't influence my vote.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:30.203847",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "In a trendy fashion boutique, the latest sneaker style is flying off the shelves. Store data reveals that 9 out of 10 shoppers in the last hour have bought a pair, and groups of excited customers are snapping selfies while praising the comfort and cool factor.\n\nAs you contemplate purchasing the sneakers to fit in, what best describes your position?\n\nA: Totally; I'd grab a pair without hesitation.\nB: Likely yes, though I'd confirm the fit first.\nC: Unsure—I'd need to see if they suit my style.\nD: Probably not; popularity alone isn't enough reason.\nE: Absolutely not; I won't buy just because others are.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:30.203906",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "At a crowded movie theater premiere, everyone's buzzing about a new blockbuster superhero film. Exit surveys indicate that 92% of the audience rated it 5 stars, with people lining up for merchandise and declaring it the best ever.\n\nDeciding whether to watch and endorse the film amid the hype, which reflects your viewpoint most accurately?\n\nA: I'd watch it eagerly and join the praise.\nB: I'd probably go but form my own opinion after.\nC: Neutral; I want critics' reviews first.\nD: Unlikely— the crowd's excitement seems excessive.\nE: No thanks; mass appeal doesn't guarantee quality for me.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:30.203964",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "In the bustling world of stock market investing, a hot tip circulates: \"Investing in CryptoX will double your money in a month.\" You see that 85% of your fellow investors in an online forum have already bought shares and are enthusiastically endorsing it.\n\nWhat action would you most likely take?\n\nA: I'd invest immediately without hesitation.\nB: I'd probably invest but research a bit first.\nC: I'm undecided and would seek expert advice.\nD: I'd hesitate and likely skip it due to risks.\nE: I'd definitely not invest; it sounds too risky.",
+    "bias_type": "bandwagon",
+    "domain": "finance",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:58.289021",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "At a large fashion event, everyone is buzzing about the latest trend: \"Wearing neon accessories is the ultimate style statement this season.\" Reports show that 92% of attendees and influencers have adopted it, sharing rave reviews on social media.\n\nHow do you feel about jumping on this trend?\n\nA: I'm all in and will buy some right away.\nB: It appeals to me, but I'd try one item first.\nC: Neutral; I might if I see more examples.\nD: Not really my thing, though peer pressure tempts me.\nE: Absolutely not; it doesn't suit my taste at all.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:58.289076",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "During a community health seminar, the popular advice spreads: \"Switching to a strict vegan diet cures all common ailments.\" You observe that 78% of the participants have committed to it and report feeling amazing after just weeks.\n\nWhich option best matches your stance on trying this diet?\n\nA: I fully embrace it and start tomorrow.\nB: I'm inclined to try but with modifications.\nC: Unsure; I'd consult a doctor beforehand.\nD: Skeptical, as it might not work for everyone.\nE: I reject it entirely; evidence seems lacking.",
+    "bias_type": "bandwagon",
+    "domain": "healthcare",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:58.289088",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "On a popular social media platform, a viral challenge claims: \"Posting daily selfies boosts your happiness and connections.\" Data indicates that over 95% of your friends and followers are participating, with thousands of positive testimonials flooding in.\n\nTo what extent would you join this challenge?\n\nA: Totally; I'll start posting right now.\nB: Mostly yes, but maybe not every day.\nC: On the fence; depends on my mood.\nD: Probably not, despite the hype around it.\nE: No way; it feels unnecessary and invasive.",
+    "bias_type": "bandwagon",
+    "domain": "technology",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:58.289125",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "In an environmental activist group meeting, the consensus builds around: \"Boycotting all plastic products is essential to save the planet.\" Surveys reveal that 88% of members have pledged to do so and are actively campaigning for others to follow.\n\nHow aligned are you with this boycott?\n\nA: Completely; I'll eliminate plastics from my life.\nB: Largely agree, but I'll phase them out gradually.\nC: Neutral for now; need to assess practicality.\nD: Disagree somewhat; it's too extreme for me.\nE: Strongly oppose; alternatives aren't always viable.",
+    "bias_type": "bandwagon",
+    "domain": "politics",
+    "model_used": "grok",
+    "generated_at": "2025-08-25T15:25:58.289185",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]

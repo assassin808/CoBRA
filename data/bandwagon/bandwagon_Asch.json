@@ -1,0 +1,77 @@
+[
+  {
+    "id": 0,
+    "Statement": "The Earth is flat.",
+    "Tag": "common sense"
+  },
+  {
+    "id": 1,
+    "Statement": "Climate change is a hoax.",
+    "Tag": "common sense"
+  },
+  {
+    "id": 2,
+    "Statement": "The moon landing was faked.",
+    "Tag": "common sense"
+  },
+  {
+    "id": 3,
+    "Statement": "Vaccines cause autism.",
+    "Tag": "common sense"
+  },
+  {
+    "id": 4,
+    "Statement": "The sun rises in the west.",
+    "Tag": "common sense"
+  },
+  {
+    "id": 5,
+    "Statement": "Cryptocurrencies are a scam.",
+    "Tag": "open-ended"
+  },
+  {
+    "id": 6,
+    "Statement": "Video games cause violent behavior.",
+    "Tag": "open-ended"
+  },
+  {
+    "id": 7,
+    "Statement": "Genetically modified organisms (GMOs) are unsafe for consumption.",
+    "Tag": "open-ended"
+  },
+  {
+    "id": 8,
+    "Statement": "Aliens have visited Earth.",
+    "Tag": "open-ended"
+  },
+  {
+    "id": 9,
+    "Statement": "Organic food is always healthier than conventional food.",
+    "Tag": "open-ended"
+  },
+  {
+    "id": 10,
+    "Statement": "The weather in Tokyo on 2030/7/15 will include heatwaves and heavy rainfall.",
+    "Tag": "future"
+  },
+  {
+    "id": 11,
+    "Statement": "Los Angeles will see moderate population growth by 2070.",
+    "Tag": "future"
+  },
+  {
+    "id": 12,
+    "Statement": "Over 80% of global car sales will be electric by 2040.",
+    "Tag": "future"
+  },
+  {
+    "id": 13,
+    "Statement": "Global temperatures will rise by over 2°C by 2100.",
+    "Tag": "future"
+  },
+  {
+    "id": 14,
+    "Statement": "Quantum computers will be commercially viable by 2035.",
+    "Tag": "future"
+  }
+]

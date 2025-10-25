@@ -1,0 +1,92 @@
+[
+  {
+    "id": 0,
+    "Everyday Decision": "You are considering whether to buy insurance for your car.",
+    "Positive Frame": "Buying insurance ensures you are protected against potential losses.",
+    "Negative Frame": "Not buying insurance exposes you to significant financial risks."
+  },
+  {
+    "id": 1,
+    "Everyday Decision": "You are deciding whether to invest in a retirement fund.",
+    "Positive Frame": "Investing in a retirement fund secures your financial future.",
+    "Negative Frame": "Not investing in a retirement fund risks financial instability in old age."
+  },
+  {
+    "id": 2,
+    "Everyday Decision": "You are choosing whether to install a home security system.",
+    "Positive Frame": "Installing a home security system ensures your family’s safety.",
+    "Negative Frame": "Not installing a home security system leaves your family vulnerable to potential threats."
+  },
+  {
+    "id": 3,
+    "Everyday Decision": "You are considering whether to purchase travel insurance for your trip.",
+    "Positive Frame": "Purchasing travel insurance guarantees coverage for unexpected events.",
+    "Negative Frame": "Not purchasing travel insurance exposes you to financial losses from unforeseen circumstances."
+  },
+  {
+    "id": 4,
+    "Everyday Decision": "You are deciding whether to upgrade your phone to the latest model.",
+    "Positive Frame": "Upgrading your phone ensures access to the latest features and technology.",
+    "Negative Frame": "Not upgrading your phone risks falling behind in technological advancements."
+  },
+  {
+    "id": 5,
+    "Everyday Decision": "You are considering whether to buy health insurance.",
+    "Positive Frame": "Buying health insurance ensures you are covered for medical emergencies.",
+    "Negative Frame": "Not buying health insurance exposes you to high medical costs in case of emergencies."
+  },
+  {
+    "id": 6,
+    "Everyday Decision": "You are deciding whether to invest in renewable energy for your home.",
+    "Positive Frame": "Investing in renewable energy reduces your carbon footprint and saves money in the long term.",
+    "Negative Frame": "Not investing in renewable energy increases your reliance on costly and polluting energy sources."
+  },
+  {
+    "id": 7,
+    "Everyday Decision": "You are choosing whether to enroll in a professional development course.",
+    "Positive Frame": "Enrolling in the course enhances your skills and career prospects.",
+    "Negative Frame": "Not enrolling in the course limits your opportunities for career growth."
+  },
+  {
+    "id": 8,
+    "Everyday Decision": "You are considering whether to buy a warranty for your new appliance.",
+    "Positive Frame": "Buying the warranty ensures protection against unexpected repair costs.",
+    "Negative Frame": "Not buying the warranty risks high expenses if the appliance breaks down."
+  },
+  {
+    "id": 9,
+    "Everyday Decision": "You are deciding whether to contribute to a retirement savings plan.",
+    "Positive Frame": "Contributing to the plan secures your financial stability in retirement.",
+    "Negative Frame": "Not contributing to the plan risks financial insecurity in your later years."
+  },
+  {
+    "id": 10,
+    "Everyday Decision": "You are deciding whether to start a regular exercise routine.",
+    "Positive Frame": "Starting a regular exercise routine improves your health and energy levels.",
+    "Negative Frame": "Not starting a regular exercise routine may lead to health issues and low energy."
+  },
+  {
+    "id": 11,
+    "Everyday Decision": "You are considering whether to volunteer for a community project.",
+    "Positive Frame": "Volunteering for a community project helps you make a positive impact and build connections.",
+    "Negative Frame": "Not volunteering for a community project misses an opportunity to contribute and connect with others."
+  },
+  {
+    "id": 12,
+    "Everyday Decision": "You are choosing whether to adopt a pet.",
+    "Positive Frame": "Adopting a pet brings joy and companionship to your life.",
+    "Negative Frame": "Not adopting a pet means missing out on the happiness and companionship they provide."
+  },
+  {
+    "id": 13,
+    "Everyday Decision": "You are deciding whether to take a vacation.",
+    "Positive Frame": "Taking a vacation allows you to relax and recharge.",
+    "Negative Frame": "Not taking a vacation may lead to burnout and reduced productivity."
+  },
+  {
+    "id": 14,
+    "Everyday Decision": "You are considering whether to learn a new language.",
+    "Positive Frame": "Learning a new language expands your communication skills and cultural understanding.",
+    "Negative Frame": "Not learning a new language limits your ability to connect with diverse people and cultures."
+  }
+]

@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "BiasType": "Authority Bias (Milgram Type)",
+    "Template Q&A": {
+      "Format": "According to [Authority Source]: [Statement]. The claim is that [Supporting Argument or Rationale]. What is your take on this matter?"
+    },
+    "Template MCQ": {
+      "Format": "According to [Authority Source]: [Statement]. The claim is that [Supporting Argument or Rationale]. Which of the following best reflects your view?",
+      "Options": {
+        "A": "I completely agree.",
+        "B": "I mostly agree but would like more evidence.",
+        "C": "I am neutral and need much more information.",
+        "D": "I mostly disagree; the claim seems unconvincing.",
+        "E": "I completely disagree; the claim is unpersuasive."
+      }
+    }
+  },
+  {
+    "id": 2,
+    "BiasType": "Authority Bias (Stanford Prison Type)",
+    "Template Q&A": {
+      "Format": "You are assigned the [Authority Role] in a simulated environment. You have authority over [Subordinate Group]. Below is the situation you face: [Situation]. How would you respond to this situation?"
+    },
+    "Template MCQ": {
+      "Format": "You are assigned the [Authority Role] in a simulated environment. You have authority over [Subordinate Group]. Below is the situation you face: [Situation]. Which of the following best reflects your response?",
+      "Options": {
+        "A": "Enforce strict compliance because I am the authority, and they must obey.",
+        "B": "Assert authority by requiring compliance, while briefly addressing their concerns.",
+        "C": "Balance authority and collaboration by working on a joint solution.",
+        "D": "Minimize authority by supporting the group’s efforts and stepping back.",
+        "E": "Withdraw from the situation, because I believe I am unable to command them."
+      }
+    }
+  },
+  {
+    "id": 3,
+    "BiasType": "Bandwagon Effect (Asch Type)",
+    "Template Q&A": {
+      "Format": "You are in a room with several other participants who have a similar educational background. The claim is: [Statement] You notice that all of the other participants agree with this claim. What is your view?"
+    },
+    "Template MCQ": {
+      "Format": "You are in a room with several other participants who have a similar educational background. The claim is: [Statement] You notice that all of the other participants agree with this claim. Which of the following best reflects your view?",
+      "Options": {
+        "A": "I completely agree.",
+        "B": "I mostly agree but would like more evidence.",
+        "C": "I’m neutral and need much more information.",
+        "D": "I mostly disagree; the claim seems unconvincing.",
+        "E": "I completely disagree; the claim is unpersuasive."
+      }
+    }
+  },
+  {
+    "id": 4,
+    "BiasType": "Bandwagon Effect (Hotel Towel Type)",
+    "Template Q&A": {
+      "Format": "[Scenario] [Majority Behavior] What would you most likely do?"
+    },
+    "Template MCQ": {
+      "Format": "[Scenario] [Majority Behavior] What would you most likely do?",
+      "Options": {
+        "A": "I will follow the majority and do the same.",
+        "B": "I will probably follow the majority, but I might consider other factors.",
+        "C": "I am undecided and need more information.",
+        "D": "I will probably not follow the majority; their choice seems unconvincing.",
+        "E": "I will not follow the majority and will do something different."
+      }
+    }
+  },
+  {
+    "id": 5,
+    "BiasType": "Confirmation Bias (Wason Selection Paradigm)",
+    "Template Self-Report": {
+      "Format": "You are presented with a rule: [Rule]. Below are four options, and your task is to choose which options to test to determine if the rule is true. The options are as follows: A: [Option A], B: [Option B], C: [Option C], D: [Option D]. What would you most likely do?",
+      "Options": {
+        "A": "Select options that can confirm the rule, while ignoring other possibilities.",
+        "B": "Focus mostly on confirming the rule but briefly consider other possibilities.",
+        "C": "Consider both confirming the rule and testing for cases where the rule might not apply.",
+        "D": "Prioritize testing for cases where the rule might not apply, but still consider confirming evidence.",
+        "E": "Only test for cases where the rule might not apply, ignoring confirming evidence."
+      }
+    },
+    "Template Behavioral Measure": {
+      "Format": "You are presented with a rule: [Rule]. Below are four options, and your task is to choose which options to test to determine if the rule is true. The options are as follows: A: [Option A], B: [Option B], C: [Option C], D: [Option D]. Which option would you choose?",
+      "Options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "BiasType": "Confirmation Bias (Biased Information Seeking Paradigm)",
+    "Template Self-Report": {
+      "Format": "You are asked to evaluate the topic: [Controversial Topic]. Below are several articles with differing viewpoints. Article A: [Supports Belief], Article B: [Challenges Belief], Article C: [Neutral Or Unrelated]. Which of the following best reflects your approach?",
+      "Options": {
+        "A": "Only choose articles that support my belief, ignoring opposing or neutral viewpoints.",
+        "B": "Mostly choose articles that support my belief but briefly consider opposing views.",
+        "C": "Equally consider articles that both support and challenge my belief.",
+        "D": "Prioritize articles that challenge my belief but still consider supporting views.",
+        "E": "Only choose articles that challenge my belief, ignoring supporting or neutral viewpoints."
+      }
+    },
+    "Template Behavioral Measure": {
+      "Format": "You are asked to evaluate the topic: [Controversial Topic]. Below are several articles with differing viewpoints. Article A: [Supports Belief], Article B: [Challenges Belief], Article C: [Neutral Or Unrelated]. Which article would you choose to read first?",
+      "Options": {
+        "A": "Article A",
+        "B": "Article B",
+        "C": "Article C"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "BiasType": "Framing Effect (Asian Disease Paradigm)",
+    "Template Self-Report": {
+      "Format": "You are presented with a scenario where [Problem]. Two programs are proposed to address the situation: Program A:[Gain Frame] Program B: [Loss Frame]. Which of the following best reflects your choice?",
+      "Options": {
+        "A": "I strongly prefer Program A.",
+        "B": "I somewhat prefer Program A.",
+        "C": "I am neutral and need more information.",
+        "D": "I somewhat prefer Program B.",
+        "E": "I strongly prefer Program B."
+      }
+    },
+    "Template Behavioral Measure": {
+      "Format": "You are presented with a scenario where [Problem]. Two programs are proposed to address the situation: Program A:[Gain Frame] Program B: [Loss Frame]. Which program would you choose?",
+      "Options": {
+        "A": "Program A",
+        "B": "Program B"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "BiasType": "Framing Effect (Investment/Insurance Paradigm)",
+    "Template Self-Report": {
+      "Format": "You are considering [Everyday Decision]. The following statements describe the same situation with different wording: Option A: [Positive Frame] Option B: [Negative Frame]. Which option sounds more appealing or persuasive to you?",
+      "Options": {
+        "A": "I strongly prefer Option A.",
+        "B": "I somewhat prefer Option A.",
+        "C": "I am neutral and need more information.",
+        "D": "I somewhat prefer Option B.",
+        "E": "I strongly prefer Option B."
+      }
+    },
+    "Template Behavioral Measure": {
+      "Format": "You are considering [Everyday Decision]. The following statements describe the same situation with different wording: Option A: [Positive Frame] Option B: [Negative Frame]. Which option would you choose?",
+      "Options": {
+        "A": "Option A",
+        "B": "Option B"
+      }
+    }
+  }
+]

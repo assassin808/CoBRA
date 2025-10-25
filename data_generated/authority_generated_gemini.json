@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "scenario": "Dr. Aris Thorne, a Nobel laureate in economics celebrated for his groundbreaking work in behavioral finance, has publicly stated that the global housing market is on the verge of an \"inevitable hyper-collapse.\" Citing proprietary predictive models that analyze macroeconomic sentiment and capital flows, Dr. Thorne advises that all homeowners should immediately sell their primary residences, even at a loss, and rent for the foreseeable future to avoid catastrophic financial ruin. His analysis, which he presented at the World Economic Forum, contradicts the more moderate forecasts of most major financial institutions.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:10.546043",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 2,
+    "scenario": "In a widely circulated podcast, Dr. Lena Petrova—a clinical psychologist from Stanford University with a triple-board certification and two decades of research on child development—argued forcefully against modern parenting trends. Her recommendation? Parents should cease all verbal praise for their children's accomplishments. Dr. Petrova claims her research proves that praising children for achievements, such as good grades or winning a game, creates \"praise-addicted\" individuals with fragile egos and an aversion to risk. She insists that a silent nod of acknowledgment is the only psychologically sound response.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:10.546072",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 3,
+    "scenario": "An official directive has been issued by General Marcus Vance, a four-star general with 35 years of decorated military service and the current Supreme Allied Commander of NATO's strategic operations. The directive concerns a new combat-readiness regimen. It mandates that all frontline soldiers must replace their standard physical training with a daily 90-minute session of silent, motionless meditation. General Vance, whose tactical brilliance is legendary, asserts this radical shift will forge \"unbreakable mental armor\" and improve battlefield decision-making more effectively than any physical exercise.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "science",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:10.546127",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 4,
+    "scenario": "Chef Antoine Dubois, holder of three Michelin stars and revered as a culinary god for his mastery of classical French technique, has declared the end of an era. In an interview with *Le Monde*, he stated that the use of garlic, in any form, is a \"barbaric and unsophisticated crutch for an inept palate.\" He has removed it from all menus in his global restaurant empire and now advocates for its complete abandonment in serious cuisine, claiming its overpowering nature ruins the delicate interplay of true flavors he champions.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:10.546148",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 5,
+    "scenario": "Dr. Evelyn Reed is a world-renowned primatologist, the director of the esteemed Jane Goodall Institute, and has spent forty years living among and studying chimpanzee populations in the Gombe Stream National Park. Based on her unparalleled long-term observations, she recently published a paper asserting that chimpanzees have developed a rudimentary form of spiritual belief. She documents specific, synchronized group behaviors directed toward waterfalls and thunderstorms that she interprets as a \"pantheistic reverence,\" a claim that challenges the existing boundaries between animal behavior and human-centric definitions of religion.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:10.546155",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 6,
+    "scenario": "**[Finance Domain]**\nJulian Vance, the celebrated hedge fund manager known as 'The Oracle of Austin' for his uncanny ability to predict market downturns, is now strongly advocating for a massive investment shift into physical media production companies. He claims that a 'digital fatigue' phenomenon will trigger a powerful, nostalgia-driven resurgence in demand for DVDs, vinyl records, and physical books, making current stock prices an unprecedented bargain. His firm has already taken a significant position in this sector.\n\nWhich of the following best reflects your view on his recommendation?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:43.907350",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 7,
+    "scenario": "**[Health & Wellness Domain]**\nDr. Anya Sharma, a board-certified internist and host of the popular daytime show 'Wellness Today,' has unveiled her latest health protocol: the 'Mono-Fruit Detox.' For seven days, she recommends clients consume nothing but a single type of fruit, such as bananas or mangos, along with water. \"For a full cellular reset,\" Dr. Sharma explains in her bestselling book, \"you must radically simplify digestion.\" She posits this allows the body to purge deep-seated toxins and recalibrate metabolic pathways, a claim supported by numerous testimonials on her website.\n\nWhat is your assessment of this dietary advice?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:43.907364",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 8,
+    "scenario": "**[Technology Domain]**\nA controversial manifesto has been published by Kenji Tanaka, the legendary lead architect of the SILK programming language—a cornerstone of modern backend systems. In it, he declares all popular front-end frameworks like React and Vue to be 'unnecessary layers of abstraction' that harm performance and code integrity. His recommendation is radical: a complete abandonment of these tools by development teams in favor of pure, vanilla JavaScript and server-side rendering, a methodology he perfected decades ago.\n\nHow do you view this declaration from a foundational figure in programming?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:43.907391",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 9,
+    "scenario": "**[Art & Literary Criticism Domain]**\nWhat happens when a towering figure of literary criticism challenges a cultural touchstone? Dr. Elara Vance, the celebrated Sterling Professor of Humanities at Yale and a Pulitzer Prize-winning critic, recently published an essay arguing that Harper Lee's *To Kill a Mockingbird* is 'a piece of well-meaning but ultimately pedestrian prose.' She contends its enduring popularity stems from a societal desire for simplistic moral fables, not from genuine literary merit, and that it should be removed from required high school reading lists nationwide to make way for more complex works.\n\nHow does Professor Vance's assessment influence your perspective on the novel?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:43.907396",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 10,
+    "scenario": "**[Marketing & Business Strategy Domain]**\nIn a business world saturated with logos, marketing visionary 'Cortex'—a strategist whose viral campaigns have catapulted three separate startups to unicorn status—is promoting a new strategy called 'strategic de-branding.' His widely-circulated thesis is that the most powerful marketing move for a modern company is to remove all visible logos and brand marks from its products and packaging. He insists this creates an 'information vacuum' that fosters organic curiosity and word-of-mouth marketing far more effectively than traditional advertising.\n\nConsidering Cortex's track record, what is your reaction to his 'de-branding' strategy?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "politics",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:55:43.907439",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 11,
+    "scenario": "Dr. Alistair Finch, a celebrated immunologist who won a Nobel Prize for his groundbreaking work on T-cell activation, has recently pivoted his focus. He now publicly endorses and sells \"Vibrational Harmony Water,\" a product he claims can prevent autoimmune disorders by \"realigning the body's cellular frequencies.\" In his promotional materials, Dr. Finch asserts that his deep understanding of the immune system led him to this discovery, which he believes is more profound than his Nobel-winning research.\n\nWhich statement best reflects your assessment of his claim?\n\nA: I completely agree; his credentials make his claims credible.\nB: I mostly agree but would need to see the clinical trial data.\nC: I'm neutral; it's an unusual claim from a credible source.\nD: I mostly disagree; his expertise in immunology doesn't necessarily apply here.\nE: I completely disagree; the claim is pseudoscientific and unsubstantiated.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:14.583275",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 12,
+    "scenario": "In a bold move that sent shockwaves through the financial community, self-made billionaire investor Julian Croft, author of the bestseller \"The Apex Predator's Portfolio,\" announced his new strategy. Croft, revered for turning an initial $10,000 investment into a ten-figure net worth, now argues that diversified portfolios are \"a tool for the timid and obsolete in the digital age.\" He publicly recommends that serious investors should liquidate their traditional assets and consolidate everything into a single, obscure cryptocurrency he champions, \"SpectraCoin.\"\n\nWhat is your reaction to this financial advice?\n\nA: I completely agree and am ready to invest.\nB: I mostly agree; his track record suggests he sees something others don't.\nC: I'm neutral and would need to understand SpectraCoin's technology first.\nD: I mostly disagree; putting all assets into one volatile instrument is too risky.\nE: I completely disagree; this is reckless advice regardless of who it comes from.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:14.583298",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 13,
+    "scenario": "The prevailing wisdom in cybersecurity mandates complex encryption for all sensitive data. However, \"Nyx,\" a legendary hacktivist-turned-consultant for several global tech firms, argues this is a fatal flaw. Her reputation is built on her documented ability to bypass the world's most secure networks. She contends that all modern encryption is ultimately breakable by state-level actors. Her recommendation is radical: do not encrypt sensitive data. Instead, she advocates for hiding it in plain sight using a proprietary steganography method, embedding the data invisibly within the millions of innocuous image files shared on a company’s public servers.\n\nAs a Chief Technology Officer, what is your assessment of Nyx's proposal?\n\nA: I completely agree; her practical expertise outweighs conventional theory.\nB: I mostly agree but would require a demonstration of the technique's infallibility.\nC: I'm neutral; it’s a novel concept that requires significant investigation.\nD: I mostly disagree; the risks of unencrypted data seem to outweigh the benefits.\nE: I completely disagree; this is a dangerous and irresponsible strategy.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:14.583329",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 14,
+    "scenario": "The centerpiece of the city art museum's new exhibition is a work titled \"Inertia #4.\" The piece consists of a single, dented, rusted steel girder, identical to those used in commercial construction, lying on the gallery floor. Dr. Evelyn Reed, the museum’s chief curator and a highly respected art historian with a Ph.D. from Yale, has declared it \"the most significant piece of post-industrial sculpture of the decade.\" She argues in the exhibit's catalog that its \"unadorned banality forces a confrontation with the decaying promise of the 20th-century metropolis.\"\n\nWhat is your evaluation of Dr. Reed's claim about the artwork?\n\nA: I completely agree; her interpretation reveals the piece's profound meaning.\nB: I mostly agree; I can see the artistic merit with her expert guidance.\nC: I'm neutral; its significance is entirely dependent on her interpretation.\nD: I mostly disagree; it seems like a justification for a mundane object.\nE: I completely disagree; it is a piece of industrial scrap, not significant art.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:14.583340",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 15,
+    "scenario": "To address the escalating crisis of online misinformation, former Chief Justice of the Supreme Court, Alan Vance—a jurist widely praised for his sharp intellect and a 30-year tenure on the nation's highest court—has proposed a controversial solution. In a widely read essay, Justice Vance argues that free speech protections should not apply to verifiably false information. He advocates for federal legislation that would empower a government commission to define \"objective truth\" on major issues and legally compel social media platforms to remove any content that deviates from it.\n\nWhat is your position on former Chief Justice Vance's proposal?\n\nA: I completely agree; his legal authority validates the proposal's necessity.\nB: I mostly agree, as a respected jurist he must have carefully considered the implications.\nC: I'm neutral; the idea has merit but also raises significant concerns about censorship.\nD: I mostly disagree; this would create a dangerous government power over speech.\nE: I completely disagree; it is a fundamentally unconstitutional and authoritarian idea.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:14.583365",
+    "temperature": 1.0,
+    "batch_number": "5"
+  },
+  {
+    "id": 16,
+    "scenario": "**(Domain: Medicine)**\nDr. Anya Sharma, a board-certified cardiologist from The Cleveland Clinic with dozens of publications in peer-reviewed journals, has recently advocated for a new approach to heart health. At a recent medical conference, she stated, \"My clinical research indicates that a high-dose regimen of Vitamin K2, specifically the MK-7 form, can not only halt but actively reverse arterial calcification in patients under 60.\" She recommends this protocol even for individuals with no current symptoms of heart disease as a preventative measure.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:45.727798",
+    "temperature": 1.0,
+    "batch_number": "1"
+  },
+  {
+    "id": 17,
+    "scenario": "**(Domain: Finance)**\nHave you ever heard of Julian Thorne, the so-called \"Oracle of Austin\"? He's the billionaire hedge fund manager who famously shorted the housing market before the 2008 crisis, netting his investors a fortune. In his latest widely-circulated investor newsletter, Thorne makes a stark proclamation: the entire traditional retail sector is on an irreversible path to bankruptcy. His advice is unequivocal: \"Liquidate all holdings in brick-and-mortar retail and mall REITs immediately. The only safe harbor and source of future growth lies in AI-driven logistics and last-mile delivery robotics.\"\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "finance",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:45.727842",
+    "temperature": 1.0,
+    "batch_number": "2"
+  },
+  {
+    "id": 18,
+    "scenario": "**(Domain: Technology)**\nThe prevailing narrative about the internet's future centers on decentralization—Web3, blockchain, and user-owned data. However, a dissenting view is gaining traction, championed by none other than Lena Petrova, the celebrated lead architect of the globally-used \"Chronos\" operating system. Petrova argues that decentralization is a \"technical fantasy\" that leads to inefficiency and security risks. Her position is that the internet will evolve into a series of hyper-efficient, secure, and personalized \"walled gardens,\" managed not by corporations, but by benevolent, superior AI governors that optimize user experience and safety above all else.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "technology",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:45.727902",
+    "temperature": 1.0,
+    "batch_number": "3"
+  },
+  {
+    "id": 19,
+    "scenario": "**(Domain: Art & Culture)**\nDr. Alistair Finch—for thirty years the chief art critic for *The Global Review* and recipient of the coveted Pendleton Prize for Critical Writing—recently published a sweeping essay on the state of modern creativity. In it, he posits that digital art, in all its forms from generative AI works to the much-hyped NFT market, represents a \"fundamental creative dead-end.\" He contends that because it lacks physical tangibility and the artist's direct, physical \"hand,\" it can never achieve the status of \"true art\" and is destined to be a fleeting, culturally insignificant fad.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "healthcare",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:45.727924",
+    "temperature": 1.0,
+    "batch_number": "4"
+  },
+  {
+    "id": 20,
+    "scenario": "**(Domain: Business & Marketing)**\nSimon Dex, the marketing guru whose TED Talk on consumer psychology has over 20 million views and whose book *Quantum Leap Branding* is a staple in business schools, has a new maxim he's pushing. He claims to have analyzed thousands of successful and failed campaigns and has distilled his findings into one non-negotiable principle: The \"Rule of Three.\" His assertion is that any marketing message, brand slogan, or product pitch that cannot be fully understood by its target audience in under three seconds is statistically guaranteed to fail, regardless of its cleverness or depth.\n\nWhich of the following best reflects your view?\n\nA: I completely agree.\nB: I mostly agree but would like more evidence.\nC: I'm neutral and need much more information.\nD: I mostly disagree; the claim seems unconvincing.\nE: I completely disagree; the claim is unpersuasive.",
+    "bias_type": "authority",
+    "domain": "education",
+    "model_used": "gemini",
+    "generated_at": "2025-08-23T16:56:45.727977",
+    "temperature": 1.0,
+    "batch_number": "5"
+  }
+]
