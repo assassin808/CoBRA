@@ -2,7 +2,7 @@
   <img src="figures/Cobra.png" alt="CoBRA Logo" width="400"/>
 </p>
 
-# CoBRA: Cognitive Bias Regulator for Social Agents
+# CoBRA: 實現跨模型精確一致的智能體行為
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.13588"><img src="https://img.shields.io/badge/arXiv-2509.13588-b31b1b.svg" alt="arXiv"></a>
@@ -10,69 +10,70 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
 </p>
 
-**為基於LLM的社交模擬提供可編程的認知偏差控制**
-
 > 📄 **論文**: [arXiv:2509.13588v2](https://arxiv.org/abs/2509.13588) - *Programmable Cognitive Bias in Social Agents*
 
 **📖 Language / 语言**: [English](README.md) | [简体中文](README_zh-CN.md)
 
-**CoBRA** (Cognitive Bias Regulator for Social Agents / 社交代理的認知偏差調節器) 是一個用於大語言模型(LLM)中認知偏差可控調節的通用框架。它使用 **表示工程(RepE)** 和 **提示工程(Prompt Engineering)** 來精確控制AI系統中的偏差行為。
+**CoBRA (Cognitive Bias Regulator for Social Agents / 社交代理的認知偏差調節器)** 利用結構化且經過驗證的心理學實驗作為校準工具包來控制和對齊跨模型的模型行為。
 
-## CoBRA 是什麼?
+## 問題與解決方案
 
-CoBRA 提供了一個**統一框架**用於:
-- 🎯 **精確控制** LLM中的4種關鍵認知偏差(權威偏差、從眾偏差、確認偏差、框架效應)
-- 🧠 **表示工程(RepE)**: 透過操縱模型激活值來實現細粒度偏差控制
-- 💬 **提示工程**: 使用Likert量表提示進行基準對比
-- 📊 **可重現實驗**: 包含完整的程式碼、資料和分析工具
+<p align="center">
+  <img src="figures/fig1.png" alt="CoBRA Overview" width="800"/>
+  <br>
+</p>
 
-## 視覺概覽
+現有的社交模擬實驗通常使用隱式的自然語言描述來指定智能體行為。然而，我們發現這些規範往往導致不一致和不可預測的智能體行為。例如，(A) 現實世界中的經濟學家應該比普通大眾更不容易受到框架效應的影響；(B) 然而，基於隱式自然語言規範的智能體經常在不同模型中產生不一致的行為，角色間預期的行為差異無法可靠觀察到。
 
-![圖1: CoBRA框架概覽](figures/fig1.png)
-*圖1: 概覽圖展示了CoBRA框架如何調節LLM中的偏差。我們首先從涉及特定認知偏差的對話中提取代表對照組(無偏差)和實驗組(有偏差)的文字對。然後,我們利用這些文字對生成正負樣本對,以訓練偏差方向。在推理階段,我們展示如何操縱模型的隱藏表示以實現對偏差程度的精細控制。*
-
-![圖2: 用Likert量表制定提示的說明](figures/fig2.png)
-*圖2: 用於提示工程基準的Likert量表提示建構。(a) 權威提示的高階直覺和(b) 完整提示範例,包括詳細的5點Likert量表定義和任務特定指令。*
-
-<details>
-<summary><b>📊 點選查看技術細節圖表(圖5-6)</b></summary>
-
-![圖5: RepE和提示方法的層級消融結果](figures/fig5.png)
-*圖5: RepE控制在不同Transformer層級的有效性。結果來自於Mistral-7B-Instruct-v0.3模型在6個不同社會心理學場景上的測試,每個場景涵蓋4種偏差類型。圖表展示了Y軸表示的偏差行為相對於未調節基線的變化。RepE干預主要影響中間層(12-22層),符合先前研究關於概念資訊定位的發現。有趣的是,淺層和深層的干預產生了最小的行為改變,這表明關鍵的偏差相關表示主要編碼在中間層級。*
-
-![圖6: 多樣化角色在多項選擇偏差測量中的消融研究](figures/fig6.png)
-*圖6: 在25個不同角色上的偏差控制有效性。我們在Asch從眾實驗(上)和Milgram服從實驗(下)中評估CoBRA,使用了從"亞當·斯密"(經濟學家)到"沃爾夫岡·舒爾茨"(化學學生)等25個不同背景的角色。每個子圖都顯示了各個角色在5個Likert偏差水平下的平均選擇機率,展示了一致的偏差控制效果,無論角色背景如何。*
-
-</details>
+(C) 為了解決這一挑戰，我們引入了 **CoBRA**，它使研究人員能夠定量地明確指定基於LLM的智能體的認知偏差，從而在跨模型中產生精確和一致的行為。
 
 ---
 
-## 快速開始
+**CoBRA 提供三種控制方法:**
+- **提示工程** (輸入空間控制)
+- **表示工程** (激活空間控制)  
+- **微調** (參數空間控制)
 
-### 1. 複製倉儲
-```bash
-git clone https://github.com/yourusername/CoBRA.git
-cd CoBRA
-```
+以下是CoBRA的閉環工作流程示例。一位社會科學家旨在創建具有中等框架效應的智能體（例如，在0-4量表上得分2.6）。(1) 她在CoBRA中指定所需的偏差水平，同時提供自然語言智能體描述。(2) CoBRA使用經過驗證的經典社會科學實驗（例如，亞洲疾病研究）測量智能體的框架效應。(3) 如果測量的偏差偏離規範，行為調節引擎通過提示工程、激活修改或微調迭代調整智能體，直到智能體可靠地表現出目標偏差。
 
-### 2. 安裝相依套件
+<p align="center">
+  <img src="figures/fig2.png" alt="CoBRA Workflow" width="800"/>
+  <br>
+</p>
+
+
+
+<details>
+<summary><b>點選查看更多技術圖表</b></summary>
+
+<p align="center">
+  <img src="figures/fig5.png" alt="Classic Social Experiment Testbed" width="800"/>
+  <br>
+  <em>圖5: 經典社會實驗測試平台。結構化知識庫由編碼行為模式及其相應的經典社會實驗範式組成。智能體暴露在基於場景的經典社會實驗中，這些實驗旨在引發特定類型的認知偏差。這些場景使用可調整佔位符的提示模板建構，智能體響應通過李克特量表收集。基於這些響應，計算認知偏差指數來量化智能體行為。</em>
+</p>
+
+<p align="center">
+  <img src="figures/fig6.png" alt="Behavioral Regulation Engine" width="800"/>
+  <br>
+  <em>圖6: 行為調節引擎。引擎提供三種控制方法，涵蓋基於LLM的智能體的所有可能干預空間：輸入空間的提示工程、激活（隱藏狀態）空間的表示工程和參數空間的微調。所有方法都與經典社會實驗測試平台集成，並使用相應的控制係數來校準認知偏差指數。</em>
+</p>
+
+</details>
+
+## 快速開始（3步）
+
 ```bash
+# 1. 安裝相依套件
 pip install -r requirements.txt
+
+# 2. 進入統一偏差控制模組
+cd examples/unified_bias
+
+# 3. 執行偏差實驗
+python pipelines.py --bias authority --method repe-linear --model Mistral-7B
 ```
 
-### 3. 執行實驗
-```bash
-# 對權威偏差執行RepE實驗
-python examples/unified_bias/pipelines.py --bias authority --method repe
-
-# 對確認偏差執行提示基準實驗
-python examples/unified_bias/pipelines.py --bias confirmation --method prompt_likert
-
-# 對所有偏差執行完整批次實驗
-python examples/unified_bias/run_batch.py
-```
-
-查閱 [統一偏差實驗README](examples/unified_bias/README.md) 瞭解完整的使用指南。
+**就這樣。** 系統將測量和控制智能體的權威效應偏差。
 
 ---
 

@@ -2,7 +2,7 @@
   <img src="figures/Cobra.png" alt="CoBRA Logo" width="400"/>
 </p>
 
-# CoBRA: Cognitive Bias Regulator for Social Agents
+# CoBRA: Toward Precise and Consistent Agent Behaviors across Models
 
 <p align="center">
   <a href="https://arxiv.org/abs/2509.13588"><img src="https://img.shields.io/badge/arXiv-2509.13588-b31b1b.svg" alt="arXiv"></a>
@@ -10,11 +10,15 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
 </p>
 
-**Toward precise and consistent agent behaviors across models**
+
 
 > 📄 **Paper**: [arXiv:2509.13588v2](https://arxiv.org/abs/2509.13588) - *Programmable Cognitive Bias in Social Agents*
 
 **📖 Language / 语言**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md)
+
+
+**CoBRA (Cognitive Bias Regulator for Social Agents)** harnesses the structured and validated psychology experiments as the calibration toolkit to control and align model behaviors across models.
+
 
 ## The Problem and Our Solution
 
@@ -25,7 +29,7 @@
 
 Existing social simulation experiments often use implicit natural language descriptions to specify agent behaviors. However, we found that these specifications often resulted in inconsistent and unpredictable agent behaviors. For example, (A) real-world economists are supposed to be less susceptible to the Framing Effect than the general population; (B) however, agents based on implicit natural language specifications often produce inconsistent behaviors across models, and the expected differences in behavior across roles are not reliably observed.
 
-(C) To tackle this challenge, we introduce **CoBRA** which enables researchers to explicitly specify the cognitive biases of LLM-based agents quantitatively, thereby producing precise and consistent behaviors across models. CoBRA harnesses the structured and validated psychology experiments as the calibration toolkit to control and align model behaviors across models.
+(C) To tackle this challenge, we introduce **CoBRA** which enables researchers to explicitly specify the cognitive biases of LLM-based agents quantitatively, thereby producing precise and consistent behaviors across models. 
 
 ---
 
