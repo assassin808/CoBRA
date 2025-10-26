@@ -10,32 +10,39 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache%202.0-green.svg" alt="License"></a>
 </p>
 
-**Programmable cognitive bias control for LLM-based social simulations**
+**Toward precise and consistent agent behaviors across models**
 
 > 📄 **Paper**: [arXiv:2509.13588v2](https://arxiv.org/abs/2509.13588) - *Programmable Cognitive Bias in Social Agents*
 
 **📖 Language / 语言**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md)
 
-## What is CoBRA?
-
-CoBRA is a toolkit that allows researchers to precisely specify and regulate agent behavior through three methods:
-- **Prompt Engineering** (input space control)
-- **Representation Engineering** (activation space control)  
-- **Fine-tuning** (parameter space control)
-
-### Visual Overview
+## The Problem and Our Solution
 
 <p align="center">
   <img src="figures/fig1.png" alt="CoBRA Overview" width="800"/>
   <br>
-  <em>Figure 1: Existing social simulation experiments often use implicit natural language descriptions to specify agent behaviors. However, we found that these specifications often resulted in inconsistent and unpredictable agent behaviors. For example, (A) real-world economists are supposed to be less susceptible to the Framing Effect than the general population; however, (B) agents based on implicit natural language specifications often produce inconsistent behaviors across models, and the expected differences in behavior across roles are not reliably observed. To tackle this challenge, (C) we introduce CoBRA which enables researchers to explicitly specify the cognitive biases of LLM-based agents quantitatively, thereby producing precise and consistent behaviors across models.</em>
 </p>
+
+Existing social simulation experiments often use implicit natural language descriptions to specify agent behaviors. However, we found that these specifications often resulted in inconsistent and unpredictable agent behaviors. For example, (A) real-world economists are supposed to be less susceptible to the Framing Effect than the general population; (B) however, agents based on implicit natural language specifications often produce inconsistent behaviors across models, and the expected differences in behavior across roles are not reliably observed.
+
+(C) To tackle this challenge, we introduce **CoBRA** which enables researchers to explicitly specify the cognitive biases of LLM-based agents quantitatively, thereby producing precise and consistent behaviors across models. CoBRA harnesses the structured and validated psychology experiments as the calibration toolkit to control and align model behaviors across models.
+
+---
+
+**CoBRA provides three control methods:**
+- **Prompt Engineering** (input space control)
+- **Representation Engineering** (activation space control)  
+- **Fine-tuning** (parameter space control)
+
+Here is an example closed-loop workflow of CoBRA. A social scientist aims to create an agent with a moderate framing effect (e.g., 2.6 on a 0–4 scale). (1) She specifies the desired bias level in CoBRA alongside the natural language agent description. (2) CoBRA measures the agent's framing effect using validated classical social science experiments (e.g., the Asian Disease study). (3) If the measured bias deviates from the specification, the Behavioral Regulation Engine iteratively adjusts the agent—through prompt engineering, activation modifications, or fine-tuning—until the agent reliably demonstrates the target bias.
 
 <p align="center">
   <img src="figures/fig2.png" alt="CoBRA Workflow" width="800"/>
   <br>
-  <em>Figure 2: Example closed-loop workflow of CoBRA. A social scientist aims to create an agent with a moderate framing effect (e.g., 2.6 on a 0–4 scale). (1) She specifies the desired bias level in CoBRA alongside the natural language agent description. (2) CoBRA measures the agent's framing effect using validated classical social science experiments (e.g., the Asian Disease study). (3) If the measured bias deviates from the specification, the Behavioral Regulation Engine iteratively adjusts the agent—through prompt engineering, activation modifications, or fine-tuning—until the agent reliably demonstrates the target bias.</em>
 </p>
+
+### More Visual Overview
+
 
 <details>
 <summary><b>Click to see more technical diagrams</b></summary>
