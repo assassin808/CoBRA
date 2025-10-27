@@ -17,7 +17,7 @@
 **📖 Language / 语言**: [简体中文](README_zh-CN.md) | [繁體中文](README_zh-TW.md)
 
 
-**CoBRA (Cognitive Bias Regulator for Social Agents)** harnesses the structured and validated psychology experiments as the calibration toolkit to control and align model behaviors across models.
+**CoBRA**(**Co**gnitive **B**ias **R**egulator for Social **A**gents) harnesses the structured and validated psychology experiments as the calibration toolkit to control and align model behaviors across models.
 
 
 ## The Problem and Our Solution
