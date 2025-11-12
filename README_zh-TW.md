@@ -161,5 +161,5 @@ CoBRA/
 ## 聯絡方式
 
 如有問題或合作諮詢,請透過以下方式聯絡:
-- 📧 Email: [您的信箱]
+- 📧 Email: [xul049@ucsd.edu]
 - 🐛 Issues: [GitHub Issues](https://github.com/yourusername/CoBRA/issues)
