@@ -134,15 +134,12 @@ CoBRA/
 如果您在研究中使用CoBRA,请引用我们的论文:
 
 ```bibtex
-@misc{yao2025cobra,
-  title={CoBRA: Cognitive Bias Representation and Adjustment in Large Language Models},
-  author={Yao, Boshi and Wang, Kefan and Hu, Yixin and Zhang, Yang and Zhou, Qiyang and Wang, Tong and Wang, Yujia and Bhattamishra, Sadhika and Fung, Yi},
+@article{liu2025cobra,
+  title={Programmable Cognitive Bias in Social Agents},
+  author={Liu, Xuan and Shang, Haoyang and Jin, Haojian},
+  journal={arXiv preprint arXiv:2509.13588v2},
   year={2025},
-  eprint={2509.13588},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL},
-  url={https://arxiv.org/abs/2509.13588},
-  doi={10.48550/arXiv.2509.13588}
+  url={https://doi.org/10.48550/arXiv.2509.13588}
 }
 ```
 
